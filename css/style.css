@@ -1,4 +1,40 @@
-
 .container {
     width:80%;
+}
+
+/* Footer*/
+.footer {
+    background-color:grey;
+    color:white;
+    min-height:100px;
+    padding:20px;
+}
+.footer a{
+    color:white;
+}
+.footer li{
+    text-align:center;
+}
+ .footer .social {
+     -webkit-transform: scale(0.8);
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+.footer .fa-angle-double-right:before {
+    content: "";
+}
+.footer ul{
+    margin-bottom:0px;
+}
+.footer .reseaux{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.footer .reseaux ul li{
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:1.2rem;
 }
