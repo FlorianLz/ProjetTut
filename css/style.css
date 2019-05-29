@@ -403,4 +403,10 @@
 .descrip{
     background-color: #1d765a;
     border-radius: 10px;
+    margin-top: 20px;
+}
+
+.descrip > p{
+    text-align: center;
+    padding-top: 20px;
 }
