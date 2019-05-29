@@ -37,7 +37,54 @@
 }
 
 
+/* Page programme */ 
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
 
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.jour
+{
+    margin-bottom: 30px;
+    border:2px solid black;
+}
+
+.dimanche{
+    display:none;
+}
+.animations{
+    width:80%;
+    height:100px;
+    margin:25px 0px;
+}
+
+.prog{
+    width:80%;
+    border-radius:10px;
+    border:1px solid black;
+    height:100px;
+}
 
 
 
