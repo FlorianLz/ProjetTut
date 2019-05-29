@@ -4,13 +4,13 @@
 
 /* Footer*/
 .footer {
-    background-color:grey;
-    color:white;
+    background-color:#8E8E8E;
+    color:black;
     min-height:100px;
     padding:20px;
 }
 .footer a{
-    color:white;
+    color:black;
 }
 .footer li{
     text-align:center;
@@ -19,9 +19,6 @@
      -webkit-transform: scale(0.8);
      -moz-transform: scale(0.8);
      -o-transform: scale(0.8);
-     -webkit-transition-duration: 0.5s;
-     -moz-transition-duration: 0.5s;
-     -o-transition-duration: 0.5s;
  }
 .footer .fa-angle-double-right:before {
     content: "";
