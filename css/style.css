@@ -399,3 +399,8 @@
     width: auto;
     height: auto;
 }
+
+.descrip{
+    background-color: #1d765a;
+    border-radius: 10px;
+}
