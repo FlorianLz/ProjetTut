@@ -416,8 +416,11 @@
     object-fit: contain;
 }
 
-.bg-dark input[type=text] {
-    
+.sectionNewsletter{
+    background-color: #ca1618;
+}
+
+.sectionNewsletter input[type=text] {
     padding: 12px 20px;
     margin: 9px 0;
     box-sizing: border-box;
@@ -425,10 +428,10 @@
     outline: none;
     width: 40%;
     height:20%;
-    boredr:1px solid #7c7b7b;
+    border:1px solid #7c7b7b;
 }
 
-.bg-dark input[type=text]:hover {
+.sectionNewsletter input[type=text]:hover {
 	border:1px solid #000;
 	transition: 6s;
 }
@@ -440,7 +443,7 @@ button{
 }
 
 .btn{
-    background-color: green;
+    background-color: #ca1618;
 	border-radius: 5px;
 	margin-left: 5px;
 	font-size: 20px;
