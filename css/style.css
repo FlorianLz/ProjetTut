@@ -73,24 +73,21 @@
 .dimanche{
     display:none;
 }
-.animations{
-    width:80%;
-    height:100px;
-    margin:25px 0px;
-}
-
-.prog{
-    width:80%;
-    border-radius:10px;
-    border:1px solid black;
-    height:100px;
-}
 
 .numero{
     font-size:5rem;
 }
 
+.horaires{
+    font-size:2rem;
+    background-color:skyblue;
+    display: flex;
+}
 
+.horaires h1{
+    font-size:2rem;
+    margin: auto;
+}
 
 
 
