@@ -79,24 +79,46 @@
 }
 
 .horaires{
-    font-size:2rem;
     background-color:skyblue;
-    display: flex;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 .horaires h1{
-    font-size:2rem;
+    font-size:1.5rem;
     margin: auto;
 }
 
+.imagescene h1{
+    visibility:hidden;
+    max-width:100%;
+}
 
+.imagescene{
+    background-repeat:no-repeat;
+    background-size: cover;
+}
 
+.sony{
+    background-image:url('https://images.vice.com/vice/images/articles/meta/2014/11/25/celebrating-an-old-grey-box-playstation-at-20-years-old-192-1416919810.jpg?crop=1xw%3A0.8302583025830258xh%3Bcenter%2Ccenter&resize=650%3A*&output-quality=55');
+}
 
+.nintendo{
+    background-image:url('https://i.pinimg.com/originals/d0/da/0c/d0da0c3402c8cbc0ae8e126dc9ceb2ba.jpg');
+}
 
+.tresor{
+    background-image:url('https://n2k3i5s6.stackpathcdn.com/wp-content/uploads/2008/04/mug-super-mario-cube-mystere-2.jpg');
+}
 
+.magazine{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC4sTqXzX8jn8xxSiX_3KjF_jvu1ar18EhDOTdonjtV_zWRtMpUg');
+}
 
-
-
+.journee{
+    margin-left:auto;
+    margin-right:auto;
+}
 
 
 
