@@ -20,10 +20,10 @@
   <body>
     <div class="container text-center"> <!-- Création du corps de la page -->
         <div class="row">
-            <div class="col-xl-3">LOGO</div>
-            <div class="col-xl-3"><button type="button" class="btn btn-primary">ACTUS</button></div>
-            <div class="col-xl-3"><button type="button" class="btn btn-primary">PLAN</button></div>
-            <div class="col-xl-3"><?php date_default_timezone_set('UTC'); echo date("H:i");?></div>
+            <div class="col-xl-3 "><img src="image/Convention-NOIR.png" class="logo"></div>
+            <div class="col-xl-3 d-flex align-center justify-content-center"><button type="button" class="btn btn-primary">ACTUS</button></div>
+            <div class="col-xl-3 d-flex align-center justify-content-center"><button type="button" class="btn btn-primary">PLAN</button></div>
+            <div class="col-xl-3 "><?php date_default_timezone_set('UTC'); echo date("H:i");?></div>
         
         
         
