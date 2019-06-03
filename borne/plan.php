@@ -18,25 +18,25 @@
   <body>
     <div class="container text-center"> <!-- Création du corps de la page -->
         <div class="row">
-            <div class="col-xl-6 col-xs-6 col-md-6">
+            <div class="col-xl-8 col-xs-8 col-md-8">
             PLAN
             </div>
             
-            <div class="col-xl-6 col-xs-6 col-md-6 conteneurcartes">
-            <div class="carte">
-                <?php
-                $exposants = file_get_contents('exposants.json');
-                $exposants = json_decode($exposants, true); 
-                for($i=0;$i<count($exposants['exposants']);$i++) : ?>
-                <div class="card w-75">
-                  <div class="card-body">
-                    <h5 class="card-title"><?php echo $exposants['exposants'][$i]['nom']; ?></h5>
-                    <p class="card-text"><?php echo $exposants['exposants'][$i]['description']; ?></p>
-                  </div>
-                </div>    
-            
-            <?php endfor; ?>
-            </div>
+            <div class="col-xl-4 col-xs-4 col-md-4 conteneurcartes">
+                <div class="carte">
+                    <?php
+                    $exposants = file_get_contents('exposants.json');
+                    $exposants = json_decode($exposants, true); 
+                    for($i=0;$i<count($exposants['exposants']);$i++) : ?>
+                    <div class="card w-100">
+                      <div class="card-body">
+                        <h5 class="card-title"><?php echo $exposants['exposants'][$i]['nom']; ?></h5>
+                        <p class="card-text"><?php echo $exposants['exposants'][$i]['description']; ?></p>
+                      </div>
+                    </div>    
+
+                <?php endfor; ?>
+                </div>
             </div>
         
         
