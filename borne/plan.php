@@ -107,7 +107,7 @@
                 
                 <svg id="Carte" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 595.28 841.89">
                     <defs>
-                        <style>.cls-1{fill:#070606;stroke:#000;}.cls-1,.cls-2{stroke-miterlimit:10;}.cls-2{fill:none;stroke:#0000e7;}.cls-3{font-size:19.13px;fill:#fff;font-family:Roboto-Medium, Roboto;}.cls-4{letter-spacing:-0.01em;}.cls-5{fill:#febc35;}
+                        <style>.cls-1{fill:#070606;}.cls-1,.cls-2{stroke-miterlimit:10;}.cls-2{fill:none;stroke:#0000e7;}.cls-3{font-size:19.13px;fill:#fff;font-family:Roboto-Medium, Roboto;}.cls-4{letter-spacing:-0.01em;}.cls-5{fill:#febc35;}
                         </style>
                         <image id="image" width="50" height="50" xlink:href="image/icons8-escalator-50.png"/>
                         <image id="image-2" width="50" height="50" xlink:href="image/icons8-toilettes-50.png"/>
