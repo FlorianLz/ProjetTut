@@ -1,5 +1,18 @@
+@font-face {
+	font-family: "RetroGaming";
+	src: url('../fonts/RetroGaming.ttf');
+}
+@font-face {
+	font-family: "RobotoDescription";
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+	font-family: "RobotoTexte";
+	src: url('../fonts/Roboto-Light.ttf');
+}
 body{
     background-color:black;
+    font-family:"RobotoTexte";
 }
 .conteneurcartes{
     height:85vh;
@@ -14,6 +27,9 @@ body{
 .card{
     float:right;
 }
+.card-title{
+    font-family: "RobotoDescription";
+}
 
 .logo{
     width:35%;
@@ -26,7 +42,8 @@ body{
 }
 
 .heure{
-    color:white;
+    color:#febc35;
+    font-family:"RetroGaming";
 }
 
 .heure p{
@@ -46,6 +63,7 @@ body{
 
 #tab{
     color:white;
+    font-family:"RobotoDescription";
 }
 
 .menu .bouton{
@@ -56,6 +74,8 @@ body{
 }
 .menu{
     width:100vw;
+    font-family:"RobotoDescription";
+    color:#febc35;
 }
 .liste{
     width:96vw;
