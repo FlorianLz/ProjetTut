@@ -36,10 +36,10 @@
                     <defs>
                         <style>.cls-1{fill:#e52828;}.cls-1,.cls-2{stroke:#e52828;}.cls-1,.cls-2,.cls-5{stroke-miterlimit:10;}.cls-2,.cls-5{fill:none;}.cls-3{font-size:19.13px;font-family:Roboto-Medium, Roboto;}.cls-4{letter-spacing:-0.01em;}.cls-5{stroke:#070707;}
                         </style>
-                        <image id="image" width="50" height="50" xlink:href="icons8-escalator-50.png"/>
-                        <image id="image-2" width="50" height="50" xlink:href="icons8-toilettes-50.png"/>
-                        <image id="image-3" width="50" height="50" xlink:href="icons8-nourriture-50.png"/>
-                        <image id="image-4" width="50" height="50" xlink:href="icons8-montée-d&apos;escaliers-50.png"/>
+                        <image id="image" width="50" height="50" xlink:href="image/icons8-escalator-50.png"/>
+                        <image id="image-2" width="50" height="50" xlink:href="image/icons8-toilettes-50.png"/>
+                        <image id="image-3" width="50" height="50" xlink:href="image/icons8-nourriture-50.png"/>
+                        <image id="image-4" width="50" height="50" xlink:href="image/icons8-montée-d&apos;escaliers-50.png"/>
                     </defs>
                     <g id="Stands">
                         <rect id="Indispo" class="cls-1" x="1" y="682.5" width="130" height="43"/>
@@ -89,15 +89,15 @@
                         <use id="Logo_escalator-2" data-name="Logo_escalator" transform="translate(439 67) scale(0.42)" xlink:href="#image"/>
                         <use id="Logo_escalator-3" data-name="Logo_escalator" transform="translate(264 800) scale(0.42)" xlink:href="#image"/>
                         <use id="Logo_escalator-4" data-name="Logo_escalator" transform="translate(413 800) scale(0.42)" xlink:href="#image"/>
-                        <image id="Logo_infirmerie" width="50" height="50" transform="translate(479.5 605) scale(0.7)" xlink:href="icons8-hôpital-50.png"/>
-                        <image id="Logo_information" width="50" height="50" transform="translate(465.5 676) scale(0.54)" xlink:href="icons8-information-50.png"/>
+                        <image id="Logo_infirmerie" width="50" height="50" transform="translate(479.5 605) scale(0.7)" xlink:href="image/icons8-hôpital-50.png"/>
+                        <image id="Logo_information" width="50" height="50" transform="translate(465.5 676) scale(0.54)" xlink:href="image/icons8-information-50.png"/>
                         <use id="Logo_toilettes" transform="translate(181.5 432) scale(0.48)" xlink:href="#image-2"/>
                         <use id="Logo_escalator-5" data-name="Logo_escalator" transform="translate(180 492) scale(0.42)" xlink:href="#image"/>
                         <use id="Logo_escalator-6" data-name="Logo_escalator" transform="translate(436 490) scale(0.42)" xlink:href="#image"/>
                         <use id="Logo_toilettes-2" data-name="Logo_toilettes" transform="translate(475 458) scale(0.48)" xlink:href="#image-2"/>
                         <use id="Logo_restauration" transform="translate(295.5 30) scale(0.72)" xlink:href="#image-3"/>
                         <use id="Logo_restauration-2" data-name="Logo_restauration" transform="translate(476 511) scale(0.46)" xlink:href="#image-3"/>
-                        <image id="Logo_flèche" width="50" height="50" transform="translate(223.5 716) scale(0.6)" xlink:href="icons8-flèche-haut-50.png"/>
+                        <image id="Logo_flèche" width="50" height="50" transform="translate(223.5 716) scale(0.6)" xlink:href="image/icons8-flèche-haut-50.png"/>
                         <use id="Logo_escaliers" transform="translate(218.5 773) scale(0.4)" xlink:href="#image-4"/>
                         <use id="Logo_escaliers-2" data-name="Logo_escaliers" transform="translate(393 799) scale(0.4)" xlink:href="#image-4"/>
                         <text class="cls-3" transform="translate(283.5 738.84)">Ent<tspan class="cls-4" x="27.98" y="0">r</tspan><tspan x="34.51" y="0">ée</tspan></text>
