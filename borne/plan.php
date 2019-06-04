@@ -23,7 +23,7 @@
         <div class="row menu">
             <div class="col-xl-3 col-md-3 "><img src="image/Convention-BLANC.png" class="logo"></div>
             <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><a class="lienbouton" href="index.html"><button type="button" class="btn btn-primary bouton">ACTUS</button></a></div>
-            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><a class="lienbouton" href="#"><button type="button" class="btn btn-primary bouton">PLAN</button></a></div>
+            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><a class="lienbouton" href="#"><button type="button" class="btn btn-primary bouton boutonplan">PLAN</button></a></div>
             <div class="col-xl-3 col-md-3 heure d-flex align-items-center"><p id="div_horloge"></p></div>
             
         
@@ -251,11 +251,11 @@
             
             <div class="col-xl-5 col-xs-5 col-md-5 conteneurcartes">
                         <div id="tab" class="btn-group" data-toggle="buttons-radio">
-                            <a id="bouton-1" class="selection filter-button  btn-large boutonliste btn active" data-filter="tout" data-toggle="tab" onclick="monalerte(this.id);">Tout</a>
-                            <a id="bouton-2" class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab" onclick="monalerte(this.id);">Vente</a>
-                            <a id="bouton-3" class="selection filter-button  btn-large boutonliste btn" data-filter="console" data-toggle="tab" onclick="monalerte(this.id);">Console</a>
-                            <a id="bouton-4" class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab" onclick="monalerte(this.id);">Services</a>
-                            <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="monalerte(this.id);">Partenaire</a>
+                            <a id="bouton-1" class="selection filter-button  btn-large boutonliste btn active" data-filter="tout" data-toggle="tab" onclick="filtrage(this.id);">Tout</a>
+                            <a id="bouton-2" class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab" onclick="filtrage(this.id);">Vente</a>
+                            <a id="bouton-3" class="selection filter-button  btn-large boutonliste btn" data-filter="console" data-toggle="tab" onclick="filtrage(this.id);">Console</a>
+                            <a id="bouton-4" class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab" onclick="filtrage(this.id);">Services</a>
+                            <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="filtrage(this.id);">Partenaire</a>
                         </div>
                 
                 <div class="carte">

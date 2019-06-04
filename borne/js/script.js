@@ -25,7 +25,7 @@ $(this).addClass("active");
 
 });
 
-function monalerte(id){
+function filtrage(id){
     for(i=1;i<6;i++){
         document.getElementById('bouton-'+i).style.backgroundColor="#224191";
     }

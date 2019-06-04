@@ -92,3 +92,10 @@ body{
 .lienbouton{
     width:100%;
 }
+#bouton-1{
+    background-color:#1d765a;
+}
+
+.menu .boutonplan, .menu .boutonactus{
+    background-color:#1d765a;
+}
