@@ -23,8 +23,8 @@
             <div class="col-xl-3 "><img src="image/Convention-NOIR.png" class="logo"></div>
             <div class="col-xl-3 d-flex align-center justify-content-center"><button type="button" class="btn btn-primary">ACTUS</button></div>
             <div class="col-xl-3 d-flex align-center justify-content-center"><button type="button" class="btn btn-primary">PLAN</button></div>
-            <div class="col-xl-3 "><?php date_default_timezone_set('Europe/Paris'); echo date("H:i");?></div>
-        
+            <div class="col-xl-3 heure d-flex align-items-center"><p id="div_horloge"></p></div>
+            
         
         
         
@@ -138,9 +138,11 @@
         
         </div>
     </div> 
-    <script src="js/script.js"></script>
+    
       
     <!-- Javascript optionnel -->
+    <script src="js/script.js"></script>
+    <script src="js/heure.js"></script>
 
     <!-- jQuery, puis Popper.js, puis Bootstrap JS -->
     <script src="js/jquery-3.4.1.min.js"></script>

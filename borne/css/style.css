@@ -24,3 +24,13 @@ body{
     margin-top:4vh;
 }
 
+.heure{
+    color:white;
+}
+
+.heure p{
+    margin-bottom:0px;
+    font-size:2rem;
+    margin-left:auto;
+    margin-right:auto;
+}
