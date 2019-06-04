@@ -20,7 +20,7 @@
   <body>
     <div class="text-center"> <!-- Création du corps de la page -->
         <div class="row menu">
-            <div class="col-xl-3 col-md-3 "><img src="image/Convention-NOIR.png" class="logo"></div>
+            <div class="col-xl-3 col-md-3 "><img src="image/Convention-BLANC.png" class="logo"></div>
             <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><a class="lienbouton" href="index.html"><button type="button" class="btn btn-primary bouton">ACTUS</button></a></div>
             <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><a class="lienbouton" href="#"><button type="button" class="btn btn-primary bouton">PLAN</button></a></div>
             <div class="col-xl-3 col-md-3 heure d-flex align-items-center"><p id="div_horloge"></p></div>
