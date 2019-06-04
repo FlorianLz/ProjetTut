@@ -23,7 +23,7 @@
             <div class="col-xl-3 "><img src="image/Convention-NOIR.png" class="logo"></div>
             <div class="col-xl-3 d-flex align-center justify-content-center"><button type="button" class="btn btn-primary">ACTUS</button></div>
             <div class="col-xl-3 d-flex align-center justify-content-center"><button type="button" class="btn btn-primary">PLAN</button></div>
-            <div class="col-xl-3 "><?php date_default_timezone_set('UTC'); echo date("H:i");?></div>
+            <div class="col-xl-3 "><?php date_default_timezone_set('Europe/Paris'); echo date("H:i");?></div>
         
         
         
@@ -34,7 +34,7 @@
             <div class="col-xl-8 col-xs-8 col-md-8">
                 <svg id="Carte" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 544.5 800.5">
                     <defs>
-                        <style>.cls-1{fill:#e52828;}.cls-1,.cls-2{stroke:#e52828;}.cls-1,.cls-2,.cls-5{stroke-miterlimit:10;}.cls-2,.cls-5{fill:none;}.cls-3{font-size:19.13px;font-family:Roboto-Medium, Roboto;}.cls-4{letter-spacing:-0.01em;}.cls-5{stroke:#070707;}
+                        <style>.cls-1{fill:#224191;}.cls-1,.cls-2{stroke:blue;stroke-width:4px;}.cls-1,.cls-2,.cls-5{stroke-miterlimit:10;}.cls-2,.cls-5{fill:none;}.cls-3{font-size:19.13px;font-family:Roboto-Medium, Roboto;}.cls-4{letter-spacing:-0.01em;}.cls-5{stroke:blue;stroke-width:0px;}
                         </style>
                         <image id="image" width="50" height="50" xlink:href="image/icons8-escalator-50.png"/>
                         <image id="image-2" width="50" height="50" xlink:href="image/icons8-toilettes-50.png"/>
