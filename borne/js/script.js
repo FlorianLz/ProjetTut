@@ -24,3 +24,10 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
+
+function monalerte(id){
+    for(i=1;i<6;i++){
+        document.getElementById('bouton-'+i).style.backgroundColor="#224191";
+    }
+    document.getElementById(id).style.backgroundColor="#c72127";
+}

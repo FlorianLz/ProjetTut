@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     
   </head>
     
@@ -250,11 +251,11 @@
             
             <div class="col-xl-5 col-xs-5 col-md-5 conteneurcartes">
                         <div id="tab" class="btn-group" data-toggle="buttons-radio">
-                            <a class="selection filter-button  btn-large boutonliste btn active" data-filter="tout" data-toggle="tab">Tout</a>
-                            <a class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab">Vente</a>
-                            <a class="selection filter-button  btn-large boutonliste btn" data-filter="console" data-toggle="tab">Console</a>
-                            <a class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab">Services</a>
-                            <a id="partenaire" class="selection filter-button  btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab">Partenaire</a>
+                            <a id="bouton-1" class="selection filter-button  btn-large boutonliste btn active" data-filter="tout" data-toggle="tab" onclick="monalerte(this.id);">Tout</a>
+                            <a id="bouton-2" class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab" onclick="monalerte(this.id);">Vente</a>
+                            <a id="bouton-3" class="selection filter-button  btn-large boutonliste btn" data-filter="console" data-toggle="tab" onclick="monalerte(this.id);">Console</a>
+                            <a id="bouton-4" class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab" onclick="monalerte(this.id);">Services</a>
+                            <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="monalerte(this.id);">Partenaire</a>
                         </div>
                 
                 <div class="carte">
