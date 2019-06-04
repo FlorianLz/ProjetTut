@@ -26,6 +26,10 @@ body{
 }
 .card{
     float:right;
+    background-color:#febc35;
+    border-radius:53px;
+    margin-bottom:10px;
+    width:90%;
 }
 .card-title{
     font-family: "RobotoDescription";
