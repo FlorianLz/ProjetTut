@@ -22,7 +22,7 @@ body{
 .carte{
     overflow:scroll;
     margin-top:8%;
-    height:83%;
+    height:77%;
 }
 .card{
     float:right;
@@ -98,4 +98,16 @@ body{
 
 .menu .boutonplan, .menu .boutonactus{
     background-color:#1d765a;
+}
+
+.boutonrecherche{
+    height:95%;
+    margin-bottom:3px;
+    color:white;
+    border-radius:0px 10px 10px 0px;
+}
+.inputrecherche {
+    margin-right:-9px;
+    border-radius:10px 0px 0px 10px;
+    border:2px solid #224191;
 }

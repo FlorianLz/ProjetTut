@@ -12,6 +12,7 @@
     <!-- Chargement du CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
@@ -395,6 +396,11 @@
             </div>
             
             <div class="col-xl-5 col-xs-5 col-md-5 conteneurcartes">
+                <form id="recherche" action="plan.php" method="post">
+                  <input type="text" class="inputrecherche" placeholder="Recherche" name="texte">
+                  <button type="submit" class="btn boutonliste btn-sm boutonrecherche" value="Submit" form="recherche"><i class="fa fa-search"></i></button>
+                </form>
+                
                         <div id="tab" class="btn-group" data-toggle="buttons-radio">
                             <a id="bouton-1" class="selection filter-button  btn-large boutonliste btn active" data-filter="tout" data-toggle="tab" onclick="filtrage(this.id);">Tout</a>
                             <a id="bouton-2" class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab" onclick="filtrage(this.id);">Vente</a>
@@ -404,7 +410,7 @@
                         </div>
                 
                 <div class="carte">
-                        
+                        <?php if(!isset($_POST['texte']) || $_POST['texte']=='' ){echo'bonjour';}  ?>
                     <?php
                     $exposants = file_get_contents('exposants.json');
                     $exposants = json_decode($exposants, true); 
