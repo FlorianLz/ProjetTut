@@ -18,20 +18,20 @@
   </head>
     
   <body>
-    <div class="container text-center"> <!-- Création du corps de la page -->
-        <div class="row">
-            <div class="col-xl-3 "><img src="image/Convention-NOIR.png" class="logo"></div>
-            <div class="col-xl-3 d-flex align-center justify-content-center"><button type="button" class="btn btn-primary">ACTUS</button></div>
-            <div class="col-xl-3 d-flex align-center justify-content-center"><button type="button" class="btn btn-primary">PLAN</button></div>
-            <div class="col-xl-3 heure d-flex align-items-center"><p id="div_horloge"></p></div>
+    <div class="text-center"> <!-- Création du corps de la page -->
+        <div class="row menu">
+            <div class="col-xl-3 col-md-3 "><img src="image/Convention-NOIR.png" class="logo"></div>
+            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><button type="button" class="btn btn-primary bouton">ACTUS</button></div>
+            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><button type="button" class="btn btn-primary bouton">PLAN</button></div>
+            <div class="col-xl-3 col-md-3 heure d-flex align-items-center"><p id="div_horloge"></p></div>
             
         
         
         
         
         </div>
-        <div class="row">
-            <div class="col-xl-8 col-xs-8 col-md-8">
+        <div class="row liste">
+            <div class="col-xl-7 col-xs-7 col-md-7">
                 <svg id="Carte" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 544.5 800.5">
                     <defs>
                         <style>.cls-1{fill:#224191;}.cls-1,.cls-2{stroke:blue;stroke-width:4px;}.cls-1,.cls-2,.cls-5{stroke-miterlimit:10;}.cls-2,.cls-5{fill:none;}.cls-3{font-size:19.13px;font-family:Roboto-Medium, Roboto;}.cls-4{letter-spacing:-0.01em;}.cls-5{stroke:blue;stroke-width:0px;}
@@ -106,16 +106,15 @@
                 </svg>
             </div>
             
-            <div class="col-xl-4 col-xs-4 col-md-4 conteneurcartes">
-                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                </div>
-                <center><div style="width:100%;">
-                        <button class="selection btn-default filter-button" data-filter="tout">Tout</button>
-                        <button class="selection btn-default filter-button" data-filter="vente">Vente</button>
-                        <button class="selection btn-default filter-button" data-filter="console">Console</button>
-                        <button class="selection btn-default filter-button" data-filter="services">Services</button>
-                        <button class="selection btn-default filter-button" data-filter="partenaire">Partenaire</button>
-                        </div></center>
+            <div class="col-xl-5 col-xs-5 col-md-5 conteneurcartes">
+                        <div id="tab" class="btn-group" data-toggle="buttons-radio">
+                            <a class="selection filter-button  btn-large boutonliste btn active" data-filter="tout" data-toggle="tab">Tout</a>
+                            <a class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab">Vente</a>
+                            <a class="selection filter-button  btn-large boutonliste btn" data-filter="console" data-toggle="tab">Console</a>
+                            <a class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab">Services</a>
+                            <a id="partenaire" class="selection filter-button  btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab">Partenaire</a>
+                        </div>
+                
                 <div class="carte">
                         
                     <?php

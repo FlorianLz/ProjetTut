@@ -2,14 +2,14 @@ body{
     background-color:black;
 }
 .conteneurcartes{
-    height:80vh;
+    height:85vh;
     margin-top:4vh;
 }
 
 .carte{
     overflow:scroll;
     margin-top:8%;
-    height:90%;
+    height:83%;
 }
 .card{
     float:right;
@@ -17,10 +17,11 @@ body{
 
 .logo{
     width:35%;
+    margin-top:15px;
 }
 
 #Carte{
-    height:83vh;
+    height:78vh;
     margin-top:4vh;
 }
 
@@ -33,4 +34,29 @@ body{
     font-size:2rem;
     margin-left:auto;
     margin-right:auto;
+}
+
+.listecat{
+    background-color:grey;
+}
+
+.boutonliste{
+    background-color:#224191;
+}
+
+#tab{
+    color:white;
+}
+
+.menu .bouton{
+    height:60%;
+    width:60%;
+    background-color:#224191;
+    border:1px solid #224191;
+}
+.menu{
+    width:100vw;
+}
+.liste{
+    width:96vw;
 }
