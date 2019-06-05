@@ -466,7 +466,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                  }
                              }
                             if($compteur==0){
-                                echo '<h1 class="txtblanc card-title">Bravo tu viens de casser la borne ! :(</h1>';
+                                echo '<h1 class="txtblanc card-title">GAME OVER !! <br>Retente ta chance</h1>';
                                 echo '<img class="img404" src="image/404.png">';
                             }
     
