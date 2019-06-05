@@ -14,6 +14,9 @@ body{
     background-color:#070606;
     font-family:"RobotoTexte";
 }
+.txtblanc{
+    color:white;
+}
 .conteneurcartes{
     height:80vh;
     margin-top:4vh;
@@ -126,4 +129,7 @@ body{
 .msgrecherche{
     color:white;
     font-style="RobotoDescription"
+}
+.img404{
+    width:100%;
 }

@@ -451,7 +451,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                              $exposants = file_get_contents('exposants.json');
                              $exposants = json_decode($exposants, true);
     
-    
+                             $compteur=0;
                              for($i=0;$i<count($exposants['exposants']);$i++){
                                  $titre=strtolower($exposants['exposants'][$i]['nom']);
                                  $description=strtolower($exposants['exposants'][$i]['description']);
@@ -462,8 +462,13 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                      echo '<p class="card-text">'. $exposants['exposants'][$i]['description'] . '</p>';
                                      echo '</div>';
                                      echo '</div>';
-                            }
+                                     $compteur=$compteur+1;
                                  }
+                             }
+                            if($compteur==0){
+                                echo '<h1 class="txtblanc">Bravo tu viens de casser la borne ! :(</h1>';
+                                echo '<img class="img404" src="image/404.png">';
+                            }
     
                           }  
                     
