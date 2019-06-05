@@ -2,7 +2,9 @@
 if(isset($_POST['supprimer']) && isset($_POST['texte'])){
     unset($POST_['texte']);
 }
-
+if(isset($_POST['texte']) && $_POST['texte']==''){
+    unset($_POST['texte']);
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
