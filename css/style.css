@@ -146,7 +146,9 @@ body{
 }
 
 #imagebanniere{
-    background-image:url('../images/banniere.png');
+    background-image:url('../images/banniere1.png');
+    margin-left:auto;
+    margin-right:auto;
 }
 #imagebanniere:hover{
     background-image:url('../images/banniere.gif');
