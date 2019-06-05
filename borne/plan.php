@@ -399,7 +399,7 @@
             
             <div class="col-xl-5 col-xs-5 col-md-5 conteneurcartes">
                 <form id="recherche" action="plan.php" method="post">
-                  <input type="text" class="inputrecherche" placeholder="Recherche" name="texte">
+                  <input type="text" class="inputrecherche" placeholder="Rechercher" value="<?php if(isset($_POST['texte'])){echo $_POST['texte']; };?>" name="texte">
                   <button type="submit" class="btn boutonliste btn-sm boutonrecherche" value="Submit" form="recherche"><i class="fa fa-search"></i></button>
                 </form>
                 
@@ -412,19 +412,46 @@
                         </div>
                 
                 <div class="carte">
-                        <?php if(!isset($_POST['texte']) || $_POST['texte']=='' ){echo'bonjour';}  ?>
-                    <?php
-                    $exposants = file_get_contents('exposants.json');
-                    $exposants = json_decode($exposants, true); 
-                    for($i=0;$i<count($exposants['exposants']);$i++) : ?>
-                    <div class="card w-100 <?php echo $exposants['exposants'][$i]['filtre']; ?> filter">
-                      <div class="card-body">
-                        <h5 class="card-title"><?php echo $exposants['exposants'][$i]['nom']; ?></h5>
-                        <p class="card-text"><?php echo $exposants['exposants'][$i]['description']; ?></p>
-                      </div>
-                    </div>    
-
-                <?php endfor; ?>
+                    <?php if(!isset($_POST['texte']) || $_POST['texte']=='' ){
+    
+                            echo'<h3 style="color:white;">Aucune recherche</h3>';
+                            $exposants = file_get_contents('exposants.json');
+                            $exposants = json_decode($exposants, true); 
+                            for($i=0;$i<count($exposants['exposants']);$i++){
+                                echo '<div class="card w-100 '. $exposants['exposants'][$i]['filtre'] .' filter">';
+                                echo '<div class="card-body">';
+                                echo '<h5 class="card-title">'. $exposants['exposants'][$i]['nom'] . '</h5>';
+                                echo '<p class="card-text">'. $exposants['exposants'][$i]['description'] . '</p>';
+                                echo '</div>';
+                                echo '</div>';
+                            }
+    
+                          }else{
+                             $motrecherche=$_POST['texte'];
+                             echo '<h3 style="color:white;">Résultats pour : '.$motrecherche . '</h3>';
+                             $motrecherche=strtolower($_POST['texte']);
+                             $exposants = file_get_contents('exposants.json');
+                             $exposants = json_decode($exposants, true);
+    
+    
+                             for($i=0;$i<count($exposants['exposants']);$i++){
+                                 $titre=strtolower($exposants['exposants'][$i]['nom']);
+                                 $description=strtolower($exposants['exposants'][$i]['description']);
+                                 if(strlen(strpos($titre,$motrecherche))>0 || strlen(strpos($description,$motrecherche)) ){
+                                     echo '<div class="card w-100 '. $exposants['exposants'][$i]['filtre'] .' filter">';
+                                     echo '<div class="card-body">';
+                                     echo '<h5 class="card-title">'. $exposants['exposants'][$i]['nom'] . '</h5>';
+                                     echo '<p class="card-text">'. $exposants['exposants'][$i]['description'] . '</p>';
+                                     echo '</div>';
+                                     echo '</div>';
+                            }
+                                 }
+    
+                          }  
+                    
+                    
+                    
+                    ?>
                 </div>
             </div>
         
