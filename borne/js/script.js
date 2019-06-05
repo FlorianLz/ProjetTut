@@ -3,9 +3,8 @@ $(document).ready(function(){
     $(".filter-button").click(function(){
         var value = $(this).attr('data-filter');
         
-        if(value == "all")
+        if(value == "tout")
         {
-            //$('.filter').removeClass('hidden');
             $('.filter').show('1000');
         }
         else
