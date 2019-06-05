@@ -410,7 +410,7 @@ if(isset($_POST['supprimer']) && isset($_POST['texte'])){
                   <?php if(isset($_POST['texte'])){
                             echo'<button type="submit" class="btn boutonliste btn-sm boutonsupprimer" value="Submit" form="supprimer"><i class="fa fa-times"></i></button>';
                         }else{
-                            echo'<button type="submit" class="btn boutonliste btn-sm boutonsupprimer" value="Submit" form="supprimer" disabled><i class="fa fa-times"></i></button>';
+                            echo'<button type="submit" class="btn boutonliste btn-sm boutonsupprimerd" value="Submit" form="supprimer" disabled><i class="fa fa-times"></i></button>';
                         }  
                   ?>
                 </form>

@@ -98,6 +98,7 @@ body{
 
 .menu .boutonplan, .menu .boutonactus{
     background-color:#1d765a;
+    border:1px solid #1d765a;
 }
 
 .boutonrecherche{
@@ -112,8 +113,13 @@ body{
     color:white;
     border-radius:10px;
 }
+.boutonsupprimerd{
+    height:95%;
+    margin-bottom:3px;
+    border-radius:10px;
+}
 .inputrecherche {
     margin-right:-9px;
     border-radius:10px 0px 0px 10px;
-    border:2px solid #224191;
+    border:2.2px solid #224191;
 }
