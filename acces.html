@@ -12,11 +12,48 @@
     <!-- Chargement du CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
     
   <body>
     <div class="container"> <!-- Création du corps de la page -->
+        <div class="tabs">
+  <div class="tab-button-outer">
+    <ul id="tab-button">
+      <li><a href="#tab01">Billeterie</a></li>
+      <li><a href="#tab02">Accès</a></li>
+      <li><a href="#tab03">Contacts</a></li>
+      <li><a href="#tab04">FAQ</a></li>
+    </ul>
+  </div>
+  <div class="tab-select-outer">
+    <select id="tab-select">
+      <option value="#tab01">Tab 1</option>
+      <option value="#tab02">Tab 2</option>
+      <option value="#tab03">Tab 3</option>
+      <option value="#tab04">Tab 4</option>
+    </select>
+  </div>
+
+  <div id="tab01" class="tab-contents">
+    <h2>Tab 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</p>
+  </div>
+  <div id="tab02" class="tab-contents">
+    <h2>Tab 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</p>
+  </div>
+  <div id="tab03" class="tab-contents">
+    <h2>Tab 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</p>
+  </div>
+  <div id="tab04" class="tab-contents">
+    <h2>Tab 4</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</p>
+  </div>
+</div>
         <h1> Accès</h1>
         <div>
             <p> Adresse : Paris Expo - Porte de Versailles, Paris </p>
