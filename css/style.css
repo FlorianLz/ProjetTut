@@ -552,65 +552,95 @@ button{
 /* page accès*/ 
 /*menu*/
 .tabs {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 0 20px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
+
 #tab-button {
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
 #tab-button li {
-  display: table-cell;
-  width: 20%;
+    display: table-cell;
+    width: 20%;
 }
+
 #tab-button li a {
-  display: block;
-  padding: .5em;
-  background: #eee;
-  border: 1px solid #ddd;
-  text-align: center;
-  color: #000;
-  text-decoration: none;
+    display: block;
+    padding: .5em;
+    background: #eee;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #c72127;
+    text-decoration: none;
+    font-family: "RetroGaming"
 }
+
 #tab-button li:not(:first-child) a {
-  border-left: none;
+    border-left: none;
 }
+
 #tab-button li a:hover,
 #tab-button .is-active a {
-  border-bottom-color: transparent;
-  background: #fff;
+    border-bottom-color: transparent;
+    background: #fff;
 }
+
 .tab-contents {
-  padding: .5em 2em 1em;
-  border: 1px solid #ddd;
+    padding: .5em 2em 1em;
 }
-
-
 
 .tab-button-outer {
-  display: none;
+    display: none;
 }
+
 .tab-contents {
-  margin-top: 20px;
+    margin-top: 20px;
 }
+
+.tab-contents h2{
+    color: white;
+}
+
+.tab-contents p{
+    color: white;
+    font-family: "RobotoTexte";
+}
+
+
+#tab01 iframe{
+    display: inherit;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tab01 .font-weight-bold{
+    color: #c72127;
+    font-family: "RobotoDescription";
+}
+
+
+
+
 
 @media screen and (min-width: 200px) {
   .tab-button-outer {
-    position: relative;
-    z-index: 2;
-    display: block;
+      position: relative;
+      z-index: 2;
+      display: block;
   }
   .tab-select-outer {
-    display: none;
+      display: none;
   }
   .tab-contents {
-    position: relative;
-    top: -1px;
-    margin-top: 0;
+      position: relative;
+      top: -1px;
+      margin-top: 0;
   }
 }
