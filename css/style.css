@@ -1,3 +1,15 @@
+@font-face {
+	font-family: "RetroGaming";
+	src: url('../fonts/RetroGaming.ttf');
+}
+@font-face {
+	font-family: "RobotoDescription";
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+	font-family: "RobotoTexte";
+	src: url('../fonts/Roboto-Light.ttf');
+}
 .container {
     width:80%;
 }
