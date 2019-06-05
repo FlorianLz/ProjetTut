@@ -422,10 +422,10 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                 
                         <div id="tab" class="btn-group" data-toggle="buttons-radio">
                             <a id="bouton-1" class="selection filter-button  btn-large boutonliste btn active" data-filter="tout" data-toggle="tab" onclick="filtrage(this.id);">Tout</a>
-                            <a id="bouton-2" class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab" onclick="filtrage(this.id);">Vente</a>
-                            <a id="bouton-3" class="selection filter-button  btn-large boutonliste btn" data-filter="console" data-toggle="tab" onclick="filtrage(this.id);">Console</a>
+                            <a id="bouton-2" class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab" onclick="filtrage(this.id);">Ventes</a>
+                            <a id="bouton-3" class="selection filter-button  btn-large boutonliste btn" data-filter="console" data-toggle="tab" onclick="filtrage(this.id);">Consoles</a>
                             <a id="bouton-4" class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab" onclick="filtrage(this.id);">Services</a>
-                            <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="filtrage(this.id);">Partenaire</a>
+                            <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="filtrage(this.id);">Partenaires</a>
                         </div>
                 
                 <div class="carte">
