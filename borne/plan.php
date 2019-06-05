@@ -436,7 +436,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                             $exposants = file_get_contents('exposants.json');
                             $exposants = json_decode($exposants, true); 
                             for($i=0;$i<count($exposants['exposants']);$i++){
-                                echo '<div class="card w-100 '. $exposants['exposants'][$i]['filtre'] .' filter" onclick="'.$exposants['exposants'][$i]['id'].'">';
+                                echo '<div class="card w-100 '. $exposants['exposants'][$i]['filtre'] .' filter" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
                                 echo '<div class="card-body">';
                                 echo '<h5 class="card-title">'. $exposants['exposants'][$i]['nom'] . '</h5>';
                                 echo '<p class="card-text">'. $exposants['exposants'][$i]['description'] . '</p>';
@@ -456,7 +456,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                  $titre=strtolower($exposants['exposants'][$i]['nom']);
                                  $description=strtolower($exposants['exposants'][$i]['description']);
                                  if(strlen(strpos($titre,$motrecherche))>0 || strlen(strpos($description,$motrecherche)) ){
-                                     echo '<div class="card w-100 '. $exposants['exposants'][$i]['filtre'] .' filter" onclick="'.$exposants['exposants'][$i]['id'].'">';
+                                     echo '<div class="card w-100 '. $exposants['exposants'][$i]['filtre'] .' filter" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
                                      echo '<div class="card-body">';
                                      echo '<h5 class="card-title">'. $exposants['exposants'][$i]['nom'] . '</h5>';
                                      echo '<p class="card-text">'. $exposants['exposants'][$i]['description'] . '</p>';
