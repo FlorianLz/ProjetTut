@@ -2,185 +2,185 @@
     "exposants" : [
         {
             "nom" : "France bleu Paris",
-            "description" : "NES",
+            "description" : "Radio partenaire des grands événements se déroulant à Paris.",
             "numero" : "11",
             "filtre" : "partenaires tout",
-            "id" : "1"
+            "id" : "11"
         },     
         {
             "nom" : "Labornearcade.com",
-            "description" : "Megadrive",
+            "description" : "E-commerce spécialisé dans la vente de bande d'arcade personnalisable.",
             "numero" : "18",
             "filtre" : "vente tout",
-            "id" : "2"
+            "id" : "18"
         },
         {
             "nom" : "Figurine Pop",
-            "description" : "NES",
+            "description" : "Figurines des différents personnages du monde du retro gaming.",
             "numero" : "8",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "8"
         },     
         {
             "nom" : "Fnac",
-            "description" : "Megadrive",
+            "description" : "Magasin spécialisé dans la distribution de produits culturels et électroniques. Les produits jeux vidéo rétro y sont présentés.",
             "numero" : "21",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "21"
         },
         {
             "nom" : "J’imprime comme j’aime",
-            "description" : "NES",
+            "description" : "E-commerce spécialisé dans la vente de t-shirt avec imprimé  et personnalisable. ",
             "numero" : "19",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "19"
         },     
         {
             "nom" : "Cash Converters",
-            "description" : "Megadrive",
+            "description" : "Achat et vente de produits d'occasion. Des produits de retro gaming rares (ou non) sont présentés.",
             "numero" : "27",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "27"
         },
         {
             "nom" : "Fanzine Mageek",
-            "description" : "NES",
+            "description" : "Magazines rédigés par des fans de différents univers dont le retro gaming.",
             "numero" : "20",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "11"
         },     
         {
             "nom" : "Nintendo consoles de salon",
-            "description" : "Megadrive",
+            "description" : "Société de heux vidéos qui présentera ses anciennes consoles suivantes : la Color TV Gam, la Famicom, la Super Famicom, la Nintendo 64, la GameCube, la Que Player et la Super Nintendo.",
             "numero" : "17",
             "filtre" : "console tout",
-            "id" : "1"
+            "id" : "17"
         },
         {
             "nom" : "Nintendo consoles portable",
             "description" : "NES",
             "numero" : "16",
             "filtre" : "console tout",
-            "id" : "1"
+            "id" : "16"
         },     
         {
             "nom" : "Nintendo vente",
             "description" : "Megadrive",
             "numero" : "15",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "15"
         },
         {
             "nom" : "Bandai consoles",
             "description" : "NES",
             "numero" : "3",
             "filtre" : "console tout",
-            "id" : "1"
+            "id" : "3"
         },     
         {
             "nom" : "Bandai vente",
             "description" : "Megadrive",
             "numero" : "4",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "4"
         },
         {
             "nom" : "Sony consoles",
             "description" : "NES",
             "numero" : "32",
             "filtre" : "console tout",
-            "id" : "1"
+            "id" : "33"
         },     
         {
             "nom" : "Sony vente",
             "description" : "Megadrive",
             "numero" : "33",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "32"
         },
         {
             "nom" : "Atari consoles",
             "description" : "NES",
             "numero" : "24",
             "filtre" : "console tout",
-            "id" : "1"
+            "id" : "24"
         },     
         {
             "nom" : "Atari vente",
             "description" : "Megadrive",
             "numero" : "25",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "25"
         },
         {
             "nom" : "Microsoft",
             "description" : "NES",
             "numero" : "6",
             "filtre" : "console tout",
-            "id" : "1"
+            "id" : "6"
         },     
         {
             "nom" : "Sega console",
             "description" : "Megadrive",
             "numero" : "22",
             "filtre" : "console tout",
-            "id" : "1"
+            "id" : "22"
         },
         {
             "nom" : "Sega vente",
             "description" : "NES",
             "numero" : "23",
             "filtre" : "vente tout",
-            "id" : "1"
+            "id" : "23"
         },     
         {
             "nom" : "NEC consoles / ventes",
             "description" : "Megadrive",
             "numero" : "28",
             "filtre" : "vente console",
-            "id" : "1"
+            "id" : "28"
         },
         {
             "nom" : "Collectionneurs",
             "description" : "NES",
             "numero" : "31",
             "filtre" : "console vente tout",
-            "id" : "1"
+            "id" : "31"
         },     
         {
             "nom" : "Fun radio",
             "description" : "Megadrive",
             "numero" : "14",
             "filtre" : "partenaire tout",
-            "id" : "1"
+            "id" : "14"
         },
         {
             "nom" : "Game one",
             "description" : "NES",
             "numero" : "7",
             "filtre" : "partenaire tout",
-            "id" : "1"
+            "id" : "7"
         },     
         {
             "nom" : "Jeuxvidéo.com",
             "description" : "Megadrive",
             "numero" : "5",
             "filtre" : "partenaire tout",
-            "id" : "1"
+            "id" : "5"
         },
         {
             "nom" : "Coca-cola",
             "description" : "Megadrive",
             "numero" : "34",
             "filtre" : "partenaire tout",
-            "id" : "1"
+            "id" : "34"
         },
         {
             "nom" : "Journal du geek",
             "description" : "Megadrive",
             "numero" : "26",
             "filtre" : "partenaire tout",
-            "id" : "1"
+            "id" : "26"
         },
         {
             "nom" : "Scène principale",
@@ -194,70 +194,70 @@
             "description" : "Megadrive",
             "numero" : "35",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "35"
         },
         {
             "nom" : "Infirmerie",
             "description" : "Megadrive",
             "numero" : "10",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "10"
         },
         {
             "nom" : "Point de restauration",
             "description" : "Megadrive",
             "numero" : "37",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "37"
         },
         {
             "nom" : "Stand d'essai",
             "description" : "Megadrive",
             "numero" : "29",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "29"
         },
         {
             "nom" : "Retrait monaie",
             "description" : "Megadrive",
             "numero" : "9",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "9"
         },
         {
             "nom" : "Expo records speed-run",
             "description" : "Megadrive",
             "numero" : "36",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "36"
         },
         {
             "nom" : "Console de l'année",
             "description" : "Megadrive",
             "numero" : "2",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "2"
         },
         {
             "nom" : "Point informations",
             "description" : "Megadrive",
             "numero" : "12",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "12"
         },
         {
             "nom" : "Casiers",
             "description" : "Megadrive",
             "numero" : "13",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "13"
         },
         {
             "nom" : "Dédicaces",
             "description" : "Megadrive",
             "numero" : "30",
             "filtre" : "services tout",
-            "id" : "1"
+            "id" : "30"
         }
     ]
 }
