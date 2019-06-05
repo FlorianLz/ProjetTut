@@ -432,7 +432,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     <?php 
                         if(!isset($_POST['texte']) || $_POST['texte']=='' ){
     
-                            echo'<h3 class="msgrecherche">Aucune recherche</h3>';
+                            echo'<h3 class="msgrecherche card-title">Aucune recherche</h3>';
                             $exposants = file_get_contents('exposants.json');
                             $exposants = json_decode($exposants, true); 
                             for($i=0;$i<count($exposants['exposants']);$i++){
@@ -446,7 +446,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
     
                           }else{
                              $motrecherche=$_POST['texte'];
-                             echo '<h3 class="msgrecherche">Résultats pour : '.$motrecherche . '</h3>';
+                             echo '<h3 class="msgrecherche card-title">Résultats pour : '.$motrecherche . '</h3>';
                              $motrecherche=strtolower($_POST['texte']);
                              $exposants = file_get_contents('exposants.json');
                              $exposants = json_decode($exposants, true);
@@ -466,7 +466,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                  }
                              }
                             if($compteur==0){
-                                echo '<h1 class="txtblanc">Bravo tu viens de casser la borne ! :(</h1>';
+                                echo '<h1 class="txtblanc card-title">Bravo tu viens de casser la borne ! :(</h1>';
                                 echo '<img class="img404" src="image/404.png">';
                             }
     
