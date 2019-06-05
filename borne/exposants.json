@@ -10,7 +10,7 @@
             "nom" : "Labornearcade.com",
             "description" : "Megadrive",
             "numero" : "18",
-            "filtre" : "nintendo tout"
+            "filtre" : "vente tout"
         },
         {
             "nom" : "Figurine Pop",
@@ -28,7 +28,7 @@
             "nom" : "J’imprime comme j’aime",
             "description" : "NES",
             "numero" : "19",
-            "filtre" : "sega tout"
+            "filtre" : "vente tout"
         },     
         {
             "nom" : "Cash Converters",
@@ -40,19 +40,19 @@
             "nom" : "Fanzine Mageek",
             "description" : "NES",
             "numero" : "20",
-            "filtre" : "nintendo tout"
+            "filtre" : "vente tout"
         },     
         {
             "nom" : "Nintendo consoles de salon",
             "description" : "Megadrive",
             "numero" : "17",
-            "filtre" : "sega tout"
+            "filtre" : "console tout"
         },
         {
             "nom" : "Nintendo consoles portable",
             "description" : "NES",
             "numero" : "16",
-            "filtre" : "sega tout"
+            "filtre" : "console tout"
         },     
         {
             "nom" : "Nintendo vente",
