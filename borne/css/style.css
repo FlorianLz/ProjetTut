@@ -106,6 +106,12 @@ body{
     color:white;
     border-radius:0px 10px 10px 0px;
 }
+.boutonsupprimer{
+    height:95%;
+    margin-bottom:3px;
+    color:white;
+    border-radius:10px;
+}
 .inputrecherche {
     margin-right:-9px;
     border-radius:10px 0px 0px 10px;

@@ -1,3 +1,9 @@
+<?php
+if(isset($_POST['supprimer']) && isset($_POST['texte'])){
+    unset($POST_['texte']);
+}
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
     
@@ -401,6 +407,15 @@
                 <form id="recherche" action="plan.php" method="post">
                   <input type="text" class="inputrecherche" placeholder="Rechercher" value="<?php if(isset($_POST['texte'])){echo $_POST['texte']; };?>" name="texte">
                   <button type="submit" class="btn boutonliste btn-sm boutonrecherche" value="Submit" form="recherche"><i class="fa fa-search"></i></button>
+                  <?php if(isset($_POST['texte'])){
+                            echo'<button type="submit" class="btn boutonliste btn-sm boutonsupprimer" value="Submit" form="supprimer"><i class="fa fa-times"></i></button>';
+                        }else{
+                            echo'<button type="submit" class="btn boutonliste btn-sm boutonsupprimer" value="Submit" form="supprimer" disabled><i class="fa fa-times"></i></button>';
+                        }  
+                  ?>
+                </form>
+                <form id="supprimer" action="plan.php" method="post">
+                <input type="hidden" name="supprimer">
                 </form>
                 
                         <div id="tab" class="btn-group" data-toggle="buttons-radio">
@@ -412,7 +427,8 @@
                         </div>
                 
                 <div class="carte">
-                    <?php if(!isset($_POST['texte']) || $_POST['texte']=='' ){
+                    <?php 
+                        if(!isset($_POST['texte']) || $_POST['texte']=='' ){
     
                             echo'<h3 style="color:white;">Aucune recherche</h3>';
                             $exposants = file_get_contents('exposants.json');
