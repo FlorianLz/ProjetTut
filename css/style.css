@@ -1,6 +1,9 @@
 .container {
     width:80%;
 }
+body{
+    background-color:#070606;
+}
 
 /* Footer*/
 .footer {
