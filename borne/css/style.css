@@ -145,3 +145,13 @@ body{
 }
 
 
+.twitter{
+    margin-top:30px;
+    max-height:80vh;
+    overflow:scroll;
+}
+
+.twi{
+    width:80%;
+}
+
