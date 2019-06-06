@@ -14,7 +14,7 @@
     width:80%;
 }
 body{
-    background-color:#070606;
+    background-color:white;
 }
 
 /* Footer*/
@@ -23,7 +23,7 @@ body{
     color:white;
     min-height:100px;
     padding:20px;
-    margin-top:100px;
+   /* margin-top:100px;*/
     font-family: "RobotoDescription";
 }
 .footer a{
@@ -514,7 +514,16 @@ nav{
 
 
 
+/* page accueil*/
 
+#carouselExampleIndicators{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#carouselFond{
+    background-color: #ca1618;
+}
 
 
 
@@ -561,7 +570,6 @@ nav{
 }
 
 .descrip{
-    background-color: #1d765a;
     border-radius: 10px;
     margin-top: 20px;
     padding: 20px;
@@ -571,6 +579,12 @@ nav{
 .descrip > p{
     text-align: center;
     padding-top: 20px;
+    font-family: "RetroGaming";
+    font-size: 30px;
+}
+
+.descrip > p > p{
+    font-family: "RobotoTexte";
 }
 
 .descrip img{
@@ -580,6 +594,15 @@ nav{
 .sectionNewsletter{
     background-color: #ca1618;
     border-radius: 5px;
+}
+
+.p-3 > h3{
+    font-family: "RetroGaming";
+    color: white;
+}
+
+.p-3 > h6{
+    font-family: "RobotoDescription";
 }
 
 .sectionNewsletter input[type=text] {
@@ -605,7 +628,7 @@ button{
 }
 
 .btn{
-    background-color: #febc35;
+    background-color: #343a40;
 	border-radius: 5px;
 	margin-left: 5px;
 	font-size: 20px;
