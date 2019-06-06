@@ -54,6 +54,28 @@ body{
 
 
 /* Page programme */ 
+.jour{
+    color: white;
+}
+
+.jour .journee{
+    font-family: "RetroGaming";
+}
+
+.jour .text-center{
+    font-family: "RetroGaming";
+}
+
+.jour .card-title{
+    color: black;
+    font-family: "RobotoDescription";
+}
+
+.jour .card-text{
+    color: black;
+    font-family: "RobotoTexte";
+}
+
 .filter-button
 {
     font-size: 18px;
