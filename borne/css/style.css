@@ -28,10 +28,12 @@ body{
     height:77%;
 }
 .card{
-    float:right;
     background-color:#febc35;
     border-radius:53px;
     margin-bottom:10px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 .carte{
     width:80%;
@@ -41,7 +43,10 @@ body{
 .card-title{
     font-family: "RobotoDescription";
 }
-
+.card-header{
+    padding:0;
+    height:34px;;
+}
 .logo{
     width:32%;
     margin-top:15px;
@@ -153,5 +158,10 @@ body{
 
 .twi{
     width:80%;
+}
+
+.btnliste{
+    width:100%;
+    height:100%;
 }
 

@@ -288,7 +288,8 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                         <use id="Anim_stand_23-5" transform="matrix(-0.03, 0, 0, 0.03, 585, 483)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_24">
-                        <g id="Anim_stand_24-1"><circle class="cls-6" cx="45" cy="376" r="2"/></g>
+                        <g id="Anim_stand_24-1"><circle class="cls-6" cx="45" cy="376" r="2"/><animate attributeType="XML" attributeName="x" from="-100" to="120"
+        dur="10s" repeatCount="indefinite"/></g>
                         <g id="Anim_stand_24-2" data-name="Rond_15"><circle class="cls-6" cx="37" cy="376" r="2"/></g>
                         <g id="Anim_stand_24-3" data-name="Rond_15"><circle class="cls-6" cx="29" cy="376" r="2"/></g>
                         <use id="Anim_stand_24-4" transform="translate(10 368) scale(0.03)" xlink:href="#image-6"/>
@@ -428,7 +429,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                             <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="filtrage(this.id);">Partenaires</a>
                         </div>
                 
-                <div class="carte">
+                <div class="carte" id="accordion">
                     <?php 
                         if(!isset($_POST['texte']) || $_POST['texte']=='' ){
     
@@ -436,10 +437,13 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                             $exposants = file_get_contents('exposants.json');
                             $exposants = json_decode($exposants, true); 
                             for($i=0;$i<count($exposants['exposants']);$i++){
-                                echo '<div class="card w-100 '. $exposants['exposants'][$i]['filtre'] .' filter" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
-                                echo '<div class="card-body">';
-                                echo '<h5 class="card-title">'. $exposants['exposants'][$i]['nom'] . '</h5>';
-                                echo '<p class="card-text">'. $exposants['exposants'][$i]['description'] . '</p>';
+                                echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
+                                echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
+                                echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria-controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
+                                echo '</div>';
+                                echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
+                                echo '<div class="card-body">'. $exposants['exposants'][$i]['description'] . '</p>';
+                                echo '</div>';
                                 echo '</div>';
                                 echo '</div>';
                             }
@@ -456,10 +460,13 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                  $titre=strtolower($exposants['exposants'][$i]['nom']);
                                  $description=strtolower($exposants['exposants'][$i]['description']);
                                  if(strlen(strpos($titre,$motrecherche))>0 || strlen(strpos($description,$motrecherche)) ){
-                                     echo '<div class="card w-100 '. $exposants['exposants'][$i]['filtre'] .' filter" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
-                                     echo '<div class="card-body">';
-                                     echo '<h5 class="card-title">'. $exposants['exposants'][$i]['nom'] . '</h5>';
-                                     echo '<p class="card-text">'. $exposants['exposants'][$i]['description'] . '</p>';
+                                     echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
+                                     echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
+                                     echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria- controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
+                                     echo '</div>';
+                                     echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
+                                     echo '<div class="card-body">'. $exposants['exposants'][$i]['description'] . '</p>';
+                                     echo '</div>';
                                      echo '</div>';
                                      echo '</div>';
                                      $compteur=$compteur+1;
@@ -477,7 +484,6 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     ?>
                 </div>
             </div>
-        
         
         
         
