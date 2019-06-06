@@ -156,7 +156,19 @@ body{
 
 
 
+/* barre de nav*/
+.nav-item .nav-link{
+    font-family: "RetroGaming";
+}
 
+.navbar-nav{
+    margin: 0 auto;
+}
+
+.navbar-nav li{
+    padding-right: 30px;
+    padding-left: 30px;
+}
 
 
 
