@@ -1,3 +1,8 @@
+
+$(window).load(function() {
+          $(".loader").fadeOut(2000);
+});
+
 $(document).ready(function(){
 
     $(".filter-button").click(function(){
@@ -57,5 +62,4 @@ $(function() {
     $(target).show();
   });
 });
-
 
