@@ -136,6 +136,7 @@ body{
 }
 .banniere{
     background-color:#224191;
+    margin-right:0px;
 }
 .imgbanniere{
     max-width:100%; 
