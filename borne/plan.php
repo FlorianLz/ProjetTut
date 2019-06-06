@@ -288,8 +288,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                         <use id="Anim_stand_23-5" transform="matrix(-0.03, 0, 0, 0.03, 585, 483)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_24">
-                        <g id="Anim_stand_24-1"><circle class="cls-6" cx="45" cy="376" r="2"/><animate attributeType="XML" attributeName="x" from="-100" to="120"
-        dur="10s" repeatCount="indefinite"/></g>
+                        <g id="Anim_stand_24-1"><circle class="cls-6" cx="45" cy="376" r="2"/></g>
                         <g id="Anim_stand_24-2" data-name="Rond_15"><circle class="cls-6" cx="37" cy="376" r="2"/></g>
                         <g id="Anim_stand_24-3" data-name="Rond_15"><circle class="cls-6" cx="29" cy="376" r="2"/></g>
                         <use id="Anim_stand_24-4" transform="translate(10 368) scale(0.03)" xlink:href="#image-6"/>
