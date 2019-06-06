@@ -637,6 +637,17 @@ button{
     font-family: "RobotoDescription";
 }
 
+#tab02 .font-weight-bold{
+    color: #c72127;
+    font-family: "RobotoDescription";
+}
+
+#tab02 h4{
+    color: #c72127;
+    font-family: "RetroGaming";
+    text-align: center;
+    padding-top: 40px;
+}
 
 
 
