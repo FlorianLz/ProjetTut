@@ -58,14 +58,6 @@ body{
     color: white;
 }
 
-.jour .journee{
-    font-family: "RetroGaming";
-}
-
-.jour .text-center{
-    font-family: "RetroGaming";
-}
-
 .jour .card-title{
     color: black;
     font-family: "RobotoDescription";
@@ -74,33 +66,49 @@ body{
 .jour .card-text{
     color: black;
     font-family: "RobotoTexte";
+    font-size: 15px;
+}
+
+.jour .titreDiff{
+    font-family: "RobotoDescription";
+    font-size: 25px;
+}
+
+.horaires h1{
+    font-family: "RobotoTexte";
 }
 
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid skyblue;
+    background-color: skyblue;
     border-radius: 5px;
     text-align: center;
-    color: #42B32F;
+    color: white;
     margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #42B32F;
+    color: skyblue;
+    background-color: white;
 
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #42B32F;
-    color: white;
+    background-color: white;
+    color: skyblue;
 }
+
+#filtres{
+    margin-top: 30px;
+}
+
+.buttonJours{
+    padding: 10px;
+}
+
 
 .jour
 {
@@ -156,6 +164,8 @@ body{
 .journee{
     margin-left:auto;
     margin-right:auto;
+    font-family: "RetroGaming";
+    font-size: 30px;
 }
 .banniere{
     background-color:#224191;
