@@ -29,7 +29,7 @@
       
       
       </div>
-         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+         <nav class="navbar navbar-expand-lg navbar-dark">
          <!-- Brand -->
          <a class="navbar-brand"></a>
          <!-- Toggler/collapsibe Button -->
@@ -66,9 +66,9 @@
             <div class="row">
                     
                 <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <center><div style="width:100%;">
-                        <button class="selection btn-default filter-button" data-filter="samedi">Samedi</button>
-                        <button class="selection btn-default filter-button" data-filter="dimanche">Dimanche</button>
+                        <center><div id="filtres" style="width:100%;">
+                        <button class="selection btn-default filter-button buttonJours" data-filter="samedi">Samedi</button>
+                        <button class="selection btn-default filter-button buttonJours" data-filter="dimanche" id="dimancheButton">Dimanche</button>
                         </div></center>
                 </div>
                     
@@ -76,7 +76,7 @@
                         <div class="row col-xl-12"><h1 class="journee">Samedi 22 Juin 2019</h1></div>
                         <div class="row">
                               <div class="col-sm-6 col-xs-12">
-                                <h1 class="text-center">Animations</h1>
+                                <h1 class="text-center titreDiff">Animations / Dédicaces </h1>
                                 <div class="card mb-3 col-xs-3">
                                   <div class="row no-gutters">
                                     <div class="col-md-3 col-xs-3 imagescene nintendo">
@@ -84,7 +84,7 @@
                                     </div>
                                     <div class="col-md-6 col-xs-6">
                                       <div class="card-body">
-                                        <h5 class="card-title">Stand Nintendo</h5>
+                                        <h5 class="card-title">Stand Nintendo consoles de salon </h5>
                                         <p class="card-text">Présentation des jeux cultes des consoles de salon de la marque.</p>
                                       </div>
                                     </div>
@@ -95,6 +95,24 @@
                                     </div>
                                   </div>
                                 </div>
+                                  <div class="card mb-3 col-xs-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3 imagescene magazine">
+                                        <h1 class="text-center numero">2</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center"> Stand dédicaces </h5>
+                                        <p class="card-text text-center"> LEY - Howlingflame (Cosplayeur français), Laird's Lair (YouTubeur anglais), Joueur du grenier (YouTubeurs français), New Titeuf (YouTubeur français). </p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">10h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">13h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
                                 <div class="card mb-3 col-xs-3">
                                   <div class="row no-gutters">
                                     <div class="col-md-3 col-xs-3 imagescene sony">
@@ -102,8 +120,8 @@
                                     </div>
                                     <div class="col-md-6 col-xs-6">
                                       <div class="card-body">
-                                        <h5 class="card-title text-center">Stand Sony</h5>
-                                        <p class="card-text text-center">Concours Grand Turismo 2 pour gagner un goodies Playstation.</p>
+                                        <h5 class="card-title text-center">Stand Sony consoles</h5>
+                                        <p class="card-text text-center"> Tournois Grand Turismo 2 pour gagner un goodies Playstation.</p>
                                       </div>
                                     </div>
                                     <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
@@ -120,14 +138,32 @@
                                     </div>
                                     <div class="col-md-6 col-xs-6">
                                       <div class="card-body">
-                                        <h5 class="card-title text-center">Stand Magazine</h5>
-                                        <p class="card-text text-center">Quiz sur les grands jeux retro. Des abonnements annuels au magazine à gagner !</p>
+                                        <h5 class="card-title text-center">Stand Journal du Geek</h5>
+                                        <p class="card-text text-center">Quiz sur les grands jeux retro. Des éditions spéciales de la convention imprimées sont à gagner.</p>
                                       </div>
                                     </div>
                                     <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
                                         <h1 class="text-center">12h00</h1>
                                         <h1 class="text-center">-</h1>
                                         <h1 class="text-center">13h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                  <div class="card mb-3 col-xs-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3 imagescene magazine">
+                                        <h1 class="text-center numero">2</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center"> Stand dédicaces </h5>
+                                        <p class="card-text text-center"> Kalimsshar (Cosplayeuse française), The Gebs 24 (YouTubeuse anglaise), Squeezie (YouTubeur français), Cyprien (YouTubeur français).</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">14h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">17h00</h1>
                                     </div>
                                   </div>
                                 </div>
@@ -138,8 +174,8 @@
                                     </div>
                                     <div class="col-md-6 col-xs-6">
                                       <div class="card-body">
-                                        <h5 class="card-title text-center">Chasse au trésor</h5>
-                                        <p class="card-text text-center">Grande chasse au trésor organisée dans tout le salon. Rendez-vous au stand NES pour l'inscription.</p>
+                                        <h5 class="card-title text-center">Stand coca-cola</h5>
+                                        <p class="card-text text-center">Grande chasse au trésor organisée dans tout le salon. Rendez-vous au stand coca-cola pour vous inscrire avant 14h.</p>
                                       </div>
                                     </div>
                                     <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
@@ -149,11 +185,13 @@
                                     </div>
                                   </div>
                                 </div>
+                                  
                               </div>
+                            
                                 
                                 
                               <div class="col-sm-6 col-xs-12">
-                                <h1 class="text-center">Scènes</h1>
+                                <h1 class="text-center titreDiff">Scènes</h1>
                                 <div class="card mb-3">
                                   <div class="row no-gutters">
                                     <div class="col-md-3 col-xs-3">
@@ -162,13 +200,13 @@
                                     <div class="col-md-6 col-xs-6">
                                       <div class="card-body">
                                         <h5 class="card-title text-center">Scène 1</h5>
-                                        <p class="card-text text-center">Description de la scène.</p>
+                                        <p class="card-text text-center"> Conférence en compagnie de Sean Bean, acteur du film pixel.</p>
                                       </div>
                                     </div>
                                     <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
-                                        <h1 class="text-center">8h00</h1>
-                                        <h1 class="text-center">-</h1>
                                         <h1 class="text-center">10h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">11h00</h1>
                                     </div>
                                   </div>
                                 </div>
@@ -180,13 +218,101 @@
                                     <div class="col-md-6 col-xs-6">
                                       <div class="card-body">
                                         <h5 class="card-title text-center">Scène 2</h5>
-                                        <p class="card-text text-center">Description de la scène.</p>
+                                        <p class="card-text text-center">Speedrun Mario.</p>
                                       </div>
                                     </div>
                                     <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
-                                        <h1 class="text-center">8h00</h1>
-                                        <h1 class="text-center">-</h1>
                                         <h1 class="text-center">10h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                  <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">1</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 1</h5>
+                                        <p class="card-text text-center">Conférence Nintendo avec des représentants français et anglais.</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">12h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">13h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                  <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">1</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 1</h5>
+                                        <p class="card-text text-center">Concours de Cosplay retro. À gagner, une place pour la coupe de France de cosplay. </p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">14h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">15h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                  <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">1</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 1</h5>
+                                        <p class="card-text text-center"> Interview de Paul Cuisset, créateur français de jeux vidéo. </p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">15h15</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">16h15</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                  <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">2</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 2</h5>
+                                        <p class="card-text text-center"> Tournois de combats Street Fighter avec la présence de Olivier Hay (champion français à Street Fighter). </p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">14h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">16h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                  <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">1</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 1</h5>
+                                        <p class="card-text text-center"> Tournois de courses Mario Kart Nintendo 64 avec la présence du Joueur du Grenier, Cyprien et Squeezie. </p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">15h15</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">16h15</h1>
                                     </div>
                                   </div>
                                 </div>
@@ -199,7 +325,7 @@
                         <div class="row col-xl-12"><h1 class="journee">Dimanche 23 Juin 2019</h1></div>
                         <div class="row"> 
                             <div class="col-sm-6 col-xs-12">
-                                <h1 class="text-center">Animations</h1>
+                                <h1 class="text-center titreDiff">Animations / Dédicaces </h1>
                                 <div class="card mb-3 col-xs-3">
                                     <div class="row no-gutters">
                                         <div class="col-md-3 col-xs-3 imagescene sony">
@@ -217,6 +343,24 @@
                                             <h1 class="text-center">10h30</h1>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="card mb-3 col-xs-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3 imagescene magazine">
+                                        <h1 class="text-center numero">2</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center"> Stand dédicaces </h5>
+                                        <p class="card-text text-center"> Kalimsshar (Cosplayeuse française), The Gebs 24 (YouTubeuse anglaise), Joueur du grenier (YouTubeurs français), New Titeuf (YouTubeur français) .</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">10h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">13h00</h1>
+                                    </div>
+                                  </div>
                                 </div>
                                 <div class="card mb-3 col-xs-3">
                                       <div class="row no-gutters">
@@ -256,6 +400,24 @@
                                 </div>
                                 <div class="card mb-3 col-xs-3">
                                   <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3 imagescene magazine">
+                                        <h1 class="text-center numero">2</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center"> Stand dédicaces </h5>
+                                        <p class="card-text text-center"> LEY - Howlingflame (Cosplayeur français), Laird's Lair (YouTubeur anglais), Squeezie (YouTubeur français), Cyprien (YouTubeur français).</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">14h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">17h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card mb-3 col-xs-3">
+                                  <div class="row no-gutters">
                                     <div class="col-md-3 col-xs-3 imagescene tresor">
                                         <h1 class="text-center numero">2</h1>
                                     </div>
@@ -276,7 +438,7 @@
                                 
                                 
                             <div class="col-sm-6 col-xs-12">
-                                <h1 class="text-center">Scènes</h1>
+                                <h1 class="text-center titreDiff">Scènes</h1>
                                 <div class="card mb-3">
                                   <div class="row no-gutters">
                                     <div class="col-md-3 col-xs-3">
@@ -285,7 +447,7 @@
                                     <div class="col-md-6 col-xs-6">
                                       <div class="card-body">
                                         <h5 class="card-title text-center">Scène 1</h5>
-                                        <p class="card-text text-center">Description de la scène.</p>
+                                        <p class="card-text text-center">Conférence avec Cyprien sur la court métrage 'La Cartouche'.</p>
                                       </div>
                                     </div>
                                     <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
@@ -303,13 +465,121 @@
                                     <div class="col-md-6 col-xs-6">
                                       <div class="card-body">
                                         <h5 class="card-title text-center">Scène 2</h5>
-                                        <p class="card-text text-center">Description de la scène.</p>
+                                        <p class="card-text text-center">Speedrun Zelda.</p>
                                       </div>
                                     </div>
                                     <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
-                                        <h1 class="text-center">8h00</h1>
+                                        <h1 class="text-center">10h30</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">1</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 1</h5>
+                                        <p class="card-text text-center">Conférence Sony avec des représentants français et anglais.</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">12h00</h1>
                                         <h1 class="text-center">-</h1>
-                                        <h1 class="text-center">10h00</h1>
+                                        <h1 class="text-center">13h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">1</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 1</h5>
+                                        <p class="card-text text-center">Concours de Cosplay retro. À gagner, une place pour la coupe de France de cosplay.</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">14h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">15h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">1</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 1</h5>
+                                        <p class="card-text text-center"> Interview de Retrojeux, YouTubeur de retro gaming.</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">15h15</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">16h15</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">2</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 2</h5>
+                                        <p class="card-text text-center">Tournois de combat Pokemon avec la présence de DavidLafargePokemon.</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">14h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">16h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">1</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 1</h5>
+                                        <p class="card-text text-center"> Tournois de OutRun sur Mega Drive avec la présence du Joueur du Grenier, Cyprien et Squeezie.</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">17h00</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">18h00</h1>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <div class="card mb-3">
+                                  <div class="row no-gutters">
+                                    <div class="col-md-3 col-xs-3">
+                                        <h1 class="text-center numero">1</h1>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title text-center">Scène 1</h5>
+                                        <p class="card-text text-center"> Cérémonie de clôture de la convention avec un mini-jeu pour gagner des places pour la prochaine édition.</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 horaires d-flex flex-column">
+                                        <h1 class="text-center">18h15</h1>
+                                        <h1 class="text-center">-</h1>
+                                        <h1 class="text-center">18h45</h1>
                                     </div>
                                   </div>
                                 </div>
