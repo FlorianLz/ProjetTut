@@ -181,8 +181,13 @@ body{
 
 
 /* barre de nav*/
+nav{
+    background-color: #eee; 
+}
+
 .nav-item .nav-link{
     font-family: "RetroGaming";
+    color:#c72127;
 }
 
 .navbar-nav{
@@ -193,6 +198,7 @@ body{
     padding-right: 30px;
     padding-left: 30px;
 }
+
 
 
 
