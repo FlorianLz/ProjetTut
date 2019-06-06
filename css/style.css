@@ -617,6 +617,7 @@ button{
 .tabs {
     margin: 0 auto;
     padding: 0 20px;
+    margin-top: 20px;
 }
 
 #tab-button {
@@ -636,8 +637,6 @@ button{
 #tab-button li a {
     display: block;
     padding: .5em;
-    background: #eee;
-    border: 1px solid #ddd;
     text-align: center;
     color: #c72127;
     text-decoration: none;
@@ -651,7 +650,7 @@ button{
 #tab-button li a:hover,
 #tab-button .is-active a {
     border-bottom-color: transparent;
-    background: #fff;
+    border-bottom: 2px solid #c72127;
 }
 
 .tab-contents {
