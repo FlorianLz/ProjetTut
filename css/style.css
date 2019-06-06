@@ -82,8 +82,8 @@ body{
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid skyblue;
-    background-color: skyblue;
+    border: 1px solid #224191;
+    background-color: #224191;
     border-radius: 5px;
     text-align: center;
     color: white;
@@ -114,7 +114,6 @@ body{
 .jour
 {
     margin-bottom: 30px;
-    border:2px solid black;
 }
 
 .dimanche{
@@ -126,7 +125,7 @@ body{
 }
 
 .horaires{
-    background-color:skyblue;
+    background-color:#224191;
     padding-top:10px;
     padding-bottom:10px;
 }
