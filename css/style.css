@@ -20,13 +20,14 @@ body{
 /* Footer*/
 .footer {
     background-color:#343a40;
-    color:black;
+    color:white;
     min-height:100px;
     padding:20px;
     margin-top:100px;
+    font-family: "RobotoDescription";
 }
 .footer a{
-    color:black;
+    color:white;
 }
 .footer li{
     text-align:center;
