@@ -92,22 +92,31 @@ body{
 }
 .filter-button:hover
 {
-    color: skyblue;
+    color: #224191;
     background-color: white;
 
 }
 .btn-default:active .filter-button:active
 {
     background-color: white;
-    color: skyblue;
+    color: #224191;
 }
 
 #filtres{
     margin-top: 30px;
 }
 
+.entierFiltre{
+    margin-top: 20px;
+}
+
 .buttonJours{
     padding: 10px;
+}
+
+.titreDiff{
+    margin-top: 30px;
+    color: black;
 }
 
 .journee{
