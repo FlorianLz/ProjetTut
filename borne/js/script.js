@@ -37,84 +37,55 @@ function animation(a){
         if(i == a){
             
             if(a == 37){
-                document.getElementById('Anim_stand_'+a+"-1").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-2").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-3").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-4").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-5").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-6").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-7").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-8").style.display = "block";
+                for(var y=1; y <=8; y++){
+                    document.getElementById('Anim_stand_'+a+"-"+y).style.display = "block";
+                }
             }
             
             if(a == 8){
-                document.getElementById('Anim_stand_'+a+"-1").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-2").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-3").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-4").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-5").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-6").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-7").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-8").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-9").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-10").style.display = "block";
+                for(var z=1; z <=10; z++){
+                    document.getElementById('Anim_stand_'+a+"-"+z).style.display = "block";
+                }
             }
             
             if(a == 10 || a == 12 || a == 100 || a == 101){
-                document.getElementById('Anim_stand_'+a+"-1").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-2").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-3").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-4").style.display = "block";
+                for(var n=1; n <=4; n++){
+                     document.getElementById('Anim_stand_'+a+"-"+n).style.display = "block";
+                }
             }
             
             if(a != 37 && a != 8 && a != 10 && a !=12 && a != 100 && a != 101){
-                document.getElementById('Anim_stand_'+a+"-1").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-2").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-3").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-4").style.display = "block";
-                document.getElementById('Anim_stand_'+a+"-5").style.display = "block";
+                for(var v=1; v <=5; v++){
+                    document.getElementById('Anim_stand_'+a+"-"+v).style.display = "block";
+                }
             }
             
         }
         if(i != a){
             
             if(i == 37){
-                document.getElementById('Anim_stand_'+i+"-1").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-2").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-3").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-4").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-5").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-6").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-7").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-8").style.display = "none";
+                for(var t=1; t <=8; t++){
+                    document.getElementById('Anim_stand_'+i+"-"+t).style.display = "none";
+                }
             } 
             
             if(i == 8){
-                document.getElementById('Anim_stand_'+i+"-1").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-2").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-3").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-4").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-5").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-6").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-7").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-8").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-9").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-10").style.display = "none";
+                for(var o=1; o <=10; o++){
+                    document.getElementById('Anim_stand_'+i+"-"+o).style.display = "none";
+                }
             }
             
             if(i == 10|| i == 12 || i == 100 || i == 101){
-                document.getElementById('Anim_stand_'+i+"-1").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-2").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-3").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-4").style.display = "none";
+                for(var j=1; j <=4; j++){
+                    document.getElementById('Anim_stand_'+i+"-"+j).style.display = "none";
+                }
             }
             
             if(i != 37 && i != 8 && i != 10 && i != 12 && i != 100 && i != 101){
-                document.getElementById('Anim_stand_'+i+"-1").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-2").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-3").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-4").style.display = "none";
-                document.getElementById('Anim_stand_'+i+"-5").style.display = "none";
+                for(var l=1; l <=5; l++){
+                    document.getElementById('Anim_stand_'+i+"-"+l).style.display = "none";
+                }
+
             }
                 
         }
