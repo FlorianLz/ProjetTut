@@ -173,6 +173,7 @@ body{
 .banniere{
     background-color:#224191;
     margin-right:0px;
+    padding-top:25px;
 }
 .imgbanniere{
     max-width:100%; 
@@ -226,7 +227,15 @@ nav{
     background-color:white;
 }
 
+.titreprincipal{
+    font-family:"RetroGaming";
+    color:white;
+    font-size:2rem;
+}
 
+.persos{
+    padding-top:15px;
+}
 
 
 

@@ -13,17 +13,41 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+      <script src="js/jquery-3.4.1.min.js"></script>
     
   </head>
     
   <body>
       <div class="row banniere">
-          <div class="col-xl-12 col-XS-12 d-flex align-items-center">
+          <!-- <div class="col-xl-8 col-XS-12 d-flex align-items-center" style="margin-left:auto;margin-right:auto;">
             <div id="imagebanniere">
-                <img id="imgbanniere" class="imgbanniere" src="images/banniere.png">
+                <img id="imgbanniere" class="imgbanniere" src="images/banniere.png" >
             </div>
-          </div>
-      
+          </div> -->
+          <div class="row">
+              <div class="row col-xl-12">
+                        <div class="col-xl-3 col-lg-3 col-xs-0"></div>
+                        <div class="col-xl-2 col-xs-6"><img src="images/Convention-BLANC.png" style="margin-left:39%"></div>
+
+                        <div class="col-xl-4 col-xs-12 text-center titreprincipal"><h1>22-23 JUIN 2019<br>Paris expo</h1></div>
+                </div>
+              <div class="row">
+                  <div class="col-xl-8 col-xs-12 d-flex align-items-center persos" style="margin-left:auto;margin-right:auto;">
+
+                        <div class="col-xl-1 col-lg-2 col-xs-12"></div>
+
+                        <div class="col-xl-2 col-lg-2 col-xs-12"><img id="kirby" onmouseout="resetimage(this.id);" width="100%" onmouseover="changement(this.id);" src="images/kirby0.png"></div>
+
+                        <div class="col-xl-2 col-lg-2 col-xs-12"><img id="mega" onmouseout="resetimage(this.id);" width="100%" onmouseover="changement(this.id);" src="images/mega0.png"></div>
+
+                        <div class="col-xl-2 col-lg-2 col-xs-12"><img id="link" onmouseout="resetimage(this.id);" width="100%" onmouseover="changement(this.id);" src="images/link0.png"></div>
+
+                        <div class="col-xl-2 col-lg-2 col-xs-12"><img id="donkey" onmouseout="resetimage(this.id);" width="100%" onmouseover="changement(this.id);" src="images/donkey0.png"></div>
+
+                        <div class="col-xl-2 col-lg-2 col-xs-12"><img id="mario" onmouseout="resetimage(this.id);" width="100%" onmouseover="changement(this.id);" src="images/mario0.png"></div>
+                  </div>
+                </div>
+        </div>
       
       </div>
          <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -60,6 +84,7 @@
       </nav>
 
     <!-- Javascript optionnel -->
+      <script src="js/script.js"></script>
       
     <!-- jQuery, puis Popper.js, puis Bootstrap JS -->
     <script src="js/jquery-3.4.1.min.js"></script>

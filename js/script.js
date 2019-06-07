@@ -1,6 +1,6 @@
 
 $(window).on('load',function() {
-          $(".loader").fadeOut(2000);
+    $(".loader").fadeOut(2000);
 });
 
 $(document).ready(function(){
@@ -63,3 +63,12 @@ $(function() {
   });
 });
 
+function changement(id){
+    document.getElementById(id).src='images/'+id+'1.png';
+    document.getElementById(id).style.width="100%";
+}
+
+function resetimage(id){
+    document.getElementById(id).src='images/'+id+'0.png';
+    document.getElementById(id).style.width="100%";
+}
