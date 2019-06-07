@@ -19,7 +19,7 @@ body{
 
 /* Footer*/
 .footer {
-    background-color:#585D62;
+    background-color:#85898C;
     color:white;
     min-height:100px;
     padding:20px;
@@ -196,7 +196,7 @@ body{
 
 /* barre de nav*/
 nav{
-    background-color: #585D62; 
+    background-color: #85898C; 
 }
 
 .nav-item .nav-link{
@@ -527,13 +527,40 @@ nav{
 #carouselFond{
     background-color: #ca1618;
 }
+#Sectionreseauxsociaux{
+    margin-top: 20px;
+}
+
+#Sectionreseauxsociaux h1{
+    font-family: "RobotoDescription";
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
 
 #Sectionreseauxsociaux span{
+    margin-top: 5px;
     font-family: "RobotoTexte";
     border: 1px solid black;
     border-radius: 0px;
     text-transform: uppercase;
     display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.partiediff{
+    background-color: #ECEBEB;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.social-grid--cell-img > img{
+    width: 100%;
+}
+
+#imageGrand{
+    
 }
 
 
