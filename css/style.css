@@ -774,12 +774,10 @@ footer .socials ul li{
 
 .sectionNewsletter input[type=text] {
     padding: 12px 20px;
-    margin: 9px 0;
     box-sizing: border-box;
     border-radius: 10px;
     outline: none;
-    width: 40%;
-    height:20%;
+    width: 100%;
     border:1px solid #7c7b7b;
 }
 
@@ -792,14 +790,15 @@ button{
 	height: 50px;
 	padding: 0;
 	margin: 0;
+    width:100%;
 }
 
 .p-3 .btn{
     background-color: #585D62;
 	border-radius: 5px;
-	margin-left: 5px;
 	font-size: 20px;
     color: white;
+    border-radius: 10px;
 }
 
 /* page accès*/ 
