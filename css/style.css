@@ -319,9 +319,23 @@ nav{
     margin-top:30px;
 }
 
-
-
-
+@media screen and (max-width: 576px) {
+  #kirby,#mega,#link {
+    display: none;
+      visibility:hidden;
+  }
+    #mario,#donkey{
+        width:30vw!important;
+        margin-left:-50%;
+        
+    }
+}
+@media screen and (min-width: 576px) {
+    #kirby,#mega,#link,#mario,#donkey{
+        width:100%!important;
+        
+    }
+}
 
 
 

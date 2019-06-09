@@ -94,11 +94,22 @@ $(function() {
 });
 
 function changement(id){
+    var taille=window.innerWidth;
     document.getElementById(id).src='images/'+id+'1.png';
-    document.getElementById(id).style.width="100%";
+    if (taille>576){
+        document.getElementById(id).style.width="100%";
+    }else{
+        document.getElementById(id).style.width="30vw";
+    }
+    
 }
 
 function resetimage(id){
+    var taille=window.innerWidth;
     document.getElementById(id).src='images/'+id+'0.png';
-    document.getElementById(id).style.width="100%";
+    if (taille>576){
+        document.getElementById(id).style.width="100%";
+    }else{
+        document.getElementById(id).style.width="30vw";
+    }
 }
