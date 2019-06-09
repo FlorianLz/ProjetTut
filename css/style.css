@@ -157,21 +157,88 @@ body{
     background-size: cover;
 }
 
-.sony{
-    background-image:url('https://images.vice.com/vice/images/articles/meta/2014/11/25/celebrating-an-old-grey-box-playstation-at-20-years-old-192-1416919810.jpg?crop=1xw%3A0.8302583025830258xh%3Bcenter%2Ccenter&resize=650%3A*&output-quality=55');
+/*image page programe*/
+.nintendosalon{
+    background-image: url(../images/consoles-salon-nintendo.jpg);
 }
 
-.nintendo{
-    background-image:url('https://i.pinimg.com/originals/d0/da/0c/d0da0c3402c8cbc0ae8e126dc9ceb2ba.jpg');
+.dedicaces{
+    background-image: url(../images/dedicace.jpg);
 }
 
-.tresor{
-    background-image:url('https://n2k3i5s6.stackpathcdn.com/wp-content/uploads/2008/04/mug-super-mario-cube-mystere-2.jpg');
+.tournoisSony{
+    background-image: url(../images/console-sony.jpg);
 }
 
 .magazine{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC4sTqXzX8jn8xxSiX_3KjF_jvu1ar18EhDOTdonjtV_zWRtMpUg');
+    background-image: url(../images/journalgeek.jpg);
 }
+
+.tresor1{
+    background-image: url(../images/cocacolagoodies.jpg);
+}
+
+.confsean{
+    background-image: url(../images/seanbean.jpg);
+}
+
+.speedrunm{
+    background-image: url(../images/mario.jpg);
+}
+
+.nintendo{
+    background-image: url(../images/confinintendo.jpg);
+}
+
+.cosplay{
+    background-image: url(../images/cosplay.jpg);
+}
+
+.intPaul{
+    background-image: url(../images/paul.jpg);
+}
+
+.tournoisStreet{
+    background-image: url(../images/street.jpg);
+}
+
+.tournoisM{
+    background-image: url(../images/mario64.jpg);
+}
+
+.nintendo2{
+    background-image: url(../images/smashmelee.jpg);
+}
+
+.confCyp{
+    background-image: url(../images/cyprien.jpg);
+}
+
+.speedrunz{
+    background-image: url(../images/zelda.jpg);
+}
+
+.confSony{
+    background-image: url(../images/sony.jpg);
+}
+
+.intYoutube{
+    background-image: url(../images/retrojeux.jpg);
+}
+
+.pok{
+    background-image: url(../images/pokemon.jpg);
+}
+
+.outrun{
+    background-image: url(../images/outrun.jpg);
+}
+
+.clot{
+    background-image: url(../images/cloture.jpg);
+}
+
+/*fin image page programme*/
 
 .journee{
     margin-left:auto;
