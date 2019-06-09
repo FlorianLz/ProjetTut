@@ -609,8 +609,11 @@ nav{
     vertical-align: middle;
 }
 
-
-
+@media (max-width: 767px){
+    .hidden-sm-down{
+        display: none;
+    }
+}
 
 
 
