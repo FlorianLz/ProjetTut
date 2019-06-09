@@ -602,11 +602,18 @@ nav{
     border-top-left-radius: 1rem;
     list-style: none;
     margin: 0;
+    padding-left: 15px;
 }
 
 .social ul li{
     display: inline-block;
     vertical-align: middle;
+    color: white;
+    font-family: "RobotoTexte";
+}
+
+.social ul li img{
+    padding-left: 2px;
 }
 
 @media (max-width: 767px){
