@@ -293,7 +293,7 @@ nav{
 .loader {
     position : fixed;
     z-index: 9999;
-    background : url('https://vignette.wikia.nocookie.net/wiki-mario-kart-pc/images/5/5e/Mario_Kart_Mario.gif/revision/latest?cb=20170329174456&path-prefix=fr') 50% 50% no-repeat;
+    background : url('../images/mario.gif') 50% 50% no-repeat;
     top : 0px;
     left : 0px;
     height : 100%;
