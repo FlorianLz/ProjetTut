@@ -18,20 +18,19 @@
     
   <body>
      <div class="loader"></div>
-     <div class="row banniere">
+     <div class="banniere">
           <!-- <div class="col-xl-8 col-XS-12 d-flex align-items-center" style="margin-left:auto;margin-right:auto;">
             <div id="imagebanniere">
                 <img id="imgbanniere" class="imgbanniere" src="images/banniere.png" >
             </div>
           </div> -->
-          <div class="row">
-              <div class="row col-xl-12">
+              <div class="row col-xl-12 col-sm-12 col-xs-12">
                         <div class="col-xl-3 col-lg-3 col-xs-0"></div>
-                        <div class="col-xl-2 col-xs-6"><img src="images/Convention-BLANC.png" style="margin-left:39%"></div>
+                        <div class="col-xl-2 col-xs-12"><img src="images/Convention-BLANC.png" style="margin-left:39%"></div>
 
-                        <div class="col-xl-4 col-xs-12 text-center titreprincipal"><h1>22-23 JUIN 2019<br>Paris expo</h1></div>
+                        <div class="col-xl-4 col-xs-12 col-sm-12 col-md-12 text-center titreprincipal"><h1>22-23 JUIN 2019<br>Paris expo</h1></div>
                 </div>
-              <div class="row">
+              <div class="row col-xl-12">
                   <div class="col-xl-8 col-xs-12 d-flex align-items-center persos" style="margin-left:auto;margin-right:auto;">
 
                         <div class="col-xl-1 col-lg-2 col-xs-12"></div>
@@ -47,7 +46,6 @@
                         <div class="col-xl-2 col-lg-2 col-xs-12"><img id="mario" onmouseout="resetimage(this.id);" width="100%" onmouseover="changement(this.id);" src="images/mario0.png"></div>
                   </div>
                 </div>
-        </div>
       
       </div>
          <nav class="navbar navbar-expand-lg navbar-dark">
@@ -224,14 +222,17 @@
       
       
       
-      <div class="socials text-right hidden-sm-down">
-        <ul> 
-            <li> lolo</li>
-            <li> lulu </li>
-        </ul>
-      </div>
-     
-    <div class="footer"> 
+      <footer>
+        <div class="socials text-right hidden-sm-down">
+                <ul>
+                    <li><a href="" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a></li>
+                    <li><a href="" target="_blank"><img src="images/fb.png" alt="Facebook" /></a></li>
+                    <li><a href="" target="_blank"><img src="images/ig.png" alt="Instagram" /></a></li>
+                    <li><a href="" target="_blank"><img src="images/yt.png" alt="Youtube" /></a></li>
+                </ul>
+            </div>
+
+        <div class="footer"> 
             <div class="row text-center text-xs-center text-sm-left text-md-left d-flex justify-content-center align-items-center">
                 <div class="col-xs-12 col-sm-4 col-md-4">
                         <ul class="list-unstyled quick-links">
@@ -246,7 +247,7 @@
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 d-flex justify-content-center align-items-center reseaux">
-                        <ul class="list-unstyled list-inline socials text-center ">
+                        <ul class="list-unstyled list-inline social text-center ">
                             <li>Rejoignez-nous sur les réseaux !</li>
                             <li><a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social justify-content-center"></i></a>
                             <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
@@ -256,6 +257,7 @@
                     </div>
             </div>
         </div>  
+    </footer>
     <!-- Javascript optionnel -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="js/script.js"></script>

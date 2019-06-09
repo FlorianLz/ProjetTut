@@ -181,7 +181,8 @@ body{
 }
 .banniere{
     background-color:#224191;
-    margin-right:0px;
+    margin-right:0px!important;
+    margin-right:0px!important;
     padding-top:25px;
 }
 .imgbanniere{
