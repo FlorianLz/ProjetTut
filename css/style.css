@@ -612,10 +612,6 @@ nav{
     font-family: "RobotoTexte";
 }
 
-.social ul li img{
-    padding-left: 2px;
-}
-
 @media (max-width: 767px){
     .hidden-sm-down{
         display: none;
@@ -813,6 +809,7 @@ button{
     font-family: "RobotoTexte";
 }
 
+/*fin menu*/
 
 #tab01 iframe{
     display: inherit;
@@ -838,6 +835,23 @@ button{
     padding-top: 40px;
 }
 
+#tab04 #espace{
+    margin-top: 40px;
+}
+
+#tab04 .question{
+    color: #c72127;
+    font-family: "RobotoDescription";
+}
+
+#tab04 .reponse{
+    color: #c72127;
+    font-family: "RobotoDescription";
+}
+
+
+
+
 
 
 
@@ -856,3 +870,6 @@ button{
       margin-top: 0;
   }
 }
+
+
+/*fin page accès*/
