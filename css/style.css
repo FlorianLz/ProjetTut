@@ -247,8 +247,9 @@ body{
     font-size: 30px;
 }
 .banniere{
-    background-color:#85898C;
-    margin-right:0px;
+    background-color:#224191;
+    margin-right:0px!important;
+    margin-right:0px!important;
     padding-top:25px;
 }
 .imgbanniere{
@@ -279,7 +280,6 @@ nav{
 .nav-item .nav-link{
     font-family: "RetroGaming";
     color:white;
-    font-size: 18px;
 }
 
 .navbar-nav{
@@ -619,9 +619,8 @@ nav{
 
 #Sectionreseauxsociaux h1{
     font-family: "RobotoDescription";
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 12px;
-    font-size: 30px;
 }
 
 #Sectionreseauxsociaux span{
@@ -656,28 +655,35 @@ nav{
 
 
 /* test réseaux sociax*/
-.social{
+footer .socials{
     position: fixed;
     z-index: 110;
     bottom: 0;
     right: 0;
 }
 
-.social ul{
+footer .socials ul{
     background-color: #D85557;
     display: inline-block;
     border-top-left-radius: 1rem;
     list-style: none;
     margin: 0;
     padding-left: 15px;
+    line-height:45px;
+    height:45px;
 }
 
-.social ul li{
+footer .socials ul li{
     display: inline-block;
     vertical-align: middle;
     color: white;
     font-family: "RobotoTexte";
+    padding:0 5px;
 }
+@media (max-width: 767px){
+.hidden-sm-down {
+    display: none!important;
+}}
 
 @media (max-width: 767px){
     .hidden-sm-down{
@@ -729,7 +735,7 @@ nav{
 .descrip > p{
     text-align: center;
     padding-top: 20px;
-    font-family: "RobotoDescription";
+    font-family: "RetroGaming";
     font-size: 30px;
 }
 
@@ -747,8 +753,7 @@ nav{
 }
 
 .p-3 > h3{
-    font-family: "RobotoDescription";
-    font-size: 30px;
+    font-family: "RetroGaming";
     color: white;
 }
 
@@ -770,34 +775,6 @@ nav{
 .sectionNewsletter input[type=text]:hover {
 	border:1px solid #000;
 	transition: 6s;
-}
-
-.sectionNewsletter #mot_R,.sectionNewsletter #mot_e, .sectionNewsletter #mot_t, .sectionNewsletter #mot_r, .sectionNewsletter #mot_o{
-    font-family: "RetroGaming";
-}
-.sectionNewsletter #world_w{
-    font-family: "RetroGaming";
-    color: #970921;
-}
-
-.sectionNewsletter #world_o{
-    font-family: "RetroGaming";
-    color: #1d20a5;
-}
-
-.sectionNewsletter #world_r{
-    font-family: "RetroGaming";
-    color: #3c8c13;
-}
-
-.sectionNewsletter #world_l{
-    font-family: "RetroGaming";
-    color: #e87002;
-}
-
-.sectionNewsletter #world_d{
-    font-family: "RetroGaming";
-    color: #0a4d82;
 }
 
 button{
