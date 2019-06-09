@@ -655,17 +655,40 @@ nav{
 }
 
 .partiediff{
-    background-color: #ECEBEB;
     padding-bottom: 10%;
     padding-top: 10%;
+}
+
+.couleurRouge{
+    background-color: #c71b1c;
+}
+
+.couleurVert{
+    background-color: #1d765a;
+}
+
+.couleurBleu{
+    background-color: #224191;
+}
+
+.couleurJaune{
+    background-color: #febc35;
 }
 
 .social-grid--cell-img > img{
     width: 100%;
 }
 
+.divimggrand{
+    margin-top: 90px;
+}
+
+.divimggrand2{
+    background-color: #ECEBEB;
+}
+
 #imageGrand{
-    
+    vertical-align: middle;
 }
 
 
