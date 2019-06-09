@@ -1,3 +1,33 @@
+function validateForm() {
+    document.getElementById('status').innerHTML = "Envoi en cours...";
+    formData = {
+        'name'     : $('input[name=name]').val(),
+        'email'    : $('input[name=email]').val(),
+        'subject'  : $('input[name=subject]').val(),
+        'message'  : $('textarea[name=message]').val()
+    };
+
+   $.ajax({
+    url : "mail.php",
+    type: "POST",
+    async : true,
+    data : formData,
+    success: function(data, textStatus, jqXHR)
+    {
+
+        $('#status').text(data.message);
+        if (data.code) //Si le mail à bien été envoyé
+        $('#contact-form').closest('form').find("input[type=text], textarea").val("");
+               
+    },
+    error: function (jqXHR, textStatus, errorThrown)
+    {
+        document.getElementById('status').innerHTML = "L'envoi du mail a échoué !";
+
+    }
+});
+
+}
 
 $(window).on('load',function() {
     $(".loader").fadeOut(2000);
