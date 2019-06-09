@@ -690,9 +690,20 @@ footer .socials ul li{
         display: none;
     }
 }
+.section-social-wall .links li {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    margin: 0 .5rem 1rem .5rem;
+}
 
-
-
+.section-social-wall .links {
+    list-style: none;
+    padding: 0;
+    padding-left:0px;
+    margin: 0;
+}
 
 
 
