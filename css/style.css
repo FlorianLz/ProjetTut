@@ -347,7 +347,12 @@ nav{
     }
 }
 
-
+.imagereservation{
+    background-image: url('../images/reservation.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    
+}
 
 
 
