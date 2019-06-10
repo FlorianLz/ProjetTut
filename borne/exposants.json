@@ -2,28 +2,28 @@
     "exposants" : [
         {
             "nom" : "Atari consoles",
-            "description" : "C'est une entreprise française de jeux vidéo qui est l'une des premières à arriver sur le marché en 1972. Le stand présente les différentes consoles et la bande d'arcade suivantes : l'Atari pong, l'Atari 2600, l'Atari 5200, l'atari Games, l'Atari Corporation, l'Atari WEGS et l'Atari Lynx.",
+            "description" : "Entreprise française de jeux vidéo qui est l'une des premières à être arrivée sur le marché en 1972. Le stand présente les différentes consoles et la bande d'arcade suivantes : l'Atari pong, l'Atari 2600, l'Atari 5200, l'atari Games, l'Atari Corporation, l'Atari WEGS et l'Atari Lynx.",
             "numero" : "24",
             "filtre" : "console",
             "id" : "24"
         },     
         {
             "nom" : "Atari vente",
-            "description" : "C'est une entreprise française de jeux vidéo qui est l'une des premières à arriver sur le marché en 1972. Elle propose à la vente certaines de ses consoles ainsi que des jeux vidéo.",
+            "description" : "Entreprise française de jeux vidéo qui est l'une des premières à être arrivée sur le marché en 1972. Elle propose à la vente certaines de ses consoles ainsi que des jeux vidéo.",
             "numero" : "25",
             "filtre" : "vente",
             "id" : "25"
         },
         {
             "nom" : "Bandai consoles",
-            "description" : "C'est une entreprise japonaise spécialisée notamment dans le développement de logiciels. Elle propose les consoles suivantes : la Bandai Super vision 8000, la Terebikko, la Apple Pippin, la Playdia, la Wonder Swan Color et la Swan Crystal.",
+            "description" : "Entreprise japonaise spécialisée notamment dans le développement de logiciels. Elle propose les consoles suivantes : la Bandai Super vision 8000, la Terebikko, la Apple Pippin, la Playdia, la Wonder Swan Color et la Swan Crystal.",
             "numero" : "3",
             "filtre" : "console",
             "id" : "3"
         },     
         {
             "nom" : "Bandai vente",
-            "description" : "C'est une entreprise japonaise spécialisée notamment dans le développement de logiciels met à la vente quelques unes de ses consoles ainsi que des jeux vidéo.",
+            "description" : "Entreprise japonaise spécialisée notamment dans le développement de logiciels met à la vente quelques unes de ses consoles ainsi que des jeux vidéo.",
             "numero" : "4",
             "filtre" : "vente",
             "id" : "4"
@@ -37,14 +37,14 @@
         },
          {
             "nom" : "Cash Converters",
-            "description" : "C'est un magasin d'achat et vente de produits d'occasion. Des produits de retro gaming rares (ou non) sont présentés.",
+            "description" : "Magasin d'achat et vente de produits d'occasion. Des produits de retro gaming rares (ou non) sont présentés.",
             "numero" : "27",
             "filtre" : "vente",
             "id" : "27"
         }, 
         {
             "nom" : "Coca-cola",
-            "description" : "C'est une marque américaine de soda. Elle propose une dégustation gratuite de sa dernière boisson ainsi que des jeux.",
+            "description" : "Marque américaine de soda. Elle propose une dégustation gratuite de sa dernière boisson ainsi que des diverses animations.",
             "numero" : "34",
             "filtre" : "partenaire",
             "id" : "34"
@@ -79,7 +79,7 @@
         },
         {
             "nom" : "Fanzine Mageek",
-            "description" : "C'est un site regroupant des magazines rédigés par des fans de différents univers dont le retro gaming.",
+            "description" : "Site regroupant des magazines rédigés par des fans de différents univers dont le retro gaming.",
             "numero" : "20",
             "filtre" : "vente",
             "id" : "11"
@@ -87,35 +87,35 @@
         
         {
             "nom" : "Fnac",
-            "description" : "C'est un magasin spécialisé dans la distribution de produits culturels et électroniques. Les produits jeux vidéo rétro y sont présentés.",
+            "description" : "Magasin spécialisé dans la distribution de produits culturels et électroniques. Les produits jeux vidéo rétro y sont présentés.",
             "numero" : "21",
             "filtre" : "vente",
             "id" : "21"
         },
         {
             "nom" : "Funko Pop",
-            "description" : "C'est une marque de figurines de différents univers comme les jeux vidéo, les série ou bien les films. Le stand présente différents personnages du monde du retro gaming.",
+            "description" : "Marque de figurines de différents univers comme les jeux vidéo, les série ou bien les films. Le stand présente différents personnages du monde du retro gaming.",
             "numero" : "8",
             "filtre" : "vente",
             "id" : "8"
         },  
         {
             "nom" : "Fun radio",
-            "description" : "C'est une radio du son dancefloor qui est partenaire de nombreuses événements de gaming afin de les promouvoir sur le territoire français à travers la radio.",
+            "description" : "Radio du son dancefloor qui est partenaire de nombreuses événements de gaming afin de les promouvoir sur le territoire français à travers la radio.",
             "numero" : "14",
             "filtre" : "partenaire",
             "id" : "14"
         },
         {
             "nom" : "France bleu Paris",
-            "description" : "Radio partenaire des grands événements se déroulant à Paris.",
+            "description" : "Radio régionale partenaire des grands événements se déroulant à Paris.",
             "numero" : "11",
             "filtre" : "partenaire",
             "id" : "11"
         },
         {
             "nom" : "Game one",
-            "description" : "C'est une chaîne de télévision française consacrées aux jeux vidéo. Elle présente principalement sur son stand la nouvelle émission de Marcus : Super Marcus World.",
+            "description" : "Chaîne de télévision française consacrées aux jeux vidéo. Elle présente principalement sur son stand la nouvelle émission de Marcus : Super Marcus World.",
             "numero" : "7",
             "filtre" : "partenaire",
             "id" : "7"
@@ -128,23 +128,23 @@
             "id" : "10"
         },
         {
-            "nom" : "Jeuxvidéo.com",
-            "description" : "C'est le premier site d'information sur l'actualité du jeu vidéo. Il présente sur son stand de nombreux jeux liés au retro gaming.",
+            "nom" : "Jeuxvideo.com",
+            "description" : "Premier site d'information sur l'actualité du jeu vidéo. Il présente sur son stand de nombreux jeux liés au retro gaming.",
             "numero" : "5",
             "filtre" : "partenaire",
             "id" : "5"
         },
         {
             "nom" : "J’imprime comme j’aime",
-            "description" : "C'est un site e-commerce spécialisé dans la vente de t-shirt avec imprimé  et personnalisable. ",
+            "description" : "Site e-commerce spécialisé dans la vente de t-shirt avec imprimé  et personnalisable. ",
             "numero" : "19",
             "filtre" : "vente",
             "id" : "19"
         },
         
         {
-            "nom" : "Journal du geek",
-            "description" : "C'est un site français regroupant l'actualité high-tech et culture Geek. Ce stand présente des différentes activités ludiques tels que des tests.",
+            "nom" : "Journal du Geek",
+            "description" : "Site français regroupant l'actualité high-tech et culture Geek. Ce stand présente des différentes activités ludiques tels que des tests.",
             "numero" : "26",
             "filtre" : "partenaire",
             "id" : "26"
@@ -161,14 +161,14 @@
         
         {
             "nom" : "Microsoft",
-            "description" : "C'est une entreprise qui développe des logiciels et a notamment fondé la marque Xbox. Elle présente son Xbox ainsi que ses jeux vidéo et en propose à la vente.",
+            "description" : "Entreprise qui développe des logiciels et a notamment fondé la marque Xbox. Elle présente son Xbox ainsi que ses jeux vidéo et en propose à la vente.",
             "numero" : "6",
             "filtre" : "console",
             "id" : "6"
         }, 
         {
             "nom" : "NEC",
-            "description" : "C'est un industriel japonais de l'informatique et de la télécommunication. Les consoles présentes sur le stand sont : le PC Engine, la TurboGrafx, la SuperGraf, la TurboDuo, le PC-FX et la CoreGraftX.",
+            "description" : "Industriel japonais de l'informatique et de la télécommunication. Les consoles présentes sur le stand sont : le PC Engine, la TurboGrafx, la SuperGraf, la TurboDuo, le PC-FX et la CoreGraftX.",
             "numero" : "28",
             "filtre" : "vente console",
             "id" : "28"
@@ -176,21 +176,21 @@
          
         {
             "nom" : "Nintendo consoles de salon",
-            "description" : "C'est une société japonaise de jeux vidéos qui présente ses anciennes consoles de salon suivantes : la Color TV Gam, la Famicom, la Super Famicom, la Nintendo 64, la GameCube, la Que Player et la Super Nintendo.",
+            "description" : "Société japonaise de jeux vidéos qui présente ses anciennes consoles de salon suivantes : la Color TV Gam, la Famicom, la Super Famicom, la Nintendo 64, la GameCube, la Que Player et la Super Nintendo.",
             "numero" : "17",
             "filtre" : "console",
             "id" : "17"
         },
         {
             "nom" : "Nintendo consoles portable",
-            "description" : "C'est une société japonaise de jeux vidéos qui présente ses anciennes consoles portables suivantes : la Game and Watch, la Virtual Boy, la Pokémon Pikachu et la Pokémon Mini. Les différentes Game Boy se trouvent sur le stand Console de l'année.",
+            "description" : "Société japonaise de jeux vidéos qui présente ses anciennes consoles portables suivantes : la Game and Watch, la Virtual Boy, la Pokémon Pikachu et la Pokémon Mini. Les différentes Game Boy se trouvent sur le stand Console de l'année.",
             "numero" : "16",
             "filtre" : "console",
             "id" : "16"
         },     
         {
             "nom" : "Nintendo vente",
-            "description" : "C'est une société japonaise de jeux vidéos qui vend certaines de ses consoles cultes ainsi que de nombreux jeux vidéo.",
+            "description" : "Société japonaise de jeux vidéos qui vend certaines de ses consoles cultes ainsi que de nombreux jeux vidéo.",
             "numero" : "15",
             "filtre" : "vente",
             "id" : "15"
@@ -218,28 +218,28 @@
         },
         {
             "nom" : "Scène principale",
-            "description" : "C'est la scène où se déroule les conférences ainsi que certains tournois et concours. Retrouvez le programme sur le site ou dans l'onglet 'actu' sur cette borne.",
+            "description" : "Scène où se déroule les conférences ainsi que certains tournois et concours. Retrouvez le programme sur le site ou dans l'onglet 'actu' sur cette borne.",
             "numero" : "1",
             "filtre" : "services",
             "id" : "1"
         },
         {
             "nom" : "Scène secondaire",
-            "description" : "C'est la scène où se déroule tous les speed run. Retrouvez le programme sur le site ou dans l'onglet 'actus' sur cette borne.",
+            "description" : "Scène où se déroule tous les speed run. Retrouvez le programme sur le site ou dans l'onglet 'actus' sur cette borne.",
             "numero" : "35",
             "filtre" : "services",
             "id" : "35"
         },
         {
             "nom" : "Sega console",
-            "description" : "C'est une société japonaise de dévloppement et d'édition de jeux vidéo ainsi que fabriquant de bornes et de systèmes d'arcade. Son stand propose la Sega Astro City, la Sega New net city, la Sega SG-1000, la Master System, la Mega Drive, la Game Gear, la Sega Pico, la Dreamcast, la Sega Mega jet, et la Sega Nomad.",
+            "description" : "Société japonaise de développement et d'édition de jeux vidéo ainsi que fabriquant de bornes et de systèmes d'arcade. Son stand propose la Sega Astro City, la Sega New net city, la Sega SG-1000, la Master System, la Mega Drive, la Game Gear, la Sega Pico, la Dreamcast, la Sega Mega jet, et la Sega Nomad.",
             "numero" : "22",
             "filtre" : "console",
             "id" : "22"
         },
         {
             "nom" : "Sega vente",
-            "description" : "C'est une société japonaise de dévloppement et d'édition de jeux vidéo ainsi que fabriquant de bornes et de systèmes d'arcade. Elle propose à la vente certaines de ses consoles et jeux vidéo.",
+            "description" : "Société japonaise de dévloppement et d'édition de jeux vidéo ainsi que fabriquant de bornes et de systèmes d'arcade. Elle propose à la vente certaines de ses consoles et jeux vidéo.",
             "numero" : "23",
             "filtre" : "vente",
             "id" : "23"
@@ -247,14 +247,14 @@
         
         {
             "nom" : "Sony consoles",
-            "description" : "C'est une société japonaise active dans les domaines du jeux vidéo, de l'informatique, de l'électronique, de la musique, du cinéma et de l'audiovisuel. Sony est le fondateur de la marque Playstation. Son stand présente ses différentes consoles suivantes : la PlayStation, la PlayStation 2 et la Pocket Station.",
+            "description" : "Société japonaise active dans les domaines du jeux vidéo, de l'informatique, de l'électronique, de la musique, du cinéma et de l'audiovisuel. Sony est le fondateur de la marque Playstation. Son stand présente ses différentes consoles suivantes : la PlayStation, la PlayStation 2 et la Pocket Station.",
             "numero" : "32",
             "filtre" : "console",
             "id" : "33"
         },     
         {
             "nom" : "Sony vente",
-            "description" : "C'est une société japonaise active dans les domaines du jeux vidéo, de l'informatique, de l'électronique, de la musique, du cinéma et de l'audiovisuel. Son stand propose à la vente certaines de ses consoles ainsi que des jeux vidéo.",
+            "description" : "Société japonaise active dans les domaines du jeux vidéo, de l'informatique, de l'électronique, de la musique, du cinéma et de l'audiovisuel. Son stand propose à la vente certaines de ses consoles ainsi que des jeux vidéo.",
             "numero" : "33",
             "filtre" : "vente",
             "id" : "32"
