@@ -426,7 +426,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                             <a id="bouton-4" class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab" onclick="filtrage(this.id);">Services</a>
                             <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="filtrage(this.id);">Partenaires</a>
                         </div>
-                
+                <div id="parentcarte">
                 <div class="carte" id="accordion">
                     <?php 
                         if(!isset($_POST['texte']) || $_POST['texte']=='' ){
@@ -458,11 +458,11 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                  $titre=strtolower($exposants['exposants'][$i]['nom']);
                                  $description=strtolower($exposants['exposants'][$i]['description']);
                                  if(strlen(strpos($titre,$motrecherche))>0 || strlen(strpos($description,$motrecherche)) ){
-                                     echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
+                                     echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
                                      echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
                                      echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria- controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                      echo '</div>';
-                                     echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
+                                     echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'"  data-parent="#accordion">';
                                      echo '<div class="card-body">'. $exposants['exposants'][$i]['description'] . '</p>';
                                      echo '</div>';
                                      echo '</div>';
@@ -480,6 +480,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     
                     
                     ?>
+                </div>
                 </div>
             </div>
         
