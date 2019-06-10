@@ -185,3 +185,6 @@ overflow:auto;
     height:100%;
     color:#febc35;
 }
+.btnliste:hover{
+    color:white;
+}
