@@ -636,7 +636,7 @@ nav{
 
 #Sectionreseauxsociaux h1{
     font-family: "RobotoDescription";
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 12px;
 }
 
@@ -784,8 +784,8 @@ footer .socials ul li{
 .descrip > p{
     text-align: center;
     padding-top: 20px;
-    font-family: "RetroGaming";
-    font-size: 30px;
+    font-family: "RobotoDescription";
+    font-size: 35px;
 }
 
 .descrip > p > p{
@@ -802,7 +802,8 @@ footer .socials ul li{
 }
 
 .p-3 > h3{
-    font-family: "RetroGaming";
+    font-family: "RobotoDescription";
+    font-size: 35px;
     color: white;
 }
 
