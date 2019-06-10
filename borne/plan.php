@@ -21,7 +21,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
   </head>
     
   <body>
@@ -48,7 +48,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     <image id="image-3" width="50" height="50" xlink:href="image/icons8-flèche-haut-50.png"/>
                     <image id="image-4" width="50" height="50" xlink:href="image/icons8-montée-d&apos;escaliers-50.png"/>
                     <image id="image-5" width="50" height="50" xlink:href="image/icons8-nourriture-filled-50.png"/>
-                    <image id="image-6" width="542" height="571" xlink:href="image/pacman2.png"/>
+                    <image id="image-6" width="970" height="1000" xlink:href="image/pacman2.png"/>
                     <image id="image-7" width="240" height="240" xlink:href="image/fantomes_pacman.png"/>
                 </defs>
                 <rect id="Fond" class="cls-1" x="-2.5" y="-0.5" width="598" height="849"/>
@@ -83,10 +83,10 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     <rect id="23" data-name="23" class="cls-3" x="515.5" y="445.5" width="42" height="92" rx="12" ry="12" onclick="animation(this.id);"/>
                     <rect id="24" data-name="24" class="cls-3" x="37.5" y="343.5" width="91" height="65" rx="12" ry="12" onclick="animation(this.id);"/>
                     <rect id="25" data-name="25" class="cls-3" x="136.5" y="343.5" width="36" height="65" rx="12" ry="12" onclick="animation(this.id);"/>
-                    <rect id="100" class="cls-3" x="179.5" y="343.5" width="63" height="65" rx="12" ry="12" onclick="animation(this.id);"/>
+                    <rect id="100" data-name="100" class="cls-3" x="179.5" y="343.5" width="63" height="65" rx="12" ry="12" onclick="animation(this.id);"/>
                     <rect id="27" data-name="27" class="cls-3" x="285.5" y="370.5" width="102" height="37" rx="12" ry="12" onclick="animation(this.id);"/>
                     <rect id="26" data-name="26" class="cls-3" x="285.5" y="343.5" width="102" height="20" rx="10" ry="10" onclick="animation(this.id);"/>
-                    <rect id="101" class="cls-3" x="429.5" y="343.5" width="63" height="64" rx="12" ry="12" onclick="animation(this.id);"/>
+                    <rect id="101" dataname="101" class="cls-3" x="429.5" y="343.5" width="63" height="64" rx="12" ry="12" onclick="animation(this.id);"/>
                     <rect id="28" data-name="28" class="cls-3" x="502.5" y="343.5" width="55" height="64" rx="12" ry="12" onclick="animation(this.id);"/>
                     <path id="29" data-name="29" class="cls-3" d="M230.5,132.5h-39a12,12,0,0,0-12,12v13h-60a12,12,0,0,0-12,12v41a12,12,0,0,0,12,12h70c.34,0,.67,0,1-.05s.66.05,1,.05h39a12,12,0,0,0,12-12v-66A12,12,0,0,0,230.5,132.5Z" onclick="animation(this.id);"/>
                     <rect id="30" data-name="30" class="cls-3" x="36.5" y="237.5" width="206" height="69" rx="12" ry="12" onclick="animation(this.id);"/>
@@ -118,284 +118,286 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     <use id="Logo_Restauration-2" data-name="Logo_Restauration" transform="translate(466 382) scale(0.36)" xlink:href="#image-5"/>
                 </g>
                 <g id="Effet_clique">
+                    <animate xlink:href="#image-6" attributeName="x" from="250" to="1110" begin="0s" dur="1.2s" repeatCount="indefinite"></animate>                    
                     <g id="Stand_1">
-                        <g id="Anim_stand_1-1"><circle class="cls-6" cx="220" cy="621" r="2"/></g>
-                        <g id="Anim_stand_1-2" data-name="Rond_31"><circle class="cls-6" cx="212" cy="621" r="2"/></g>
-                        <g id="Anim_stand_1-3" data-name="Rond_31"><circle class="cls-6" cx="204" cy="621" r="2"/></g>
-                        <use id="Anim_stand_1-4" transform="matrix(-0.03, 0, 0, 0.03, 239, 613)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_1-1"><circle class="cls-6" cx="220" cy="621" r="3"/></g>
+                        <g id="Anim_stand_1-2" data-name="Rond_31"><circle class="cls-6" cx="212" cy="621" r="3"/> </g>
+                        <g id="Anim_stand_1-3" data-name="Rond_31"><circle class="cls-6" cx="204" cy="621" r="3"/></g>
+                        <use id="Anim_stand_1-4" transform="matrix(-0.03, 0, 0, 0.03, 255, 607)" xlink:href="#image-6" transform="translate(50)"/>
                         <use id="Anim_stand_1-5" data-name="Anim_stand_1" transform="translate(99 595) scale(0.21)" xlink:href="#image-7"/>
+                        
                     </g>
                     <g id="Stand_2">
-                        <g id="Anim_stand_2-1" data-name="Rond_31"><circle class="cls-6" cx="252" cy="703" r="2"/></g>
-                        <g id="Anim_stand_2-2" data-name="Rond_31"><circle class="cls-6" cx="244" cy="703" r="2"/></g>
-                        <g id="Anim_stand_2-3" data-name="Rond_31"><circle class="cls-6" cx="236" cy="703" r="2"/></g>
-                        <use id="Anim_stand_2-4" transform="matrix(-0.03, 0, 0, 0.03, 271, 695)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_2-1" data-name="Rond_31"><circle class="cls-6" cx="252" cy="703" r="3"/></g>
+                        <g id="Anim_stand_2-2" data-name="Rond_31"><circle class="cls-6" cx="244" cy="703" r="3"/></g>
+                        <g id="Anim_stand_2-3" data-name="Rond_31"><circle class="cls-6" cx="236" cy="703" r="3"/></g>
+                        <use id="Anim_stand_2-4" transform="matrix(-0.03, 0, 0, 0.03, 290, 688)" xlink:href="#image-6"/>
                         <use id="Anim_stand_2-5" transform="translate(196 689) scale(0.13)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_3">
-                        <g id="Anim_stand_3-1"><circle class="cls-6" cx="293" cy="595" r="2"/></g>
-                        <g id="Anim_stand_3-2" data-name="Rond_5"><circle class="cls-6" cx="285" cy="595" r="2"/></g>
-                        <g id="Anim_stand_3-3" data-name="Rond_5"><circle class="cls-6" cx="277" cy="595" r="2"/></g>
-                        <use id="Anim_stand_3-4" transform="translate(258 587) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_3-1"><circle class="cls-6" cx="293" cy="595" r="3"/></g>
+                        <g id="Anim_stand_3-2" data-name="Rond_5"><circle class="cls-6" cx="285" cy="595" r="3"/></g>
+                        <g id="Anim_stand_3-3" data-name="Rond_5"><circle class="cls-6" cx="277" cy="595" r="3"/></g>
+                        <use id="Anim_stand_3-4" transform="translate(240 580) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_3-5" transform="translate(303 582) scale(0.11)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_4">
                         <use id="Anim_stand_4-1" transform="translate(353 583) scale(0.1)" xlink:href="#image-7"/>
-                        <g id="Anim_stand_4-2"><circle class="cls-6" cx="395" cy="594" r="2"/></g>
-                        <g id="Anim_stand_4-3" data-name="Rond_6"><circle class="cls-6" cx="387" cy="594" r="2"/></g>
-                        <g id="Anim_stand_4-4" data-name="Rond_6"><circle class="cls-6" cx="379" cy="594" r="2"/></g>
-                        <use id="Anim_stand_4-5" transform="matrix(-0.03, 0, 0, 0.03, 414, 586)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_4-2"><circle class="cls-6" cx="395" cy="594" r="3"/></g>
+                        <g id="Anim_stand_4-3" data-name="Rond_6"><circle class="cls-6" cx="387" cy="594" r="3"/></g>
+                        <g id="Anim_stand_4-4" data-name="Rond_6"><circle class="cls-6" cx="379" cy="594" r="3"/></g>
+                        <use id="Anim_stand_4-5" transform="matrix(-0.03, 0, 0, 0.03, 430, 579)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_5">
-                        <g id="Anim_stand_5-1"><circle class="cls-6" cx="293" cy="652" r="2"/></g>
-                        <g id="Anim_stand_5-2" data-name="Rond_35"><circle class="cls-6" cx="285" cy="652" r="2"/></g>
-                        <g id="Anim_stand_5-3" data-name="Rond_35"><circle class="cls-6" cx="277" cy="652" r="2"/></g>
-                        <use id="Anim_stand_5-4" transform="translate(258 644) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_5-1"><circle class="cls-6" cx="293" cy="652" r="3"/></g>
+                        <g id="Anim_stand_5-2" data-name="Rond_35"><circle class="cls-6" cx="285" cy="652" r="3"/></g>
+                        <g id="Anim_stand_5-3" data-name="Rond_35"><circle class="cls-6" cx="277" cy="652" r="3"/></g>
+                        <use id="Anim_stand_5-4" transform="translate(240 638) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_5-5" transform="translate(301 637) scale(0.13)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_6">
                         <use id="Anim_stand_6-1" transform="translate(354 638) scale(0.1)" xlink:href="#image-7"/>
-                        <g id="Anim_stand_6-2" data-name="Rond_31"><circle class="cls-6" cx="395" cy="652" r="2"/></g>
-                        <g id="Anim_stand_6-3" data-name="Rond_31"><circle class="cls-6" cx="387" cy="652" r="2"/></g>
-                        <g id="Anim_stand_6-4" data-name="Rond_31"><circle class="cls-6" cx="379" cy="652" r="2"/></g>
-                        <use id="Anim_stand_6-5" transform="matrix(-0.03, 0, 0, 0.03, 414, 644)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_6-2" data-name="Rond_31"><circle class="cls-6" cx="395" cy="652" r="3"/></g>
+                        <g id="Anim_stand_6-3" data-name="Rond_31"><circle class="cls-6" cx="387" cy="652" r="3"/></g>
+                        <g id="Anim_stand_6-4" data-name="Rond_31"><circle class="cls-6" cx="379" cy="652" r="3"/></g>
+                        <use id="Anim_stand_6-5" transform="matrix(-0.03, 0, 0, 0.03, 432, 637)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_7">
                         <use id="Anim_stand_7-1" transform="translate(321 697) scale(0.13)" xlink:href="#image-7"/>
-                        <g id="Anim_stand_7-2"><circle class="cls-6" cx="395" cy="712" r="2"/></g>
-                        <g id="Anim_stand_7-3" data-name="Rond_7"><circle class="cls-6" cx="387" cy="712" r="2"/></g>
-                        <g id="Anim_stand_7-4" data-name="Rond_7"><circle class="cls-6" cx="379" cy="712" r="2"/></g>
-                        <use id="Anim_stand_7-5" transform="matrix(-0.03, 0, 0, 0.03, 414, 704)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_7-2"><circle class="cls-6" cx="395" cy="712" r="3"/></g>
+                        <g id="Anim_stand_7-3" data-name="Rond_7"><circle class="cls-6" cx="387" cy="712" r="3"/></g>
+                        <g id="Anim_stand_7-4" data-name="Rond_7"><circle class="cls-6" cx="379" cy="712" r="3"/></g>
+                        <use id="Anim_stand_7-5" transform="matrix(-0.03, 0, 0, 0.03, 433, 697)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_8">
-                        <g id="Anim_stand_8-1"><circle class="cls-6" cx="438" cy="587" r="2"/></g>
-                        <g id="Anim_stand_8-2" data-name="Rond_3"><circle class="cls-6" cx="430" cy="587" r="2"/></g>
-                        <g id="Anim_stand_8-3" data-name="Rond_3"><circle class="cls-6" cx="422" cy="587" r="2"/></g>
-                        <use id="Anim_stand_8-4" transform="translate(403 580) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_8-1"><circle class="cls-6" cx="438" cy="587" r="3"/></g>
+                        <g id="Anim_stand_8-2" data-name="Rond_3"><circle class="cls-6" cx="430" cy="587" r="3"/></g>
+                        <g id="Anim_stand_8-3" data-name="Rond_3"><circle class="cls-6" cx="422" cy="587" r="3"/></g>
+                        <use id="Anim_stand_8-4" transform="translate(386 572) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_8-5" transform="translate(447 578) scale(0.07)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_8" data-name="Stand_8">
                         <use id="Anim_stand_8-6" data-name="Fantomes_8" transform="translate(513 578) scale(0.08)" xlink:href="#image-7"/>
-                        <g id="Anim_stand_8-7" data-name="Rond_7"><circle class="cls-6" cx="566" cy="587" r="2"/></g>
-                        <g id="Anim_stand_8-8" data-name="Rond_7"><circle class="cls-6" cx="558" cy="587" r="2"/></g>
-                        <g id="Anim_stand_8-9" data-name="Rond_7"><circle class="cls-6" cx="550" cy="587" r="2"/></g>
-                        <use id="Anim_stand_8-10" data-name="Pacman_8" transform="matrix(-0.03, 0, 0, 0.03, 585, 579)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_8-7" data-name="Rond_7"><circle class="cls-6" cx="566" cy="587" r="3"/></g>
+                        <g id="Anim_stand_8-8" data-name="Rond_7"><circle class="cls-6" cx="558" cy="587" r="3"/></g>
+                        <g id="Anim_stand_8-9" data-name="Rond_7"><circle class="cls-6" cx="550" cy="587" r="3"/></g>
+                        <use id="Anim_stand_8-10" data-name="Pacman_8" transform="matrix(-0.03, 0, 0, 0.03, 602, 572)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_9">
-                        <g id="Anim_stand_9-1"><circle class="cls-6" cx="438" cy="642" r="2"/></g>
-                        <g id="Anim_stand_9-2" data-name="Rond_8"><circle class="cls-6" cx="430" cy="642" r="2"/></g>
-                        <g id="Anim_stand_9-3" data-name="Rond_8"><circle class="cls-6" cx="422" cy="642" r="2"/></g>
-                        <use id="Anim_stand_9-4" transform="translate(403 634) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_9-1"><circle class="cls-6" cx="438" cy="642" r="3"/></g>
+                        <g id="Anim_stand_9-2" data-name="Rond_8"><circle class="cls-6" cx="430" cy="642" r="3"/></g>
+                        <g id="Anim_stand_9-3" data-name="Rond_8"><circle class="cls-6" cx="422" cy="642" r="3"/></g>
+                        <use id="Anim_stand_9-4" transform="translate(385 627) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_9-5" transform="translate(442 630) scale(0.1)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_10">
-                        <g id="Anim_stand_10-1" data-name="Rond_8"><circle class="cls-6" cx="566" cy="642" r="2"/></g>
-                        <g id="Anim_stand_10-2" data-name="Rond_8"><circle class="cls-6" cx="558" cy="642" r="2"/></g>
-                        <g id="Anim_stand_10-3" data-name="Rond_8"><circle class="cls-6" cx="550" cy="642" r="2"/></g>
-                        <use id="Anim_stand_10-4" transform="matrix(-0.03, 0, 0, 0.03, 585, 634)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_10-1" data-name="Rond_8"><circle class="cls-6" cx="566" cy="642" r="3"/></g>
+                        <g id="Anim_stand_10-2" data-name="Rond_8"><circle class="cls-6" cx="558" cy="642" r="3"/></g>
+                        <g id="Anim_stand_10-3" data-name="Rond_8"><circle class="cls-6" cx="550" cy="642" r="3"/></g>
+                        <use id="Anim_stand_10-4" transform="matrix(-0.03, 0, 0, 0.03, 605, 627)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_11">
-                        <g id="Anim_stand_11-1"><circle class="cls-6" cx="438" cy="699" r="2"/></g>
-                        <g id="Anim_stand_11-2" data-name="Rond_9"><circle class="cls-6" cx="430" cy="699" r="2"/></g>
-                        <g id="Anim_stand_11-3" data-name="Rond_9"><circle class="cls-6" cx="422" cy="699" r="2"/></g>
-                        <use id="Anim_stand_11-4" transform="translate(403 691) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_11-1"><circle class="cls-6" cx="438" cy="699" r="3"/></g>
+                        <g id="Anim_stand_11-2" data-name="Rond_9"><circle class="cls-6" cx="430" cy="699" r="3"/></g>
+                        <g id="Anim_stand_11-3" data-name="Rond_9"><circle class="cls-6" cx="422" cy="699" r="3"/></g>
+                        <use id="Anim_stand_11-4" transform="translate(386 685) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_11-5" transform="translate(447 691) scale(0.07)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_12">
-                        <g id="Anim_stand_12-1"><circle class="cls-6" cx="503.9" cy="744.87" r="2"/></g>
-                        <g id="Anim_stand_12-2" data-name="Rond_10"><circle class="cls-6" cx="503.75" cy="736.87" r="2"/></g>
-                        <g id="Anim_stand_12-3" data-name="Rond_10"><circle class="cls-6" cx="503.6" cy="728.87" r="2"/></g>
-                        <use id="Anim_stand_12-4" transform="matrix(0, -0.03, -0.03, 0, 512.19, 763.73)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_12-1"><circle class="cls-6" cx="503.9" cy="744.87" r="3"/></g>
+                        <g id="Anim_stand_12-2" data-name="Rond_10"><circle class="cls-6" cx="503.75" cy="736.87" r="3"/></g>
+                        <g id="Anim_stand_12-3" data-name="Rond_10"><circle class="cls-6" cx="503.6" cy="728.87" r="3"/></g>
+                        <use id="Anim_stand_12-4" transform="matrix(0, -0.03, -0.03, 0, 518, 780)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_13">
                         <use id="Anim_stand_13-1" transform="translate(528 701) scale(0.07)" xlink:href="#image-7"/>
-                        <g id="Anim_stand_13-2" data-name="Rond_8"><circle class="cls-6" cx="566" cy="709" r="2"/></g>
-                        <g id="Anim_stand_13-3" data-name="Rond_8"><circle class="cls-6" cx="558" cy="709" r="2"/></g>
-                        <g id="Anim_stand_13-4" data-name="Rond_8"><circle class="cls-6" cx="550" cy="709" r="2"/></g>
-                        <use id="Anim_stand_13-5" transform="matrix(-0.03, 0, 0, 0.03, 585, 701)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_13-2" data-name="Rond_8"><circle class="cls-6" cx="566" cy="709" r="3"/></g>
+                        <g id="Anim_stand_13-3" data-name="Rond_8"><circle class="cls-6" cx="558" cy="709" r="3"/></g>
+                        <g id="Anim_stand_13-4" data-name="Rond_8"><circle class="cls-6" cx="550" cy="709" r="3"/></g>
+                        <use id="Anim_stand_13-5" transform="matrix(-0.03, 0, 0, 0.03, 605, 694)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_14">
-                        <g id="Anim_stand_14-1"><circle class="cls-6" cx="438" cy="726" r="2"/></g>
-                        <g id="Anim_stand_14-2" data-name="Rond_11"><circle class="cls-6" cx="430" cy="726" r="2"/></g>
-                        <g id="Anim_stand_14-3" data-name="Rond_11"><circle class="cls-6" cx="422" cy="726" r="2"/></g>
-                        <use id="Anim_stand_14-4" transform="translate(403 718) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_14-1"><circle class="cls-6" cx="438" cy="726" r="3"/></g>
+                        <g id="Anim_stand_14-2" data-name="Rond_11"><circle class="cls-6" cx="430" cy="726" r="3"/></g>
+                        <g id="Anim_stand_14-3" data-name="Rond_11"><circle class="cls-6" cx="422" cy="726" r="3"/></g>
+                        <use id="Anim_stand_14-4" transform="translate(386 712) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_14-5" transform="translate(447 718) scale(0.07)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_15">
-                        <g id="Anim_stand_15-1" data-name="Rond_5"><circle class="cls-6" cx="45" cy="491" r="2"/></g>
-                        <g id="Anim_stand_15-2" data-name="Rond_5"><circle class="cls-6" cx="37" cy="491" r="2"/></g>
-                        <g id="Anim_stand_15-3" data-name="Rond_5"><circle class="cls-6" cx="29" cy="491" r="2"/></g>
-                        <use id="Anim_stand_15-4" transform="translate(10 483) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_15-1" data-name="Rond_5"><circle class="cls-6" cx="45" cy="491" r="3"/></g>
+                        <g id="Anim_stand_15-2" data-name="Rond_5"><circle class="cls-6" cx="37" cy="491" r="3"/></g>
+                        <g id="Anim_stand_15-3" data-name="Rond_5"><circle class="cls-6" cx="29" cy="491" r="3"/></g>
+                        <use id="Anim_stand_15-4" transform="translate(-8 476) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_15-5" transform="translate(50 479) scale(0.11)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_16">
-                        <g id="Anim_stand_16-1"><circle class="cls-6" cx="123.9" cy="545.87" r="2"/></g>
-                        <g id="Anim_stand_16-2" data-name="Rond_12"><circle class="cls-6" cx="123.75" cy="537.87" r="2"/></g>
-                        <g id="Anim_stand_16-3" data-name="Rond_12"><circle class="cls-6" cx="123.6" cy="529.87" r="2"/></g>
-                        <use id="Anim_stand_16-4" transform="matrix(0, -0.03, -0.03, 0, 131.19, 564.73)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_16-1"><circle class="cls-6" cx="123.9" cy="545.87" r="3"/></g>
+                        <g id="Anim_stand_16-2" data-name="Rond_12"><circle class="cls-6" cx="123.75" cy="537.87" r="3"/></g>
+                        <g id="Anim_stand_16-3" data-name="Rond_12"><circle class="cls-6" cx="123.6" cy="529.87" r="3"/></g>
+                        <use id="Anim_stand_16-4" transform="matrix(0, -0.03, -0.03, 0, 138, 582)" xlink:href="#image-6"/>
                         <use id="Anim_stand_16-5" transform="translate(109 474) scale(0.14)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_17">
-                        <g id="Anim_stand_17-1"><circle class="cls-6" cx="205.9" cy="545.87" r="2"/></g>
-                        <g id="Anim_stand_17-2" data-name="Rond_16"><circle class="cls-6" cx="205.75" cy="537.87" r="2"/></g>
-                        <g id="Anim_stand_17-3" data-name="Rond_16"><circle class="cls-6" cx="205.6" cy="529.87" r="2"/></g>
-                        <use id="Anim_stand_17-4" transform="matrix(0, -0.03, -0.03, 0, 213.19, 564.73)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_17-1"><circle class="cls-6" cx="205.9" cy="545.87" r="3"/></g>
+                        <g id="Anim_stand_17-2" data-name="Rond_16"><circle class="cls-6" cx="205.75" cy="537.87" r="3"/></g>
+                        <g id="Anim_stand_17-3" data-name="Rond_16"><circle class="cls-6" cx="205.6" cy="529.87" r="3"/></g>
+                        <use id="Anim_stand_17-4" transform="matrix(0, -0.03, -0.03, 0, 220, 582)" xlink:href="#image-6"/>
                         <use id="Anim_stand_17-5" transform="translate(191 474) scale(0.14)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_18">
-                        <g id="Anim_stand_18-1"><circle class="cls-6" cx="380" cy="453" r="2"/></g>
-                        <g id="Anim_stand_18-2" data-name="Rond_18"><circle class="cls-6" cx="388" cy="453" r="2"/></g>
-                        <g id="Anim_stand_18-3" data-name="Rond_18"><circle class="cls-6" cx="396" cy="453" r="2"/></g>
-                        <use id="Anim_stand_18-4" transform="matrix(-0.03, 0, 0, 0.03, 415, 445)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_18-1"><circle class="cls-6" cx="380" cy="453" r="3"/></g>
+                        <g id="Anim_stand_18-2" data-name="Rond_18"><circle class="cls-6" cx="388" cy="453" r="3"/></g>
+                        <g id="Anim_stand_18-3" data-name="Rond_18"><circle class="cls-6" cx="396" cy="453" r="3"/></g>
+                        <use id="Anim_stand_18-4" transform="matrix(-0.03, 0, 0, 0.03, 435, 438)" xlink:href="#image-6"/>
                         <use id="Anim_stand_18-5" transform="translate(329 446) scale(0.06)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_19">
-                        <g id="Anim_stand_19-1" data-name="Rond_5"><circle class="cls-6" cx="293" cy="491" r="2"/></g>
-                        <g id="Anim_stand_19-2" data-name="Rond_5"><circle class="cls-6" cx="285" cy="491" r="2"/></g>
-                        <g id="Anim_stand_19-3" data-name="Rond_5"><circle class="cls-6" cx="277" cy="491" r="2"/></g>
-                        <use id="Anim_stand_19-4" transform="translate(258 484) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_19-1" data-name="Rond_5"><circle class="cls-6" cx="293" cy="491" r="3"/></g>
+                        <g id="Anim_stand_19-2" data-name="Rond_5"><circle class="cls-6" cx="285" cy="491" r="3"/></g>
+                        <g id="Anim_stand_19-3" data-name="Rond_5"><circle class="cls-6" cx="277" cy="491" r="3"/></g>
+                        <use id="Anim_stand_19-4" transform="translate(238 476) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_19-5" transform="translate(299 478) scale(0.11)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_20">
-                        <g id="Anim_stand_20-1"><circle class="cls-6" cx="379" cy="491" r="2"/></g>
-                        <g id="Anim_stand_20-2" data-name="Rond_19"><circle class="cls-6" cx="387" cy="491" r="2"/></g>
-                        <g id="Anim_stand_20-3" data-name="Rond_19"><circle class="cls-6" cx="395" cy="491" r="2"/>
-                        </g><use id="Anim_stand_20-4" data-name="Pacman_19" transform="matrix(-0.03, 0, 0, 0.03, 414, 483)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_20-1"><circle class="cls-6" cx="379" cy="491" r="3"/></g>
+                        <g id="Anim_stand_20-2" data-name="Rond_19"><circle class="cls-6" cx="387" cy="491" r="3"/></g>
+                        <g id="Anim_stand_20-3" data-name="Rond_19"><circle class="cls-6" cx="395" cy="491" r="3"/>
+                        </g><use id="Anim_stand_20-4" data-name="Pacman_19" transform="matrix(-0.03, 0, 0, 0.03, 434, 476)" xlink:href="#image-6"/>
                         <use id="Anim_stand_20-5" data-name="Fantomes_19" transform="matrix(-0.11, 0, 0, 0.11, 373, 478)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_21">
-                        <g id="Anim_stand_21-1" data-name="Rond_18"><circle class="cls-6" cx="294" cy="530" r="2"/></g>
-                        <g id="Anim_stand_21-2" data-name="Rond_18"><circle class="cls-6" cx="286" cy="530" r="2"/></g>
-                        <g id="Anim_stand_21-3" data-name="Rond_18"><circle class="cls-6" cx="278" cy="530" r="2"/></g>
-                        <use id="Anim_stand_21-4" transform="translate(259 522) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_21-1" data-name="Rond_18"><circle class="cls-6" cx="294" cy="530" r="3"/></g>
+                        <g id="Anim_stand_21-2" data-name="Rond_18"><circle class="cls-6" cx="286" cy="530" r="3"/></g>
+                        <g id="Anim_stand_21-3" data-name="Rond_18"><circle class="cls-6" cx="278" cy="530" r="3"/></g>
+                        <use id="Anim_stand_21-4" transform="translate(239 516) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_21-5" transform="translate(329 523) scale(0.06)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_22">
-                        <g id="Anim_stand_22-1" data-name="Rond_5"><circle class="cls-6" cx="439" cy="491" r="2"/></g>
-                        <g id="Anim_stand_22-2" data-name="Rond_5"><circle class="cls-6" cx="431" cy="491" r="2"/></g>
-                        <g id="Anim_stand_22-3" data-name="Rond_5"><circle class="cls-6" cx="423" cy="491" r="2"/></g>
-                        <use id="Anim_stand_22-4" transform="translate(404 483) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_22-1" data-name="Rond_5"><circle class="cls-6" cx="439" cy="491" r="3"/></g>
+                        <g id="Anim_stand_22-2" data-name="Rond_5"><circle class="cls-6" cx="431" cy="491" r="3"/></g>
+                        <g id="Anim_stand_22-3" data-name="Rond_5"><circle class="cls-6" cx="423" cy="491" r="3"/></g>
+                        <use id="Anim_stand_22-4" transform="translate(387 476) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_22-5" transform="translate(450 472) scale(0.16)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_23">
                         <use id="Anim_stand_23-1" transform="translate(519 473) scale(0.13)" xlink:href="#image-7"/>
-                        <g id="Anim_stand_23-2"><circle class="cls-6" cx="566" cy="491" r="2"/></g>
-                        <g id="Anim_stand_23-3" data-name="Rond_13"><circle class="cls-6" cx="558" cy="491" r="2"/></g>
-                        <g id="Anim_stand_23-4" data-name="Rond_13"><circle class="cls-6" cx="550" cy="491" r="2"/></g>
-                        <use id="Anim_stand_23-5" transform="matrix(-0.03, 0, 0, 0.03, 585, 483)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_23-2"><circle class="cls-6" cx="566" cy="491" r="3"/></g>
+                        <g id="Anim_stand_23-3" data-name="Rond_13"><circle class="cls-6" cx="558" cy="491" r="3"/></g>
+                        <g id="Anim_stand_23-4" data-name="Rond_13"><circle class="cls-6" cx="550" cy="491" r="3"/></g>
+                        <use id="Anim_stand_23-5" transform="matrix(-0.03, 0, 0, 0.03, 602, 476)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_24">
-                        <g id="Anim_stand_24-1"><circle class="cls-6" cx="45" cy="376" r="2"/></g>
-                        <g id="Anim_stand_24-2" data-name="Rond_15"><circle class="cls-6" cx="37" cy="376" r="2"/></g>
-                        <g id="Anim_stand_24-3" data-name="Rond_15"><circle class="cls-6" cx="29" cy="376" r="2"/></g>
-                        <use id="Anim_stand_24-4" transform="translate(10 368) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_24-1"><circle class="cls-6" cx="45" cy="376" r="3"/></g>
+                        <g id="Anim_stand_24-2" data-name="Rond_15"><circle class="cls-6" cx="37" cy="376" r="3"/></g>
+                        <g id="Anim_stand_24-3" data-name="Rond_15"><circle class="cls-6" cx="29" cy="376" r="3"/></g>
+                        <use id="Anim_stand_24-4" transform="translate(-8 361) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_24-5" transform="translate(67 359) scale(0.14)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_25">
-                        <g id="Anim_stand_25-1" data-name="Rond_16"><circle class="cls-6" cx="154.9" cy="416.87" r="2"/></g>
-                        <g id="Anim_stand_25-2" data-name="Rond_16"><circle class="cls-6" cx="154.75" cy="408.87" r="2"/></g>
-                        <g id="Anim_stand_25-3" data-name="Rond_16"><circle class="cls-6" cx="154.6" cy="400.87" r="2"/></g>
-                        <use id="Anim_stand_25-4" transform="matrix(0, -0.03, -0.03, 0, 162.19, 435.73)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_25-1" data-name="Rond_16"><circle class="cls-6" cx="154.9" cy="416.87" r="3"/></g>
+                        <g id="Anim_stand_25-2" data-name="Rond_16"><circle class="cls-6" cx="154.75" cy="408.87" r="3"/></g>
+                        <g id="Anim_stand_25-3" data-name="Rond_16"><circle class="cls-6" cx="154.6" cy="400.87" r="3"/></g>
+                        <use id="Anim_stand_25-4" transform="matrix(0, -0.03, -0.03, 0, 169, 452)" xlink:href="#image-6"/>
                         <use id="Anim_stand_25-5" transform="translate(141 362) scale(0.12)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_100" data-name="Toilettes">
-                        <g id="Anim_stand_100-1"><circle class="cls-6" cx="210.9" cy="416.87" r="2"/></g>
-                        <g id="Anim_stand_100-2" data-name="Rond_25"><circle class="cls-6" cx="210.75" cy="408.87" r="2"/></g>
-                        <g id="Anim_stand_100-3" data-name="Rond_25"><circle class="cls-6" cx="210.6" cy="400.87" r="2"/></g>
+                        <g id="Anim_stand_100-1"><circle class="cls-6" cx="210.9" cy="416.87" r="3"/></g>
+                        <g id="Anim_stand_100-2" data-name="Rond_25"><circle class="cls-6" cx="210.75" cy="408.87" r="3"/></g>
+                        <g id="Anim_stand_100-3" data-name="Rond_25"><circle class="cls-6" cx="210.6" cy="400.87" r="3"/></g>
                         <use id="Anim_stand_100-4" transform="matrix(0, -0.03, -0.03, 0, 218.19, 435.73)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_26">
-                        <g id="Anim_stand_26-1" data-name="Rond_19"><circle class="cls-6" cx="379" cy="354" r="2"/></g>
-                        <g id="Anim_stand_26-2" data-name="Rond_19"><circle class="cls-6" cx="387" cy="354" r="2"/></g>
-                        <g id="Anim_stand_26-3" data-name="Rond_19"><circle class="cls-6" cx="395" cy="354" r="2"/></g>
-                        <use id="Anim_stand_26-4" transform="matrix(-0.03, 0, 0, 0.03, 414, 347)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_26-1" data-name="Rond_19"><circle class="cls-6" cx="379" cy="354" r="3"/></g>
+                        <g id="Anim_stand_26-2" data-name="Rond_19"><circle class="cls-6" cx="387" cy="354" r="3"/></g>
+                        <g id="Anim_stand_26-3" data-name="Rond_19"><circle class="cls-6" cx="395" cy="354" r="3"/></g>
+                        <use id="Anim_stand_26-4" transform="matrix(-0.03, 0, 0, 0.03, 430, 340)" xlink:href="#image-6"/>
                         <use id="Anim_stand_26-5" transform="matrix(-0.07, 0, 0, 0.07, 346, 346)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_27">
-                        <g id="Anim_stand_27-1" data-name="Rond_19"><circle class="cls-6" cx="293" cy="389" r="2"/></g>
-                        <g id="Anim_stand_27-2" data-name="Rond_19"><circle class="cls-6" cx="285" cy="389" r="2"/></g>
-                        <g id="Anim_stand_27-3" data-name="Rond_19"><circle class="cls-6" cx="277" cy="389" r="2"/></g>
-                        <use id="Anim_stand_27-4" transform="translate(258 381) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_27-1" data-name="Rond_19"><circle class="cls-6" cx="293" cy="389" r="3"/></g>
+                        <g id="Anim_stand_27-2" data-name="Rond_19"><circle class="cls-6" cx="285" cy="389" r="3"/></g>
+                        <g id="Anim_stand_27-3" data-name="Rond_19"><circle class="cls-6" cx="277" cy="389" r="3"/></g>
+                        <use id="Anim_stand_27-4" transform="translate(240 375) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_27-5" transform="translate(324 375) scale(0.12)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_101" data-name="Toilettes">
-                        <g id="Anim_stand_101-1"><circle class="cls-6" cx="437" cy="375" r="2"/></g>
-                        <g id="Anim_stand_101-2" data-name="Rond_22"><circle class="cls-6" cx="429" cy="375" r="2"/></g>
-                        <g id="Anim_stand_101-3" data-name="Rond_22"><circle class="cls-6" cx="421" cy="375" r="2"/></g>
+                        <g id="Anim_stand_101-1"><circle class="cls-6" cx="437" cy="375" r="3"/></g>
+                        <g id="Anim_stand_101-2" data-name="Rond_22"><circle class="cls-6" cx="429" cy="375" r="3"/></g>
+                        <g id="Anim_stand_101-3" data-name="Rond_22"><circle class="cls-6" cx="421" cy="375" r="3"/></g>
                         <use id="Anim_stand_101-4" data-name="Pacman_toilettes" transform="translate(402 368) scale(0.03)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_28">
-                        <g id="Anim_stand_28-1"><circle class="cls-6" cx="529.9" cy="415.87" r="2"/></g>
-                        <g id="Anim_stand_28-2" data-name="Rond_28"><circle class="cls-6" cx="529.75" cy="407.87" r="2"/></g>
-                        <g id="Anim_stand_28-3" data-name="Rond_28"><circle class="cls-6" cx="529.6" cy="399.87" r="2"/></g>
-                        <use id="Anim_stand_28-4" transform="matrix(0, -0.03, -0.03, 0, 537.19, 434.73)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_28-1"><circle class="cls-6" cx="529.9" cy="415.87" r="3"/></g>
+                        <g id="Anim_stand_28-2" data-name="Rond_28"><circle class="cls-6" cx="529.75" cy="407.87" r="3"/></g>
+                        <g id="Anim_stand_28-3" data-name="Rond_28"><circle class="cls-6" cx="529.6" cy="399.87" r="3"/></g>
+                        <use id="Anim_stand_28-4" transform="matrix(0, -0.03, -0.03, 0, 544, 454)" xlink:href="#image-6"/>
                         <use id="Anim_stand_28-5" transform="translate(514 358) scale(0.14)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_29">
                         <use id="Anim_stand_29-1" transform="translate(156 170) scale(0.18)" xlink:href="#image-7"/>
-                        <g id="Anim_stand_29-2"><circle class="cls-6" cx="251" cy="194" r="2"/></g>
-                        <g id="Anim_stand_29-3" data-name="Rond_23"><circle class="cls-6" cx="243" cy="194" r="2"/></g>
-                        <g id="Anim_stand_29-4" data-name="Rond_23"><circle class="cls-6" cx="235" cy="194" r="2"/></g>
-                        <use id="Anim_stand_29-5" transform="matrix(-0.03, 0, 0, 0.03, 270, 186)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_29-2"><circle class="cls-6" cx="251" cy="194" r="3"/></g>
+                        <g id="Anim_stand_29-3" data-name="Rond_23"><circle class="cls-6" cx="243" cy="194" r="3"/></g>
+                        <g id="Anim_stand_29-4" data-name="Rond_23"><circle class="cls-6" cx="235" cy="194" r="3"/></g>
+                        <use id="Anim_stand_29-5" transform="matrix(-0.03, 0, 0, 0.03, 290, 178)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_30">
-                        <g id="Anim_stand_30-1" data-name="Rond_25"><circle class="cls-6" cx="139.9" cy="314.87" r="2"/></g>
-                        <g id="Anim_stand_30-2" data-name="Rond_25"><circle class="cls-6" cx="139.75" cy="306.87" r="2"/></g>
-                        <g id="Anim_stand_30-3" data-name="Rond_25"><circle class="cls-6" cx="139.6" cy="298.87" r="2"/></g>
-                        <use id="Anim_stand_30-4" transform="matrix(0, -0.03, -0.03, 0, 147.19, 333.73)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_30-1" data-name="Rond_25"><circle class="cls-6" cx="139.9" cy="314.87" r="3"/></g>
+                        <g id="Anim_stand_30-2" data-name="Rond_25"><circle class="cls-6" cx="139.75" cy="306.87" r="3"/></g>
+                        <g id="Anim_stand_30-3" data-name="Rond_25"><circle class="cls-6" cx="139.6" cy="298.87" r="3"/></g>
+                        <use id="Anim_stand_30-4" transform="matrix(0, -0.03, -0.03, 0, 155, 352)" xlink:href="#image-6"/>
                         <use id="Anim_stand_30-5" transform="translate(116 248) scale(0.2)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_31">
-                        <g id="Anim_stand_31-1"><circle class="cls-6" cx="293" cy="181" r="2"/></g>
-                        <g id="Anim_stand_31-2" data-name="Rond_32"><circle class="cls-6" cx="285" cy="181" r="2"/></g>
-                        <g id="Anim_stand_31-3" data-name="Rond_32"><circle class="cls-6" cx="277" cy="181" r="2"/></g>
-                        <use id="Anim_stand_31-4" transform="translate(258 173) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_31-1"><circle class="cls-6" cx="293" cy="181" r="3"/></g>
+                        <g id="Anim_stand_31-2" data-name="Rond_32"><circle class="cls-6" cx="285" cy="181" r="3"/></g>
+                        <g id="Anim_stand_31-3" data-name="Rond_32"><circle class="cls-6" cx="277" cy="181" r="3"/></g>
+                        <use id="Anim_stand_31-4" transform="translate(240 166) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_31-5" transform="translate(312 157) scale(0.2)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_32">
-                        <g id="Anim_stand_32-1"><circle class="cls-6" cx="292" cy="272" r="2"/></g>
-                        <g id="Anim_stand_32-2" data-name="Rond_27"><circle class="cls-6" cx="284" cy="272" r="2"/></g>
-                        <g id="Anim_stand_32-3" data-name="Rond_27"><circle class="cls-6" cx="276" cy="272" r="2"/></g>
-                        <use id="Anim_stand_32-4" transform="translate(257 264) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_32-1"><circle class="cls-6" cx="292" cy="272" r="3"/></g>
+                        <g id="Anim_stand_32-2" data-name="Rond_27"><circle class="cls-6" cx="284" cy="272" r="3"/></g>
+                        <g id="Anim_stand_32-3" data-name="Rond_27"><circle class="cls-6" cx="276" cy="272" r="3"/></g>
+                        <use id="Anim_stand_32-4" transform="translate(240 256) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_32-5" transform="translate(299 253) scale(0.15)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_33">
                         <use id="Anim_stand_33-1" transform="translate(358 261) scale(0.08)" xlink:href="#image-7"/>
-                        <g id="Anim_stand_33-2" data-name="Rond_23"><circle class="cls-6" cx="396" cy="272" r="2"/></g>
-                        <g id="Anim_stand_33-3" data-name="Rond_23"><circle class="cls-6" cx="388" cy="272" r="2"/></g>
-                        <g id="Anim_stand_33-4" data-name="Rond_23"><circle class="cls-6" cx="380" cy="272" r="2"/></g>
-                        <use id="Anim_stand_33-5" transform="matrix(-0.03, 0, 0, 0.03, 415, 264)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_33-2" data-name="Rond_23"><circle class="cls-6" cx="396" cy="272" r="3"/></g>
+                        <g id="Anim_stand_33-3" data-name="Rond_23"><circle class="cls-6" cx="388" cy="272" r="3"/></g>
+                        <g id="Anim_stand_33-4" data-name="Rond_23"><circle class="cls-6" cx="380" cy="272" r="3"/></g>
+                        <use id="Anim_stand_33-5" transform="matrix(-0.03, 0, 0, 0.03, 435, 256)" xlink:href="#image-6"/>
                     </g>
                     <g id="Stand_34">
-                        <g id="Anim_stand_34-1" data-name="Rond_32"><circle class="cls-6" cx="437" cy="160" r="2"/></g>
-                        <g id="Anim_stand_34-2" data-name="Rond_32"><circle class="cls-6" cx="429" cy="160" r="2"/></g>
-                        <g id="Anim_stand_34-3" data-name="Rond_32"><circle class="cls-6" cx="421" cy="160" r="2"/></g>
-                        <use id="Anim_stand_34-4" transform="translate(402 152) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_34-1" data-name="Rond_32"><circle class="cls-6" cx="437" cy="160" r="3"/></g>
+                        <g id="Anim_stand_34-2" data-name="Rond_32"><circle class="cls-6" cx="429" cy="160" r="3"/></g>
+                        <g id="Anim_stand_34-3" data-name="Rond_32"><circle class="cls-6" cx="421" cy="160" r="3"/></g>
+                        <use id="Anim_stand_34-4" transform="translate(385 145) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_34-5" transform="translate(446 145) scale(0.13)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_35">
-                        <g id="Anim_stand_35-1" data-name="Rond_31"><circle class="cls-6" cx="464" cy="234" r="2"/></g>
-                        <g id="Anim_stand_35-2" data-name="Rond_31"><circle class="cls-6" cx="456" cy="234" r="2"/></g>
-                        <g id="Anim_stand_35-3" data-name="Rond_31"><circle class="cls-6" cx="448" cy="234" r="2"/></g>
-                        <use id="Anim_stand_35-4" transform="translate(429 226) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_35-1" data-name="Rond_31"><circle class="cls-6" cx="464" cy="234" r="3"/></g>
+                        <g id="Anim_stand_35-2" data-name="Rond_31"><circle class="cls-6" cx="456" cy="234" r="3"/></g>
+                        <g id="Anim_stand_35-3" data-name="Rond_31"><circle class="cls-6" cx="448" cy="234" r="3"/></g>
+                        <use id="Anim_stand_35-4" transform="translate(410 218) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_35-5" transform="translate(488 214) scale(0.17)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_36">
-                        <g id="Anim_stand_36-1" data-name="Rond_32"><circle class="cls-6" cx="437" cy="294" r="2"/></g>
-                        <g id="Anim_stand_36-2" data-name="Rond_32"><circle class="cls-6" cx="429" cy="294" r="2"/></g>
-                        <g id="Anim_stand_36-3" data-name="Rond_32"><circle class="cls-6" cx="421" cy="294" r="2"/></g>
-                        <use id="Anim_stand_36-4" transform="translate(402 286) scale(0.03)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_36-1" data-name="Rond_32"><circle class="cls-6" cx="437" cy="294" r="3"/></g>
+                        <g id="Anim_stand_36-2" data-name="Rond_32"><circle class="cls-6" cx="429" cy="294" r="3"/></g>
+                        <g id="Anim_stand_36-3" data-name="Rond_32"><circle class="cls-6" cx="421" cy="294" r="3"/></g>
+                        <use id="Anim_stand_36-4" transform="translate(385 278) scale(0.03)" xlink:href="#image-6"/>
                         <use id="Anim_stand_36-5" transform="translate(483 282) scale(0.1)" xlink:href="#image-7"/>
                     </g>
                     <g id="Stand_37">
-                        <g id="Anim_stand_37-1" data-name="Rond_12"><circle class="cls-6" cx="273.9" cy="126.87" r="2"/></g>
-                        <g id="Anim_stand_37-2" data-name="Rond_12"><circle class="cls-6" cx="273.75" cy="118.87" r="2"/></g>
-                        <g id="Anim_stand_37-3" data-name="Rond_12"><circle class="cls-6" cx="273.6" cy="110.87" r="2"/></g>
-                        <use id="Anim_stand_37-4" transform="matrix(0, -0.03, -0.03, 0, 282.19, 145.73)" xlink:href="#image-6"/>
-                        <g id="Anim_stand_37-5" data-name="Rond_12"><circle class="cls-6" cx="397.9" cy="125.87" r="2"/></g>
-                        <g id="Anim_stand_37-6" data-name="Rond_12"><circle class="cls-6" cx="397.75" cy="117.87" r="2"/></g>
-                        <g id="Anim_stand_37-7" data-name="Rond_12"><circle class="cls-6" cx="397.6" cy="109.87" r="2"/></g>
-                        <use id="Anim_stand_37-8" transform="matrix(0, -0.03, -0.03, 0, 406.01, 145)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_37-1" data-name="Rond_12"><circle class="cls-6" cx="273.9" cy="126.87" r="3"/></g>
+                        <g id="Anim_stand_37-2" data-name="Rond_12"><circle class="cls-6" cx="273.75" cy="118.87" r="3"/></g>
+                        <g id="Anim_stand_37-3" data-name="Rond_12"><circle class="cls-6" cx="273.6" cy="110.87" r="3"/></g>
+                        <use id="Anim_stand_37-4" transform="matrix(0, -0.03, -0.03, 0, 288, 165)" xlink:href="#image-6"/>
+                        <g id="Anim_stand_37-5" data-name="Rond_12"><circle class="cls-6" cx="397.9" cy="125.87" r="3"/></g>
+                        <g id="Anim_stand_37-6" data-name="Rond_12"><circle class="cls-6" cx="397.75" cy="117.87" r="3"/></g>
+                        <g id="Anim_stand_37-7" data-name="Rond_12"><circle class="cls-6" cx="397.6" cy="109.87" r="3"/></g>
+                        <use id="Anim_stand_37-8" transform="matrix(0, -0.03, -0.03, 0, 412, 165)" xlink:href="#image-6"/>
                     </g>
                 </g>
             </svg>
