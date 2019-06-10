@@ -437,7 +437,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                 echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
                                 echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria-controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                 echo '</div>';
-                                echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
+                                echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
                                 echo '<div class="card-body">'. $exposants['exposants'][$i]['description'] . '</p>';
                                 echo '</div>';
                                 echo '</div>';
@@ -460,7 +460,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                      echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
                                      echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria- controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                      echo '</div>';
-                                     echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
+                                     echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
                                      echo '<div class="card-body">'. $exposants['exposants'][$i]['description'] . '</p>';
                                      echo '</div>';
                                      echo '</div>';
