@@ -43,7 +43,8 @@ overflow:auto;
     }
 }
 .card{
-    background-color:#febc35;
+    background-color:black;
+    border:2px solid #febc35;
     border-radius:53px;
     margin-bottom:10px;
     width:100%;
@@ -54,13 +55,16 @@ overflow:auto;
     width:100%;
     margin-left:auto;
     margin-right:auto;
+    color:#febc35;
 }
 .card-title{
     font-family: "RobotoDescription";
+    color:#febc35;
 }
 .card-header{
     padding:0;
     height:34px;;
+    color:#febc35;
 }
 .logo{
     width:32%;
@@ -179,4 +183,5 @@ overflow:auto;
 .btnliste{
     width:100%;
     height:100%;
+    color:#febc35;
 }
