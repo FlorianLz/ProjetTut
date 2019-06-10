@@ -32,7 +32,6 @@ function filtrage(id){
 }
 
 function animation(a){
-    console.log(a);
     for(var i=1; i <38; i++){
         if(i == a){
             
