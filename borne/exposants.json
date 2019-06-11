@@ -5,84 +5,84 @@
             "description" : "Entreprise française de jeux vidéo qui est l'une des premières à être arrivée sur le marché en 1972. Le stand présente les différentes consoles et la bande d'arcade suivantes : l'Atari pong, l'Atari 2600, l'Atari 5200, l'atari Games, l'Atari Corporation, l'Atari WEGS et l'Atari Lynx.",
             "numero" : "24",
             "filtre" : "console",
-            "id" : "24"
+            "id" : "s24"
         },     
         {
             "nom" : "Atari vente",
             "description" : "Entreprise française de jeux vidéo qui est l'une des premières à être arrivée sur le marché en 1972. Elle propose à la vente certaines de ses consoles ainsi que des jeux vidéo.",
             "numero" : "25",
             "filtre" : "vente",
-            "id" : "25"
+            "id" : "s25"
         },
         {
             "nom" : "Bandai consoles",
             "description" : "Entreprise japonaise spécialisée notamment dans le développement de logiciels. Elle propose les consoles suivantes : la Bandai Super vision 8000, la Terebikko, la Apple Pippin, la Playdia, la Wonder Swan Color et la Swan Crystal.",
             "numero" : "3",
             "filtre" : "console",
-            "id" : "3"
+            "id" : "s3"
         },     
         {
             "nom" : "Bandai vente",
             "description" : "Entreprise japonaise spécialisée notamment dans le développement de logiciels met à la vente quelques unes de ses consoles ainsi que des jeux vidéo.",
             "numero" : "4",
             "filtre" : "vente",
-            "id" : "4"
+            "id" : "s4"
         },
         {
             "nom" : "Casiers",
             "description" : "Vous pouvez déposer vos affaires dans un casier. Il faudra payer 2 euros pour le casier et gratuit pour les cosplayeurs.",
             "numero" : "13",
             "filtre" : "services",
-            "id" : "13"
+            "id" : "s13"
         },
          {
             "nom" : "Cash Converters",
             "description" : "Magasin d'achat et vente de produits d'occasion. Des produits de retro gaming rares (ou non) sont présentés.",
             "numero" : "27",
             "filtre" : "vente",
-            "id" : "27"
+            "id" : "s27"
         }, 
         {
             "nom" : "Coca-cola",
             "description" : "Marque américaine de soda. Elle propose une dégustation gratuite de sa dernière boisson ainsi que des diverses animations.",
             "numero" : "34",
             "filtre" : "partenaire",
-            "id" : "34"
+            "id" : "s34"
         },
         {
             "nom" : "Collectionneurs",
             "description" : "Ce stand regroupe des collectionneurs venu d'ici et d'ailleurs. Ils mettent en scène leurs différentes collections et sont disponibles pour échanger avec tout le monde.",
             "numero" : "31",
             "filtre" : "console",
-            "id" : "31"
+            "id" : "s31"
         }, 
         {
             "nom" : "Console de l'année",
             "description" : "Ce stand présente une exposition consacrée à la console de l'année de la convention. Cette année est mise à l'honneur la GameBoy.",
             "numero" : "2",
             "filtre" : "services",
-            "id" : "2"
+            "id" : "s2"
         },
         {
             "nom" : "Dédicaces",
             "description" : "Ce stand vous permet de rencontrer de nombreuses personnalités. Elles sont présentés dans la partie programme du site ou bien sur l'onglet 'actu' de cette borne.",
             "numero" : "30",
             "filtre" : "services",
-            "id" : "30"
+            "id" : "s30"
         },
         {
             "nom" : "Exposition records speedrun",
             "description" : "Cette exposition va vous permettre de découvrir les différents speedrun existants ainsi que les records qui sont détenus.",
             "numero" : "36",
             "filtre" : "services",
-            "id" : "36"
+            "id" : "s36"
         },
         {
             "nom" : "Fanzine Mageek",
             "description" : "Site regroupant des magazines rédigés par des fans de différents univers dont le retro gaming.",
             "numero" : "20",
             "filtre" : "vente",
-            "id" : "20"
+            "id" : "s20"
         },  
         
         {
@@ -90,56 +90,56 @@
             "description" : "Magasin spécialisé dans la distribution de produits culturels et électroniques. Les produits jeux vidéo rétro y sont présentés.",
             "numero" : "21",
             "filtre" : "vente",
-            "id" : "21"
+            "id" : "s21"
         },
         {
             "nom" : "Funko Pop",
             "description" : "Marque de figurines de différents univers comme les jeux vidéo, les série ou bien les films. Le stand présente différents personnages du monde du retro gaming.",
             "numero" : "8",
             "filtre" : "vente",
-            "id" : "8"
+            "id" : "s8"
         },  
         {
             "nom" : "Fun radio",
             "description" : "Radio du son dancefloor qui est partenaire de nombreuses événements de gaming afin de les promouvoir sur le territoire français à travers la radio.",
             "numero" : "14",
             "filtre" : "partenaire",
-            "id" : "14"
+            "id" : "s14"
         },
         {
             "nom" : "France bleu Paris",
             "description" : "Radio régionale partenaire des grands événements se déroulant à Paris.",
             "numero" : "11",
             "filtre" : "partenaire",
-            "id" : "11"
+            "id" : "s11"
         },
         {
             "nom" : "Game one",
             "description" : "Chaîne de télévision française consacrées aux jeux vidéo. Elle présente principalement sur son stand la nouvelle émission de Marcus : Super Marcus World.",
             "numero" : "7",
             "filtre" : "partenaire",
-            "id" : "7"
+            "id" : "s7"
         }, 
         {
             "nom" : "Infirmerie",
             "description" : "En cas d'urgence, veuillez vous rapprocher d'un agent de sécurité qui vous accompagnera, si besoin, à l'infirmerie.",
             "numero" : "10",
             "filtre" : "services",
-            "id" : "10"
+            "id" : "s10"
         },
         {
             "nom" : "Jeuxvideo.com",
             "description" : "Premier site d'information sur l'actualité du jeu vidéo. Il présente sur son stand de nombreux jeux liés au retro gaming.",
             "numero" : "5",
             "filtre" : "partenaire",
-            "id" : "5"
+            "id" : "s5"
         },
         {
             "nom" : "J’imprime comme j’aime",
             "description" : "Site e-commerce spécialisé dans la vente de t-shirt avec imprimé  et personnalisable. ",
             "numero" : "19",
             "filtre" : "vente",
-            "id" : "19"
+            "id" : "s19"
         },
         
         {
@@ -147,7 +147,7 @@
             "description" : "Site français regroupant l'actualité high-tech et culture Geek. Ce stand présente des différentes activités ludiques tels que des tests.",
             "numero" : "26",
             "filtre" : "partenaire",
-            "id" : "26"
+            "id" : "s26"
         },
         
  
@@ -156,7 +156,7 @@
             "description" : "Site e-commerce spécialisé dans la vente de bande d'arcade personnalisable.",
             "numero" : "18",
             "filtre" : "vente",
-            "id" : "18"
+            "id" : "s18"
         },
         
         {
@@ -164,14 +164,14 @@
             "description" : "Entreprise qui développe des logiciels et a notamment fondé la marque Xbox. Elle présente son Xbox ainsi que ses jeux vidéo et en propose à la vente.",
             "numero" : "6",
             "filtre" : "console",
-            "id" : "6"
+            "id" : "s6"
         }, 
         {
             "nom" : "NEC",
             "description" : "Industriel japonais de l'informatique et de la télécommunication. Les consoles présentes sur le stand sont : le PC Engine, la TurboGrafx, la SuperGraf, la TurboDuo, le PC-FX et la CoreGraftX.",
             "numero" : "28",
             "filtre" : "vente console",
-            "id" : "28"
+            "id" : "s28"
         },
          
         {
@@ -179,70 +179,70 @@
             "description" : "Société japonaise de jeux vidéos qui présente ses anciennes consoles de salon suivantes : la Color TV Gam, la Famicom, la Super Famicom, la Nintendo 64, la GameCube, la Que Player et la Super Nintendo.",
             "numero" : "17",
             "filtre" : "console",
-            "id" : "17"
+            "id" : "s17"
         },
         {
             "nom" : "Nintendo consoles portable",
             "description" : "Société japonaise de jeux vidéos qui présente ses anciennes consoles portables suivantes : la Game and Watch, la Virtual Boy, la Pokémon Pikachu et la Pokémon Mini. Les différentes Game Boy se trouvent sur le stand Console de l'année.",
             "numero" : "16",
             "filtre" : "console",
-            "id" : "16"
+            "id" : "s16"
         },     
         {
             "nom" : "Nintendo vente",
             "description" : "Société japonaise de jeux vidéos qui vend certaines de ses consoles cultes ainsi que de nombreux jeux vidéo.",
             "numero" : "15",
             "filtre" : "vente",
-            "id" : "15"
+            "id" : "s15"
         },
         {
             "nom" : "Point de restauration",
             "description" : "Ce stand va vous permettre de vous restaurer. Vous allez pouvoir retrouver Paul, Sushi Shop, Salad and Co, des Food Truck et encore bien d'autres.",
             "numero" : "37",
             "filtre" : "services",
-            "id" : "37"
+            "id" : "s37"
         },
         {
             "nom" : "Point informations",
             "description" : "Si vous avez une moindre question par rapport à la convention, vous allez pouvoir retrouver notre équipe sur place pour vous aider. Des plans sont aussi mis à votre disposition sur place.",
             "numero" : "12",
             "filtre" : "services",
-            "id" : "12"
+            "id" : "s12"
         }, 
         {
             "nom" : "Retrait monaie",
             "description" : "Ce stand va vous permettre de retirer la monnaie propre au salon.",
             "numero" : "9",
             "filtre" : "services",
-            "id" : "9"
+            "id" : "s9"
         },
         {
             "nom" : "Scène principale",
             "description" : "Scène où se déroule les conférences ainsi que certains tournois et concours. Retrouvez le programme sur le site ou dans l'onglet 'actu' sur cette borne.",
             "numero" : "1",
             "filtre" : "services",
-            "id" : "1"
+            "id" : "s1"
         },
         {
             "nom" : "Scène secondaire",
             "description" : "Scène où se déroule tous les speed run. Retrouvez le programme sur le site ou dans l'onglet 'actus' sur cette borne.",
             "numero" : "35",
             "filtre" : "services",
-            "id" : "35"
+            "id" : "s35"
         },
         {
             "nom" : "Sega console",
             "description" : "Société japonaise de développement et d'édition de jeux vidéo ainsi que fabriquant de bornes et de systèmes d'arcade. Son stand propose la Sega Astro City, la Sega New net city, la Sega SG-1000, la Master System, la Mega Drive, la Game Gear, la Sega Pico, la Dreamcast, la Sega Mega jet, et la Sega Nomad.",
             "numero" : "22",
             "filtre" : "console",
-            "id" : "22"
+            "id" : "s22"
         },
         {
             "nom" : "Sega vente",
             "description" : "Société japonaise de dévloppement et d'édition de jeux vidéo ainsi que fabriquant de bornes et de systèmes d'arcade. Elle propose à la vente certaines de ses consoles et jeux vidéo.",
             "numero" : "23",
             "filtre" : "vente",
-            "id" : "23"
+            "id" : "s23"
         },     
         
         {
@@ -250,21 +250,21 @@
             "description" : "Société japonaise active dans les domaines du jeux vidéo, de l'informatique, de l'électronique, de la musique, du cinéma et de l'audiovisuel. Sony est le fondateur de la marque Playstation. Son stand présente ses différentes consoles suivantes : la PlayStation, la PlayStation 2 et la Pocket Station.",
             "numero" : "32",
             "filtre" : "console",
-            "id" : "33"
+            "id" : "s33"
         },     
         {
             "nom" : "Sony vente",
             "description" : "Société japonaise active dans les domaines du jeux vidéo, de l'informatique, de l'électronique, de la musique, du cinéma et de l'audiovisuel. Son stand propose à la vente certaines de ses consoles ainsi que des jeux vidéo.",
             "numero" : "33",
             "filtre" : "vente",
-            "id" : "32"
+            "id" : "s32"
         },
         {
             "nom" : "Stand d'essai",
             "description" : "Ce stand va vous permettre d'essayer de nombreuses consoles rétro avec des jeux cultes. Nous vous laissons découvrir sur place les consoles disponibles...!",
             "numero" : "29",
             "filtre" : "services",
-            "id" : "29"
+            "id" : "s29"
         }
 
         
