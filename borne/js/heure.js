@@ -1,5 +1,7 @@
 window.onload=function() {
   horloge('div_horloge');
+  affichageheure();
+  
 };
 
 function horloge(el) {
@@ -12,4 +14,9 @@ function horloge(el) {
   }
   actualiser();
   setInterval(actualiser,1000);
+}
+
+function affichageheure(){
+    var varia='coucou';
+    alert(varia);
 }
