@@ -1,6 +1,6 @@
 window.onload=function() {
   horloge('div_horloge');
-  affichageheure();
+  /*affichageheure();*/
   
 };
 
@@ -16,7 +16,7 @@ function horloge(el) {
   setInterval(actualiser,1000);
 }
 
-function affichageheure(){
+/*function affichageheure(){
     function actualiserheure(){
         var madate=new Date();
         var monheure = madate.getHours();
@@ -30,4 +30,4 @@ function affichageheure(){
     }
     actualiserheure();
     setInterval(actualiserheure,1000);
-}
+}*/
