@@ -118,7 +118,8 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     <use id="Logo_Restauration-2" data-name="Logo_Restauration" transform="translate(466 382) scale(0.36)" xlink:href="#image-5"/>
                 </g>
                 <g id="Effet_clique">
-                    <animate xlink:href="#image-6" attributeName="x" from="250" to="1110" begin="0s" dur="1.2s" repeatCount="indefinite"></animate>                    
+                    <animate xlink:href="#image-6" attributeName="x" from="250" to="1110" begin="0s" dur="1.2s" repeatCount="indefinite"></animate>  
+                    <animate xlink:href="#image-7" attributeName="width" from="140" to="380" dur="1.5s" repeatCount="indefinite"></animate>
                     <g id="Stand_1">
                         <g id="Anim_stand_1-1"><circle class="cls-6" cx="220" cy="621" r="3"/></g>
                         <g id="Anim_stand_1-2" data-name="Rond_31"><circle class="cls-6" cx="212" cy="621" r="3"/> </g>
