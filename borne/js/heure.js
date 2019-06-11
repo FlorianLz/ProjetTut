@@ -22,12 +22,44 @@ function triauto(){
         var madate=new Date();
         var heures=madate.getHours();
         var minutes=madate.getMinutes();
-        
-        for (i=9;i<heures;i++){
-            if (minutes<15){
+        if(heures>8 && heures<19){
+            for (i=9;i<heures;i++){
+                var x = document.getElementsByClassName("card h"+(i+1));
+                for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+               }
+                if(minutes<=15 && heures>i){
+                    var x = document.getElementsByClassName("card h"+i+"m15");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                }
+                if(minutes>15 && heures>i){
+                    var x = document.getElementsByClassName("card h"+(i+1)+"m15");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                    
+                }
+                if(minutes<=30 && heures>i){
+                    var x = document.getElementsByClassName("card h"+i+"m30");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                }
+                if(minutes>30 && heures>i){
+                    var x = document.getElementsByClassName("card h"+(i+1)+"m30");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                }
+            /*if (minutes<15 && heure>i){
                 for(k=9;k<heures;k++){
                     var x = document.getElementsByClassName("card h"+k+"m15");
-                    x.style.display="none";
+                    alert("card h"+k+"m15");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+               }
                 }
             }
             /*if (minutes<30){
@@ -38,7 +70,7 @@ function triauto(){
                         x.style.display="none";
                     }
                 }
-            }*/
+            }
             
             if (minutes>15 && heures>=i){
                 var x = document.getElementsByClassName("card h"+(i+1)+"m15");
@@ -56,7 +88,8 @@ function triauto(){
             var x = document.getElementsByClassName("card h"+(i+1));
                 for (j = 0; j < x.length; j++) {
                     x[j].style.display = "none";
-               }
+               }*/
+        }
         }
     }
     actualisation();
