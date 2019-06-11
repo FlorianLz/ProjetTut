@@ -173,6 +173,7 @@ overflow:auto;
     margin-top:30px;
     max-height:80vh;
     overflow:scroll;
+    margin-left:35px;
 }
 
 .twi{
@@ -189,3 +190,12 @@ overflow:auto;
 }
 
 
+
+.carteactus {
+    width:65%;
+}
+
+.conteneuractus {
+    max-height:75vh;
+    overflow:scroll;
+}
