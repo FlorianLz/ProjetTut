@@ -70,6 +70,9 @@ body{
 .jour .titreDiff{
     font-family: "RobotoDescription";
     font-size: 25px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .horaires h1{
@@ -119,6 +122,9 @@ body{
 
 .journee{
     color: black;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .jour
@@ -140,14 +146,18 @@ body{
     padding-bottom:10px;
 }
 
-.horaires h1{
+.horaires p{
     font-size:1.5rem;
     margin: auto;
 }
 
-.imagescene h1{
+.imagescene p{
     visibility:hidden;
     max-width:100%;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .imagescene{
@@ -245,7 +255,7 @@ body{
     font-size: 30px;
 }
 .banniere{
-    background-color:#224191;
+    background-color:#585D62;
     margin-right:0px!important;
     margin-right:0px!important;
     padding-top:25px;
@@ -649,10 +659,11 @@ nav{
     margin-top: 20px;
 }
 
-#Sectionreseauxsociaux h1{
+#Sectionreseauxsociaux h3{
     font-family: "RobotoDescription";
     margin-top: 60px;
     margin-bottom: 12px;
+    font-size: 35px;
 }
 
 #Sectionreseauxsociaux span{
