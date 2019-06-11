@@ -23,9 +23,8 @@ function affichageheure(){
         var mesminutes = madate.getMinutes();
         for(var i=0; i <=24;i++){
             if(i == monheure){
-                document.getElementById("heure"+monheure).style.display = "block";
+                document.getElementById("heure"+monheure).style.display = "none";
             } else{
-                document.getElementById("heure"+i).style.display ="none";
             }
         }
     }
