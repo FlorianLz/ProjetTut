@@ -27,9 +27,9 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
   <body>
     <div class="text-center"> <!-- Création du corps de la page -->
         <div class="row menu">
-            <div class="col-xl-3 col-md-3 "><img src="image/Convention-BLANC.png" class="logo"></div>
-            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><a class="lienbouton" href="index.html"><button type="button" class="btn btn-primary bouton">ACTUS</button></a></div>
-            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><a class="lienbouton" href="#"><button type="button" class="btn btn-primary bouton boutonplan">PLAN</button></a></div>
+            <div class="col-xl-3 col-md-3 "><img src="image/Convention-BLANC.png" class="logo" alt="logo"></div>
+            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><button onclick="location.href='index.html'" type="button" class="btn btn-primary bouton">ACTUS</button></div>
+            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><button onclick="location.href='#'" type="button" class="btn btn-primary bouton boutonplan">PLAN</button></div>
             <div class="col-xl-3 col-md-3 heure d-flex align-items-center"><p id="div_horloge"></p></div>
             
         
@@ -67,7 +67,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     <rect id="8" data-name="8" class="cls-3" x="430.5" y="574.5" width="48" height="25" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="8" data-name="8" class="cls-3" x="487.5" y="574.5" width="71" height="25" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="9" data-name="9" class="cls-3" x="430.5" y="606.5" width="48" height="72" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="10" data-name="10" class="cls-3" x="486.5" y="606.5" width="72" height="71" rx="12" ry="12"onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="10" data-name="10" class="cls-3" x="486.5" y="606.5" width="72" height="71" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="11" data-name="11" class="cls-3" x="430.5" y="688.5" width="48" height="21" rx="10.5" ry="10.5" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="12" data-name="12" class="cls-3" x="487.5" y="683.5" width="32" height="52" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="13" data-name="13" class="cls-3" x="526.5" y="683.5" width="32" height="52" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
@@ -441,7 +441,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                 echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria-controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                 echo '</div>';
                                 echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
-                                echo '<div class="card-body">'. $exposants['exposants'][$i]['description'] . '</p>';
+                                echo '<div class="card-body">'. $exposants['exposants'][$i]['description'];
                                 echo '</div>';
                                 echo '</div>';
                                 echo '</div>';
@@ -464,7 +464,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                      echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria- controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                      echo '</div>';
                                      echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'"  data-parent="#accordion">';
-                                     echo '<div class="card-body">'. $exposants['exposants'][$i]['description'] . '</p>';
+                                     echo '<div class="card-body">'. $exposants['exposants'][$i]['description'];
                                      echo '</div>';
                                      echo '</div>';
                                      echo '</div>';
