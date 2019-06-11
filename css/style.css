@@ -1028,3 +1028,17 @@ button{
 #contactPresse p{
     font-family: "RobotoTexte";
 }
+
+/* fin page presse */
+
+
+
+/* page galerie */
+
+.imgGalerie{
+    object-fit: cover;
+}
+
+
+
+/* fin page galerie */
