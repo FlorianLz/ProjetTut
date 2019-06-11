@@ -1,5 +1,7 @@
 window.onload=function() {
   horloge('div_horloge');
+  affichageheure();
+  
 };
 
 function horloge(el) {
@@ -29,5 +31,4 @@ function affichageheure(){
     }
     actualiserheure();
     setInterval(actualiserheure,1000);
-    
 }

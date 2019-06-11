@@ -107,9 +107,9 @@ function affichagecarte(id){
     document.getElementById('recherchebtn').style.color='white';
 }
 
-function affichageheure(){
+/*function affichageheure(){
     var madate=new Date();
     var madate=madate.getHours();
     alert(madate);
 }
-affichageheure();
+affichageheure();*/
