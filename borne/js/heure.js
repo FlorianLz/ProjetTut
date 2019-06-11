@@ -17,6 +17,18 @@ function horloge(el) {
 }
 
 function affichageheure(){
-    var varia='coucou';
-    alert(varia);
+    function actualiserheure(){
+        var madate=new Date();
+        var monheure = madate.getHours();
+        var mesminutes = madate.getMinutes();
+        for(var i=0; i <=24;i++){
+            if(i == monheure){
+                document.getElementById("heure"+monheure).style.display = "block";
+            } else{
+                document.getElementById("heure"+i).style.display ="none";
+            }
+        }
+    }
+    actualiserheure();
+    setInterval(actualiserheure,1000);
 }
