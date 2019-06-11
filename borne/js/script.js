@@ -31,7 +31,8 @@ function filtrage(id){
     document.getElementById(id).style.backgroundColor="#1d765a";
 }
 
-function animation(a){
+function animation(b){
+     var a = b.substring(1);
     for(var i=1; i <38; i++){
         if(i == a){
             
