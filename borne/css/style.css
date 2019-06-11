@@ -185,7 +185,9 @@ body{
 .btnliste:hover{
     color:white;
 }
-
+.btnliste p{
+    float:right;
+}
 
 
 .carteactus {
@@ -193,11 +195,15 @@ body{
 }
 
 .conteneuractus {
+    height:auto;
+    overflow:auto;
     max-height:80vh;
-    overflow:scroll;
     margin-top:30px
 }
 
 .actus {
     max-width:100vw;
+}
+.collapseactus{
+    color:white;
 }
