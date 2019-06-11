@@ -41,7 +41,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
             <div class="col-xl-7 col-xs-7 col-md-7">
                <svg id="Carte" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 595.28 841.89">
                 <defs>
-                    <style>.cls-1,.cls-3{fill:#070606;}.cls-1{stroke:#000;}.cls-1,.cls-2,.cls-3{stroke-miterlimit:10;}.cls-2{fill:none;}.cls-2,.cls-3{stroke:#0000e7;}.cls-4{font-size:19.13px;fill:#fff;font-family:Roboto-Medium, Roboto;}.cls-5{letter-spacing:-0.01em;}.cls-6{fill:#febc35;}
+                    <style>.cls-1,.cls-3{fill:#161313;}.cls-1{stroke:#161313;}.cls-1,.cls-2,.cls-3{stroke-miterlimit:10;}.cls-2{fill:none;}.cls-2,.cls-3{stroke:#224191; stroke-width:4px;}.cls-4{font-size:19.13px;fill:#fff;font-family:Roboto-Medium, Roboto;}.cls-5{letter-spacing:-0.01em;}.cls-6{fill:#febc35;}
                     </style>
                     <image id="image" width="50" height="50" xlink:href="image/icons8-escalator-50.png"/>
                     <image id="image-2" width="50" height="50" xlink:href="image/icons8-toilettes-50.png"/>
@@ -427,7 +427,6 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                             <a id="bouton-4" class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab" onclick="filtrage(this.id);">Services</a>
                             <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="filtrage(this.id);">Partenaires</a>
                         </div>
-                <div id="parentcarte">
                 <div class="carte" id="accordion">
                     <?php 
                         if(!isset($_POST['texte']) || $_POST['texte']=='' ){
@@ -481,7 +480,6 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     
                     
                     ?>
-                </div>
                 </div>
             </div>
         

@@ -11,7 +11,7 @@
 	src: url('../fonts/Roboto-Light.ttf');
 }
 body{
-    background-color:#070606;
+    background-color:#161313;
     font-family:"RobotoTexte";
 }
 .txtblanc{
@@ -21,22 +21,14 @@ body{
     height:80vh;
     margin-top:4vh;
 }
-#parentcarte{
+/*#parentcarte{
  height: 83%;
  width: 60%;
  overflow: hidden;
  position: relative;
  margin-left:auto;
  margin-right:auto;
-}
-.carte{
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: -35px;
-overflow:auto;
-}
+}*/
 @media (max-width:1400px){
     .carte{
         right:0px;
@@ -47,15 +39,14 @@ overflow:auto;
     border:2px solid #febc35;
     border-radius:53px;
     margin-bottom:10px;
-    width:100%;
+    max-width:60%;
     margin-left:auto;
     margin-right:auto;
 }
 .carte{
-    width:100%;
-    margin-left:auto;
-    margin-right:auto;
     color:#febc35;
+    height:70vh;
+    overflow:scroll;
 }
 .card-title{
     font-family: "RobotoDescription";
@@ -72,8 +63,14 @@ overflow:auto;
 }
 
 #Carte{
-    height:78vh;
+    height:80vh;
     margin-top:4vh;
+}
+@media screen and (max-width:1200px){
+    #Carte{
+        max-width:100%;
+        padding-left:30px;
+    }
 }
 
 .heure{
