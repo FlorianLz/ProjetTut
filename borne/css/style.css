@@ -196,6 +196,11 @@ overflow:auto;
 }
 
 .conteneuractus {
-    max-height:75vh;
+    max-height:80vh;
     overflow:scroll;
+    margin-top:30px
+}
+
+.actus {
+    max-width:100vw;
 }

@@ -24,7 +24,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
     
   </head>
     
-  <body>
+  <body onLoad="window.open('plan.php','','fullscreen,scrollbars');return(false)">
     <div class="text-center"> <!-- Création du corps de la page -->
         <div class="row menu">
             <div class="col-xl-3 col-md-3 "><img src="image/Convention-BLANC.png" class="logo" alt="logo"></div>
