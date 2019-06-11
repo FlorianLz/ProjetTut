@@ -682,9 +682,19 @@ nav{
     text-align:center;
 }
 
+.enhaut{
+    position: relative;
+    
+}
+
+.enbas{
+ 
+}
+
 .partiediff{
     padding-bottom: 10%;
     padding-top: 10%;
+    width: 100%;
 }
 
 .couleurRouge{
