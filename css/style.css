@@ -1006,3 +1006,15 @@ button{
 
 
 /*fin page accès*/
+
+
+
+/* page presse */
+
+#contactPresse h2{
+    font-family: "RobotoDescription";
+}
+
+#contactPresse p{
+    font-family: "RobotoTexte";
+}
