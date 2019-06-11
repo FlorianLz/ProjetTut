@@ -23,8 +23,10 @@ function triauto(){
         var heures=madate.getHours();
         var minutes=madate.getMinutes();
         for (i=9;i<=heures;i++){
-            if(document.getElementById('h'+i)){
-               document.getElementById('h'+i).style.display='none';    
+            var x = document.getElementsByClassName("card h"+i);
+                var y = document.getElementsByClassName('card h'+i);
+                for (j = 0; j < y.length; j++) {
+                    y[j].style.display = "none";
                }
         }
     }
