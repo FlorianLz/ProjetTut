@@ -493,7 +493,6 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
     <!-- Javascript optionnel -->
       <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/heure.js"></script>
 
     <!-- jQuery, puis Popper.js, puis Bootstrap JS -->
     <script src="js/jquery-3.4.1.min.js"></script>
