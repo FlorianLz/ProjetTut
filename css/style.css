@@ -1,18 +1,48 @@
+/* Polices */
+
 @font-face {
 	font-family: "RetroGaming";
 	src: url('../fonts/RetroGaming.ttf');
 }
+
 @font-face {
 	font-family: "RobotoDescription";
 	src: url('../fonts/Roboto-Medium.ttf');
 }
+
 @font-face {
 	font-family: "RobotoTexte";
 	src: url('../fonts/Roboto-Light.ttf');
 }
+
 body{
     background-color:white;
 }
+
+
+
+
+
+#invites .card{
+    margin:15px;
+}
+
+#exposant .card{
+    margin:15px;
+}
+
+.titrepage{
+    margin-left: auto;
+    margin-right: auto;
+    margin:30px;
+    font-family: "RetroGaming";
+    font-size: 30px;
+}
+
+
+
+
+
 
 /* Début bannière */
 
@@ -36,49 +66,307 @@ body{
     margin-right:auto;
     background-size:cover;
 }
+
 #imagebanniere:hover{
     background-image:url('../images/banniere.gif');
 }
 
+.link{
+    margin-left:35px;
+}
+.mario{
+    margin-left:40px;
+}
+
 /* Fin bannière */
 
-/* Début footer*/
-.footer {
-    background-color:#3D3838;
+
+/* Début barre de nav*/
+nav{
+    background-color: #585D62; 
+}
+
+.nav-item .nav-link{
+    font-family: "RetroGaming";
     color:white;
-    min-height:100px;
-    padding:20px;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+
+.navbar-nav li{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.loader {
+    position : fixed;
+    z-index: 9999;
+    background : url('../images/mario.gif') 50% 50% no-repeat;
+    top : 0px;
+    left : 0px;
+    height : 100%;
+    width : 100%;
+    cursor : wait;
+    background-color:white;
+}
+
+.titreprincipal{
+    font-family:"RetroGaming";
+    color:white;
+    font-size:2rem;
+}
+
+.persos{
+    padding-top:15px;
+}
+.boutoncontact{
+    float:right;
+}
+
+@media screen and (max-width: 576px) {
+  #kirby,#mega,#link {
+    display: none;
+      visibility:hidden;
+  }
+    #mario,#donkey{
+        width:30vw!important;
+        margin-left:-50%;
+        
+    }
+    .row{
+        padding-right:0px!important;
+        padding-left:0px!important;
+        margin-left:0px!important;
+        margin-right:05px!important;
+    }
+    .titreprincipal{
+        margin-top:30px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #kirby,#mega,#link,#mario,#donkey{
+        width:100%!important;
+        
+    }
+}
+
+.imagereservation{
+    background-image: url('../images/reservation.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    
+}
+
+/* Fin barre de nav */
+
+
+/* Début page accueil*/
+
+#carouselExampleIndicators{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#carouselFond{
+    background-color: #c72127;
+}
+#Sectionreseauxsociaux{
+    margin-top: 20px;
+}
+
+#Sectionreseauxsociaux h3{
     font-family: "RobotoDescription";
+    margin-top: 60px;
+    margin-bottom: 12px;
+    font-size: 35px;
 }
-.footer a{
-    color:white;
-}
-.footer li{
+
+#Sectionreseauxsociaux span{
+    margin-top: 5px;
+    font-family: "RobotoTexte";
+    border: 1px solid black;
+    border-radius: 0px;
+    text-transform: uppercase;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display:block;
     text-align:center;
 }
- .footer .social {
-     -webkit-transform: scale(0.8);
-     -moz-transform: scale(0.8);
-     -o-transform: scale(0.8);
- }
-.footer .fa-angle-double-right:before {
-    content: "";
-}
-.footer ul{
-    margin-bottom:0px;
-}
-.footer .reseaux{
-    padding-top:15px;
-    padding-bottom:15px;
-}
-.footer .reseaux ul li{
-    padding-top:5px;
-    padding-bottom:5px;
-    font-size:1.2rem;
+
+.enhaut{
+    position: relative;
+    
 }
 
+.enbas{
+ 
+}
 
-/* Fin footer */
+.partiediff{
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: 100%;
+}
+
+.couleurRouge{
+    background-color: #c72127;
+}
+
+.couleurVert{
+    background-color: #1d765a;
+}
+
+.couleurBleu{
+    background-color: #224191;
+}
+
+.couleurJaune{
+    background-color: #febc35;
+}
+
+.social-grid--cell-img > img{
+    width: 100%;
+}
+
+.divimggrand{
+    margin-top: 90px;
+}
+
+.divimggrand2{
+    background-color: #ECEBEB;
+}
+
+#imageGrand{
+    vertical-align: middle;
+}
+
+.descrip{
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.descrip > p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "RobotoDescription";
+    font-size: 35px;
+}
+
+.descrip > p > p{
+    font-family: "RobotoTexte";
+}
+
+.descrip img{
+    object-fit: contain;
+}
+
+.sectionNewsletter{
+    background-color: #c72127;
+    border-radius: 5px;
+}
+
+.p-3 > h3{
+    font-family: "RobotoDescription";
+    font-size: 35px;
+    color: white;
+}
+
+.p-3 > h6{
+    font-family: "RobotoDescription";
+}
+
+.sectionNewsletter input[type=text] {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    border:1px solid #585D62;
+}
+
+.sectionNewsletter input[type=text]:hover {
+	border:1px solid #000;
+	transition: 6s;
+}
+
+button{
+	height: 50px;
+	padding: 0;
+	margin: 0;
+    width:100%;
+}
+
+.p-3 .btn{
+    background-color: #585D62;
+	border-radius: 5px;
+	font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+footer .socials{
+    position: fixed;
+    z-index: 110;
+    bottom: 0;
+    right: 0;
+}
+
+footer .socials ul{
+    background-color: #D85557;
+    display: inline-block;
+    border-top-left-radius: 1rem;
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+    line-height:45px;
+    height:45px;
+}
+
+footer .socials ul li{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-family: "RobotoTexte";
+    padding:0 5px;
+}
+
+@media (max-width: 767px){
+    .hidden-sm-down {
+    display: none!important;
+    }
+}
+
+@media (max-width: 767px){
+    .hidden-sm-down{
+        display: none;
+    }
+}
+
+.section-social-wall .links li {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    margin: 0 .5rem 1rem .5rem;
+}
+
+.section-social-wall .links {
+    list-style: none;
+    padding: 0;
+    padding-left:0px;
+    margin: 0;
+}
+
+/* Fin page accueil */
+
 
 /* Début page programme */ 
 .jour{
@@ -158,8 +446,7 @@ body{
     line-height: 1.2;
 }
 
-.jour
-{
+.jour{
     margin-bottom: 30px;
 }
 
@@ -286,807 +573,67 @@ body{
 /* Fin page programme */
 
 
+/* Début page invités / exposants */
 
-
-/* barre de nav*/
-nav{
-    background-color: #585D62; 
+#logoconv{
+    width: 127px;
+    height: 116px;
+}
+.invites {
+    display:none;
 }
 
-.nav-item .nav-link{
-    font-family: "RetroGaming";
-    color:white;
+.centrage {
+    margin-left:auto;
+    margin-right:auto;
 }
 
-.navbar-nav{
-    margin: 0 auto;
-}
-
-.navbar-nav li{
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-
-.loader {
-    position : fixed;
-    z-index: 9999;
-    background : url('../images/mario.gif') 50% 50% no-repeat;
-    top : 0px;
-    left : 0px;
-    height : 100%;
-    width : 100%;
-    cursor : wait;
-    background-color:white;
-}
-
-.titreprincipal{
-    font-family:"RetroGaming";
-    color:white;
-    font-size:2rem;
-}
-
-.persos{
-    padding-top:15px;
-}
-.boutoncontact{
-    float:right;
-}
-#tab03{
-    margin-bottom:30px;
-    margin-top:30px;
-}
-
-@media screen and (max-width: 576px) {
-  #kirby,#mega,#link {
-    display: none;
-      visibility:hidden;
-  }
-    #mario,#donkey{
-        width:30vw!important;
-        margin-left:-50%;
-        
-    }
-    .row{
-        padding-right:0px!important;
-        padding-left:0px!important;
-        margin-left:0px!important;
-        margin-right:05px!important;
-    }
-    .titreprincipal{
-        margin-top:30px;
-    }
-}
-
-@media screen and (min-width: 576px) {
-    #kirby,#mega,#link,#mario,#donkey{
-        width:100%!important;
-        
-    }
-}
-
-.imagereservation{
-    background-image: url('../images/reservation.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* page accueil*/
-
-#carouselExampleIndicators{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-#carouselFond{
-    background-color: #c72127;
-}
-#Sectionreseauxsociaux{
-    margin-top: 20px;
-}
-
-#Sectionreseauxsociaux h3{
-    font-family: "RobotoDescription";
-    margin-top: 60px;
-    margin-bottom: 12px;
-    font-size: 35px;
-}
-
-#Sectionreseauxsociaux span{
-    margin-top: 5px;
-    font-family: "RobotoTexte";
-    border: 1px solid black;
-    border-radius: 0px;
-    text-transform: uppercase;
+.invites .card{
+    padding: 0;
+    margin: 1px;
     display: flex;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 10px;
-    display:block;
-    text-align:center;
 }
 
-.enhaut{
-    position: relative;
-    
+.invites img{
+    object-fit: cover;
+    height: 300px;
 }
 
-.enbas{
- 
-}
-
-.partiediff{
-    padding-bottom: 10%;
-    padding-top: 10%;
-    width: 100%;
-}
-
-.couleurRouge{
-    background-color: #c72127;
-}
-
-.couleurVert{
-    background-color: #1d765a;
-}
-
-.couleurBleu{
+.invites a{
     background-color: #224191;
+    border-color: #224191;
 }
 
-.couleurJaune{
-    background-color: #febc35;
-}
-
-.social-grid--cell-img > img{
-    width: 100%;
-}
-
-.divimggrand{
-    margin-top: 90px;
-}
-
-.divimggrand2{
-    background-color: #ECEBEB;
-}
-
-#imageGrand{
-    vertical-align: middle;
-}
-
-
-/* fin accueil */
-
-
-
-/* test réseaux sociax*/
-footer .socials{
-    position: fixed;
-    z-index: 110;
-    bottom: 0;
-    right: 0;
-}
-
-footer .socials ul{
-    background-color: #D85557;
-    display: inline-block;
-    border-top-left-radius: 1rem;
-    list-style: none;
-    margin: 0;
-    padding-left: 15px;
-    line-height:45px;
-    height:45px;
-}
-
-footer .socials ul li{
-    display: inline-block;
-    vertical-align: middle;
-    color: white;
-    font-family: "RobotoTexte";
-    padding:0 5px;
-}
-@media (max-width: 767px){
-.hidden-sm-down {
-    display: none!important;
-}}
-
-@media (max-width: 767px){
-    .hidden-sm-down{
-        display: none;
-    }
-}
-.section-social-wall .links li {
-    display: inline-block;
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    margin: 0 .5rem 1rem .5rem;
-}
-
-.section-social-wall .links {
-    list-style: none;
-    padding: 0;
-    padding-left:0px;
-    margin: 0;
-}
-.link{
-    margin-left:35px;
-}
-.mario{
-    margin-left:40px;
-}
-
-#invites .card{
-    margin:15px;
-}
-
-#exposant .card{
-    margin:15px;
-}
-
-.titrepage{
-    margin-left: auto;
-    margin-right: auto;
-    margin:30px;
-    font-family: "RetroGaming";
+.invites h3{
+    font-family: "RobotoDescription";
     font-size: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.descrip{
-    border-radius: 10px;
-    margin-top: 20px;
-    padding: 20px;
-    width: 100%;
-}
-
-.descrip > p{
-    text-align: center;
-    padding-top: 20px;
-    font-family: "RobotoDescription";
-    font-size: 35px;
-}
-
-.descrip > p > p{
-    font-family: "RobotoTexte";
-}
-
-.descrip img{
+.exposants img{
     object-fit: contain;
+    height: 300px;
 }
 
-.sectionNewsletter{
-    background-color: #c72127;
-    border-radius: 5px;
-}
-
-.p-3 > h3{
-    font-family: "RobotoDescription";
-    font-size: 35px;
-    color: white;
-}
-
-.p-3 > h6{
-    font-family: "RobotoDescription";
-}
-
-.sectionNewsletter input[type=text] {
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    outline: none;
-    width: 100%;
-    border:1px solid #585D62;
-}
-
-.sectionNewsletter input[type=text]:hover {
-	border:1px solid #000;
-	transition: 6s;
-}
-
-button{
-	height: 50px;
-	padding: 0;
-	margin: 0;
-    width:100%;
-}
-
-.p-3 .btn{
-    background-color: #585D62;
-	border-radius: 5px;
-	font-size: 20px;
-    color: white;
-    border-radius: 10px;
-}
-
-/* page accès*/ 
-/*menu*/
-.tabs {
-    margin: 0 auto;
-    padding: 0 20px;
-    margin-top: 20px;
-}
-
-#tab-button {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#tab-button li {
-    display: table-cell;
-    width: 20%;
-}
-
-#tab-button li a {
-    display: block;
-    padding: .5em;
-    text-align: center;
-    color: #c72127;
-    text-decoration: none;
-    font-family: "RetroGaming"
-}
-
-#tab-button li:not(:first-child) a {
-    border-left: none;
-}
-
-#tab-button li a:hover,
-#tab-button .is-active a {
-    border-bottom-color: transparent;
-    border-bottom: 2px solid #c72127;
-}
-
-.tab-contents {
-    padding: .5em 2em 1em;
-}
-
-.tab-button-outer {
-    display: none;
-}
-
-.tab-contents {
-    margin-top: 20px;
-}
-
-.tab-contents h2{
-    color: white;
-}
-
-.tab-contents p{
-    color: black;
-    font-family: "RobotoTexte";
-}
-
-
-/*fin menu*/
-
-#tab01 iframe{
-    display: inherit;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#tab01 .font-weight-bold{
-    color: #c72127;
-    font-family: "RobotoDescription";
-}
-
-#tab02 .font-weight-bold{
-    color: #c72127;
-    font-family: "RobotoDescription";
-}
-
-#tab02 h4{
-    color: #c72127;
-    font-family: "RobotoDescription";
-    text-align: center;
-    padding-top: 40px;
-}
-
-#tab04 #espace{
-    margin-top: 40px;
-}
-
-#tab04 .question{
-    color: #c72127;
-    font-family: "RobotoDescription";
-}
-
-#tab04 .reponse{
-    color: #c72127;
-    font-family: "RobotoDescription";
-}
-
-
-
-
-
-
-
-@media screen and (min-width: 200px) {
-  .tab-button-outer {
-      position: relative;
-      z-index: 2;
-      display: block;
-  }
-  .tab-select-outer {
-      display: none;
-  }
-  .tab-contents {
-      position: relative;
-      top: -1px;
-      margin-top: 0;
-  }
-}
-
-
-/*fin page accès*/
-
-
-
-/* page presse */
-
-#imgAffiche{
-    width: 600px;
-    height: 451px;
-}
-
-#documentspresse{
-    margin-top: 40px;
-}
-
-#documentspresse img{
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#documentspresse p{
-    font-family: "RobotoTexte";
-    font-size: 20px;
-}
-
-#documentspresse h4{
+.exposants h3{
     font-family: "RobotoDescription";
     font-size: 30px;
-    color: #c72127;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-align: center;
 }
 
-#titreflyer{
-    margin-top: 40px;
+.exposants a{
+    background-color: #224191;
+    border-color: #224191;
 }
 
-.flyer{
-    width: 600px;
-    height: 451px;
-    margin: 10px;
-}
-
-#documentspresse iframe{
+.exposants .card{
+    padding: 0;
+    margin: 1px;
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    width: 600px;
-    height: 800px;
 }
 
+/* Fin page invités / exposants */
 
 
-
-/* fin page presse */
-
-
-
-/* page galerie */
+/* Début page galerie */
 
 .videos{
     position: relative;
@@ -1147,66 +694,218 @@ button{
     margin: 10px;
 }
 
+/* Fin page galerie */
 
-/* fin page galerie */
 
-
-/* page invités / exposants */
-#logoconv{
-    width: 127px;
-    height: 116px;
-}
-.invites {
-    display:none;
+/* Début page accès*/ 
+.tabs {
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 20px;
 }
 
-.centrage {
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.invites .card{
+#tab-button {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
     padding: 0;
-    margin: 1px;
+    list-style: none;
+}
+
+#tab-button li {
+    display: table-cell;
+    width: 20%;
+}
+
+#tab-button li a {
+    display: block;
+    padding: .5em;
+    text-align: center;
+    color: #c72127;
+    text-decoration: none;
+    font-family: "RetroGaming"
+}
+
+#tab-button li:not(:first-child) a {
+    border-left: none;
+}
+
+#tab-button li a:hover,
+#tab-button .is-active a {
+    border-bottom-color: transparent;
+    border-bottom: 2px solid #c72127;
+}
+
+.tab-contents {
+    padding: .5em 2em 1em;
+}
+
+.tab-button-outer {
+    display: none;
+}
+
+.tab-contents {
+    margin-top: 20px;
+}
+
+.tab-contents h2{
+    color: white;
+}
+
+.tab-contents p{
+    color: black;
+    font-family: "RobotoTexte";
+}
+
+#tab01 iframe{
+    display: inherit;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tab01 .font-weight-bold{
+    color: #c72127;
+    font-family: "RobotoDescription";
+}
+
+#tab02 .font-weight-bold{
+    color: #c72127;
+    font-family: "RobotoDescription";
+}
+
+#tab02 h4{
+    color: #c72127;
+    font-family: "RobotoDescription";
+    text-align: center;
+    padding-top: 40px;
+}
+
+#tab03{
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+#tab04 #espace{
+    margin-top: 40px;
+}
+
+#tab04 .question{
+    color: #c72127;
+    font-family: "RobotoDescription";
+}
+
+#tab04 .reponse{
+    color: #c72127;
+    font-family: "RobotoDescription";
+}
+
+@media screen and (min-width: 200px) {
+  .tab-button-outer {
+      position: relative;
+      z-index: 2;
+      display: block;
+  }
+  .tab-select-outer {
+      display: none;
+  }
+  .tab-contents {
+      position: relative;
+      top: -1px;
+      margin-top: 0;
+  }
+}
+
+
+/*fin page infos pratiques*/
+
+
+/* Début page presse */
+
+#imgAffiche{
+    width: 600px;
+    height: 451px;
+}
+
+#documentspresse{
+    margin-top: 40px;
+}
+
+#documentspresse img{
     display: flex;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.invites img{
-    object-fit: cover;
-    height: 300px;
+#documentspresse p{
+    font-family: "RobotoTexte";
+    font-size: 20px;
 }
 
-.invites a{
-    background-color: #224191;
-    border-color: #224191;
-}
-
-.invites h3{
+#documentspresse h4{
     font-family: "RobotoDescription";
     font-size: 30px;
+    color: #c72127;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.exposants img{
-    object-fit: contain;
-    height: 300px;
+#titreflyer{
+    margin-top: 40px;
 }
 
-.exposants h3{
-    font-family: "RobotoDescription";
-    font-size: 30px;
+.flyer{
+    width: 600px;
+    height: 451px;
+    margin: 10px;
 }
 
-.exposants a{
-    background-color: #224191;
-    border-color: #224191;
-}
-
-.exposants .card{
-    padding: 0;
-    margin: 1px;
+#documentspresse iframe{
     display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 800px;
 }
 
+/* Fin page presse */
 
 
-/* fin page invités / exposants */
+/* Début footer*/
+.footer {
+    background-color:#3D3838;
+    color:white;
+    min-height:100px;
+    padding:20px;
+    font-family: "RobotoDescription";
+}
+.footer a{
+    color:white;
+}
+.footer li{
+    text-align:center;
+}
+ .footer .social {
+     -webkit-transform: scale(0.8);
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+ }
+.footer .fa-angle-double-right:before {
+    content: "";
+}
+.footer ul{
+    margin-bottom:0px;
+}
+.footer .reseaux{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.footer .reseaux ul li{
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:1.2rem;
+}
+
+/* Fin footer */
