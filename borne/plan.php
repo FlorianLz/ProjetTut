@@ -423,11 +423,11 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                 </form>
                 
                         <div id="tab" class="btn-group" data-toggle="buttons-radio">
-                            <a id="bouton-1" class="selection filter-button  btn-large boutonliste btn active" data-filter="tout" data-toggle="tab" onclick="filtrage(this.id);">Tout</a>
-                            <a id="bouton-2" class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab" onclick="filtrage(this.id);">Ventes</a>
-                            <a id="bouton-3" class="selection filter-button  btn-large boutonliste btn" data-filter="console" data-toggle="tab" onclick="filtrage(this.id);">Consoles</a>
-                            <a id="bouton-4" class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab" onclick="filtrage(this.id);">Services</a>
-                            <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="filtrage(this.id);">Partenaires</a>
+                            <a id="bouton-1" class="selection filter-button  btn-large boutonliste btn active" data-filter="tout" data-toggle="tab" onclick="filtrage(this.id);toutcacher();">Tout</a>
+                            <a id="bouton-2" class="selection filter-button  btn-large boutonliste btn" data-filter="vente" data-toggle="tab" onclick="filtrage(this.id);toutcacher();;">Ventes</a>
+                            <a id="bouton-3" class="selection filter-button  btn-large boutonliste btn" data-filter="console" data-toggle="tab" onclick="filtrage(this.id);toutcacher();">Consoles</a>
+                            <a id="bouton-4" class="selection filter-button btn-large boutonliste btn" data-filter="services" data-toggle="tab" onclick="filtrage(this.id);toutcacher();">Services</a>
+                            <a id="bouton-5" class="selection filter-button btn-large boutonliste btn" data-filter="partenaire" data-toggle="tab" onclick="filtrage(this.id);toutcacher();">Partenaires</a>
                         </div>
                 <div class="carte" id="accordion">
                     <?php 
@@ -437,9 +437,9 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                             $exposants = file_get_contents('exposants.json');
                             $exposants = json_decode($exposants, true); 
                             for($i=0;$i<count($exposants['exposants']);$i++){
-                                echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="animation(this.id);supprimer();">';
+                                echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="supprimer();">';
                                 echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
-                                echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria-controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
+                                echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="false" id="m'.$exposants['exposants'][$i]['numero'].'" aria-controls="desc'.$exposants['exposants'][$i]['id'].'" onclick="refermer(this);">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                 echo '</div>';
                                 echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
                                 echo '<div class="card-body">'. $exposants['exposants'][$i]['description'];
@@ -460,11 +460,11 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                  $titre=strtolower($exposants['exposants'][$i]['nom']);
                                  $description=strtolower($exposants['exposants'][$i]['description']);
                                  if(strlen(strpos($titre,$motrecherche))>0 || strlen(strpos($description,$motrecherche)) ){
-                                     echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="animation(this.id);">';
+                                     echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="supprimer();">';
                                      echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
-                                     echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria- expanded="true" aria-controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
+                                     echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="false" id="m'.$exposants['exposants'][$i]['numero'].'" aria-controls="desc'.$exposants['exposants'][$i]['id'].'" onclick="refermer(this);">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                      echo '</div>';
-                                     echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria- labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
+                                     echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
                                      echo '<div class="card-body">'. $exposants['exposants'][$i]['description'];
                                      echo '</div>';
                                      echo '</div>';

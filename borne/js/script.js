@@ -93,6 +93,15 @@ function filtrage(id){
     document.getElementById(id).style.backgroundColor="#1d765a";
 }
 
+function refermer(val){
+    var valeur=val.getAttribute('aria-expanded');
+    if (valeur.toString() == 'true'){
+        toutcacher();
+    }if (valeur.toString() == 'false'){
+        animation(val.id);
+    }
+}
+
 function animation(b){
     var a = b.substring(1);
     for(var i=1; i <38; i++){
@@ -172,4 +181,32 @@ function affichagecarte(id){
 function supprimer(){
     document.getElementById('recherchebtn').disabled=false;
     document.getElementById('recherchebtn').style.color='white';
+}
+
+function toutcacher(){
+    for(var i=1; i <38; i++){
+            if(i == 37){
+                for(var y=1; y <=8; y++){
+                    document.getElementById('Anim_stand_'+i+"-"+y).style.display = "none";
+                }
+            }
+            
+            if(i == 8){
+                for(var z=1; z <=10; z++){
+                    document.getElementById('Anim_stand_'+i+"-"+z).style.display = "none";
+                }
+            }
+            
+            if(i == 10 || i == 12 || i == 100 || i == 101){
+                for(var n=1; n <=4; n++){
+                     document.getElementById('Anim_stand_'+i+"-"+n).style.display = "none";
+                }
+            }
+            
+            if(i != 37 && i != 8 && i != 10 && i !=12 && i != 100 && i != 101){
+                for(var v=1; v <=5; v++){
+                    document.getElementById('Anim_stand_'+i+"-"+v).style.display = "none";
+                }
+            }
+    }
 }
