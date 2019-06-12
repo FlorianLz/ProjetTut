@@ -1148,3 +1148,11 @@ button{
     width: 127px;
     height: 116px;
 }
+.exposants {
+    display:none;
+}
+
+.centrage {
+    margin-left:auto;
+    margin-right:auto;
+}
