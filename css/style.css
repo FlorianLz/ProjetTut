@@ -1090,10 +1090,12 @@ button{
     margin-top: 20px;
 }
 
-.videos p{
+.textGalerie{
     font-family: "RobotoDescription";
     font-size: 30px;
     color: #c72127;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .videos div{
@@ -1102,9 +1104,9 @@ button{
 
 .videos video{
     z-index:1;
-    object-fit: cover;
-    width: 700px;
-    height: 388px;
+    object-fit: fill;
+    width: 680px;
+    height: 420px;
 }
 
 .videos figure{
@@ -1122,12 +1124,6 @@ button{
     margin-bottom: 40px;
 }
 
-.photos p{
-    font-family: "RobotoDescription";
-    font-size: 30px;
-    color: #c72127;
-}
-
 .photos div{
     display: flex;
 }
@@ -1135,8 +1131,8 @@ button{
 .photos img{
     z-index:1;
     object-fit: cover;
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 420px;
 }
 
 .photos figure{
@@ -1147,6 +1143,8 @@ button{
 
 /* fin page galerie */
 
+
+/* page invités / exposants */
 #logoconv{
     width: 127px;
     height: 116px;
@@ -1159,3 +1157,49 @@ button{
     margin-left:auto;
     margin-right:auto;
 }
+
+.invites .card{
+    padding: 0;
+    margin: 1px;
+    display: flex;
+}
+
+.invites img{
+    object-fit: cover;
+    height: 300px;
+}
+
+.invites a{
+    background-color: #224191;
+    border-color: #224191;
+}
+
+.invites h3{
+    font-family: "RobotoDescription";
+    font-size: 30px;
+}
+
+.exposants img{
+    object-fit: contain;
+    height: 300px;
+}
+
+.exposants h3{
+    font-family: "RobotoDescription";
+    font-size: 30px;
+}
+
+.exposants a{
+    background-color: #224191;
+    border-color: #224191;
+}
+
+.exposants .card{
+    padding: 0;
+    margin: 1px;
+    display: flex;
+}
+
+
+
+/* fin page invités / exposants */
