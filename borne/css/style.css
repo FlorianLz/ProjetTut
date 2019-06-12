@@ -19,7 +19,6 @@ body{
 }
 .conteneurcartes{
     height:80vh;
-    margin-top:4vh;
 }
 /*#parentcarte{
  height: 83%;
@@ -45,8 +44,9 @@ body{
 }
 .carte{
     color:#febc35;
-    height:70vh;
-    overflow:scroll;
+    height:69vh;
+    overflow:auto;
+    margin-top:15px;
 }
 .card-title{
     font-family: "RobotoDescription";
@@ -138,10 +138,12 @@ body{
 }
 .boutonsupprimerd{
     height:95%;
+    width:45px;
     margin-bottom:3px;
     border-radius:10px;
 }
 .inputrecherche {
+    height:48px;
     margin-right:-9px;
     border-radius:10px 0px 0px 10px;
     border:2.2px solid #224191;
@@ -152,6 +154,13 @@ body{
 }
 .img404{
     width:100%;
+}
+#recherche{
+    height:50px;
+    margin-bottom:25px;
+}
+.fa-times{
+    font-size:2rem!important;
 }
 
 /* css du plan */

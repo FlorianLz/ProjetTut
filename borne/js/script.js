@@ -169,3 +169,7 @@ function affichagecarte(id){
     document.getElementById('recherchebtn').disabled=false;
     document.getElementById('recherchebtn').style.color='white';
 }
+function supprimer(){
+    document.getElementById('recherchebtn').disabled=false;
+    document.getElementById('recherchebtn').style.color='white';
+}

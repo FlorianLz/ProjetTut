@@ -437,7 +437,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                             $exposants = file_get_contents('exposants.json');
                             $exposants = json_decode($exposants, true); 
                             for($i=0;$i<count($exposants['exposants']);$i++){
-                                echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="animation(this.id);">';
+                                echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="animation(this.id);supprimer();">';
                                 echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
                                 echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria-controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                 echo '</div>';
