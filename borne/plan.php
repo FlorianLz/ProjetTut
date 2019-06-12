@@ -30,7 +30,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
     <div class="text-center"> <!-- Création du corps de la page -->
         <div class="row menu">
             <div class="col-xl-3 col-md-3 "><a href="index.html"><img src="image/Convention-BLANC.png" class="logo" alt="logo"></a></div>
-            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><button onclick="location.href='index.html'" type="button" class="btn btn-primary bouton">ACTUS</button></div>
+            <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center boutonmenu"><button onclick="location.href='index.html'" type="button" class="btn btn-primary bouton">ACTUS</button></div>
             <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><button onclick="location.href='#'" type="button" class="btn btn-primary bouton boutonplan">PLAN</button></div>
             <div class="col-xl-3 col-md-3 heure d-flex align-items-center"><p id="div_horloge"></p></div>
             
@@ -408,8 +408,8 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
             </div>
             
             <div class="col-xl-5 col-xs-5 col-md-5 conteneurcartes">
-                <form id="recherche" action="plan.php" method="post">
-                  <input type="text" class="inputrecherche" placeholder="Rechercher" value="<?php if(isset($_POST['texte'])){echo $_POST['texte']; };?>" name="texte">
+                <form id="recherche" action="plan.php" method="post" name="form">
+                  <input type="text" class="inputrecherche" placeholder="Rechercher" value="<?php if(isset($_POST['texte'])){echo $_POST['texte'];};?>" name="texte" onkeyup="supprimer();">
                   <button type="submit" class="btn boutonliste btn-sm boutonrecherche" value="Submit" form="recherche"><i class="fa fa-search"></i></button>
                   <?php if(isset($_POST['texte'])){
                             echo'<button id="recherchebtn" type="submit" class="btn boutonliste btn-sm boutonsupprimer" value="Submit" form="supprimer"><i class="fa fa-times"></i></button>';

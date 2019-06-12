@@ -178,10 +178,15 @@ function affichagecarte(id){
     $('.collapse'+id).collapse('toggle');
     document.getElementById('recherchebtn').disabled=false;
     document.getElementById('recherchebtn').style.color='white';
+    document.getElementById('msgrecherche').innerHTML="Le stand sélectionné est :"
 }
 function supprimer(){
     document.getElementById('recherchebtn').disabled=false;
     document.getElementById('recherchebtn').style.color='white';
+    if(document.form.texte.value =="") {
+        document.getElementById('recherchebtn').disabled=true;
+        document.getElementById('recherchebtn').style.color='grey';
+    }
 }
 
 function toutcacher(){
@@ -214,4 +219,5 @@ function toutcacher(){
                 }
             }
     }
+    document.getElementById('msgrecherche').innerHTML="Aucune recherche";
 }

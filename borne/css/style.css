@@ -71,8 +71,17 @@ body{
         max-width:100%;
         padding-left:30px;
     }
+    .carte{
+        height:74.5vh;
+    }
+    .twitter{
+        height:86vh;
+        max-height:100vh!important;
+    }
+    .menu{
+        height:150px;
+    }
 }
-
 .heure{
     color:#febc35;
     font-family:"RetroGaming";
@@ -91,6 +100,8 @@ body{
 
 .boutonliste{
     background-color:#224191;
+    padding-top:15px;
+    padding-bottom:15px
 }
 
 #tab{
@@ -122,6 +133,7 @@ body{
 .menu .boutonplan, .menu .boutonactus{
     background-color:#1d765a;
     border:1px solid #1d765a;
+    margin-bottom:45px;
 }
 
 .boutonrecherche{
@@ -147,6 +159,7 @@ body{
     margin-right:-9px;
     border-radius:10px 0px 0px 10px;
     border:2.2px solid #224191;
+    padding-left:10px;
 }
 .msgrecherche{
     color:white;
