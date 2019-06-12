@@ -22,13 +22,14 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" >
     
   </head>
     
   <body>
     <div class="text-center"> <!-- Création du corps de la page -->
         <div class="row menu">
-            <div class="col-xl-3 col-md-3 "><img src="image/Convention-BLANC.png" class="logo" alt="logo"></div>
+            <div class="col-xl-3 col-md-3 "><a href="index.html"><img src="image/Convention-BLANC.png" class="logo" alt="logo"></a></div>
             <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><button onclick="location.href='index.html'" type="button" class="btn btn-primary bouton">ACTUS</button></div>
             <div class="col-xl-3 col-md-3 d-flex align-items-center justify-content-center"><button onclick="location.href='#'" type="button" class="btn btn-primary bouton boutonplan">PLAN</button></div>
             <div class="col-xl-3 col-md-3 heure d-flex align-items-center"><p id="div_horloge"></p></div>
