@@ -16,11 +16,10 @@ body{
 
 /* Footer*/
 .footer {
-    background-color:#85898C;
+    background-color:#3D3838;
     color:white;
     min-height:100px;
     padding:20px;
-   /* margin-top:100px;*/
     font-family: "RobotoDescription";
 }
 .footer a{
@@ -257,7 +256,7 @@ body{
     font-size: 30px;
 }
 .banniere{
-    background-color:#585D62;
+    background-color:#3D3838;
     margin-right:0px!important;
     margin-right:0px!important;
     padding-top:25px;
@@ -284,7 +283,7 @@ body{
 
 /* barre de nav*/
 nav{
-    background-color: #85898C; 
+    background-color: #585D62; 
 }
 
 .nav-item .nav-link{
@@ -655,7 +654,7 @@ nav{
 }
 
 #carouselFond{
-    background-color: #c71b1c;
+    background-color: #c72127;
 }
 #Sectionreseauxsociaux{
     margin-top: 20px;
@@ -698,7 +697,7 @@ nav{
 }
 
 .couleurRouge{
-    background-color: #c71b1c;
+    background-color: #c72127;
 }
 
 .couleurVert{
@@ -851,7 +850,7 @@ footer .socials ul li{
 }
 
 .sectionNewsletter{
-    background-color: #c71b1c;
+    background-color: #c72127;
     border-radius: 5px;
 }
 
@@ -871,7 +870,7 @@ footer .socials ul li{
     border-radius: 10px;
     outline: none;
     width: 100%;
-    border:1px solid #7c7b7b;
+    border:1px solid #585D62;
 }
 
 .sectionNewsletter input[type=text]:hover {
@@ -956,6 +955,7 @@ button{
     font-family: "RobotoTexte";
 }
 
+
 /*fin menu*/
 
 #tab01 iframe{
@@ -977,7 +977,7 @@ button{
 
 #tab02 h4{
     color: #c72127;
-    font-family: "RetroGaming";
+    font-family: "RobotoDescription";
     text-align: center;
     padding-top: 40px;
 }
@@ -1034,6 +1034,12 @@ button{
     margin-top: 40px;
 }
 
+#documentspresse img{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #documentspresse p{
     font-family: "RobotoTexte";
     font-size: 20px;
@@ -1043,6 +1049,8 @@ button{
     font-family: "RobotoDescription";
     font-size: 30px;
     color: #c72127;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #titreflyer{
@@ -1062,6 +1070,7 @@ button{
 
 #contactPresse h4{
     font-family: "RobotoDescription";
+    font-size: 30px;
     color: #c72127;
 }
 
