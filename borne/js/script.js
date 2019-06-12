@@ -42,43 +42,20 @@ function triauto(){
                 for (j = 0; j < x.length; j++) {
                     x[j].style.display = "none";
                }
-                if(minutes<=15 && heures>i){
-                    var x = document.getElementsByClassName("card h"+i+"m15");
-                    for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
+                for(m=1;m<60;m++){
+                    if(minutes<=m && heures>i){
+                        var x = document.getElementsByClassName("card h"+i+"m"+m);
+                        for (j = 0; j < x.length; j++) {
+                        x[j].style.display = "none";
+                        }
                     }
-                }
-                if(minutes>15 && heures>i){
-                    var x = document.getElementsByClassName("card h"+(i+1)+"m15");
-                    for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
+                    if(minutes>m && heures>i){
+                        var x = document.getElementsByClassName("card h"+(i+1)+"m"+m);
+                        for (j = 0; j < x.length; j++) {
+                        x[j].style.display = "none";
+                        }
+
                     }
-                    
-                }
-                if(minutes<=30 && heures>i){
-                    var x = document.getElementsByClassName("card h"+i+"m30");
-                    for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
-                    }
-                }
-                if(minutes>30 && heures>i){
-                    var x = document.getElementsByClassName("card h"+(i+1)+"m30");
-                    for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
-                    }
-                }
-                if(minutes<=45 && heures>i){
-                    var x = document.getElementsByClassName("card h"+i+"m45");
-                    for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
-                    }
-                }
-                if(minutes>45 && heures>i){
-                    var x = document.getElementsByClassName("card h"+(i+1)+"m45");
-                    for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
-                    }
-                    
                 }
             }
         }
