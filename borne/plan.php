@@ -412,7 +412,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                   <input type="text" class="inputrecherche" placeholder="Rechercher" value="<?php if(isset($_POST['texte'])){echo $_POST['texte']; };?>" name="texte">
                   <button type="submit" class="btn boutonliste btn-sm boutonrecherche" value="Submit" form="recherche"><i class="fa fa-search"></i></button>
                   <?php if(isset($_POST['texte'])){
-                            echo'<button type="submit" class="btn boutonliste btn-sm boutonsupprimer" value="Submit" form="supprimer"><i class="fa fa-times"></i></button>';
+                            echo'<button id="recherchebtn" type="submit" class="btn boutonliste btn-sm boutonsupprimer" value="Submit" form="supprimer"><i class="fa fa-times"></i></button>';
                         }else{
                             echo'<button id="recherchebtn" type="submit" class="btn boutonliste btn-sm boutonsupprimerd" value="Submit" form="supprimer" disabled><i class="fa fa-times"></i></button>';
                         }  

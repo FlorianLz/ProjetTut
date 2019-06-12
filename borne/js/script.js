@@ -175,6 +175,7 @@ function animation(b){
 function affichagecarte(id){
     $(".filter").not('.carte'+id).hide('3000');
     $('.filter').filter('.carte'+id).show('3000');
+    $('.collapse'+id).collapse('toggle');
     document.getElementById('recherchebtn').disabled=false;
     document.getElementById('recherchebtn').style.color='white';
 }
