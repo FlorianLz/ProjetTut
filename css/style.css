@@ -14,7 +14,35 @@ body{
     background-color:white;
 }
 
-/* Footer*/
+/* Début bannière */
+
+.banniere{
+    background-color:#3D3838;
+    margin-right:0px!important;
+    margin-right:0px!important;
+    padding-top:25px;
+}
+.imgbanniere{
+    max-width:100%; 
+    max-height:100%; 
+    margin-left:auto; 
+    margin-right:auto;
+    visibility:hidden;
+}
+
+#imagebanniere{
+    background-image:url('../images/banniere1.png');
+    margin-left:auto;
+    margin-right:auto;
+    background-size:cover;
+}
+#imagebanniere:hover{
+    background-image:url('../images/banniere.gif');
+}
+
+/* Fin bannière */
+
+/* Début footer*/
 .footer {
     background-color:#3D3838;
     color:white;
@@ -50,7 +78,9 @@ body{
 }
 
 
-/* Page programme */ 
+/* Fin footer */
+
+/* Début page programme */ 
 .jour{
     color: white;
 }
@@ -166,7 +196,6 @@ body{
     background-size: cover;
 }
 
-/*image page programe*/
 .nintendosalon{
     background-image: url(../images/consoles-salon-nintendo.jpg);
 }
@@ -247,37 +276,15 @@ body{
     background-image: url(../images/cloture.jpg);
 }
 
-/*fin image page programme*/
-
 .journee{
     margin-left:auto;
     margin-right:auto;
     font-family: "RetroGaming";
     font-size: 30px;
 }
-.banniere{
-    background-color:#3D3838;
-    margin-right:0px!important;
-    margin-right:0px!important;
-    padding-top:25px;
-}
-.imgbanniere{
-    max-width:100%; 
-    max-height:100%; 
-    margin-left:auto; 
-    margin-right:auto;
-    visibility:hidden;
-}
 
-#imagebanniere{
-    background-image:url('../images/banniere1.png');
-    margin-left:auto;
-    margin-right:auto;
-    background-size:cover;
-}
-#imagebanniere:hover{
-    background-image:url('../images/banniere.gif');
-}
+/* Fin page programme */
+
 
 
 
