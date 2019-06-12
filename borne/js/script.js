@@ -23,6 +23,19 @@ function triauto(){
         var madate=new Date();
         var heures=madate.getHours();
         var minutes=madate.getMinutes();
+        var jour=madate.getDay();
+        if(jour == 6){
+            $(".filter").not('.samedi').hide('3000');
+            $('.filter').filter('.samedi').show('3000');
+        }
+        if(jour == 7){
+            $(".filter").not('.dimanche').hide('3000');
+            $('.filter').filter('.dimanche').show('3000');
+        }
+        if(jour !=6 && jour !=7){
+            $(".filter").not('.samedi').hide('3000');
+            $('.filter').filter('.samedi').show('3000');
+        }
         if(heures>8 && heures<19){
             for (i=9;i<heures;i++){
                 var x = document.getElementsByClassName("card h"+(i+1));
@@ -53,6 +66,19 @@ function triauto(){
                     for (j = 0; j < x.length; j++) {
                     x[j].style.display = "none";
                     }
+                }
+                if(minutes<=45 && heures>i){
+                    var x = document.getElementsByClassName("card h"+i+"m45");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                }
+                if(minutes>45 && heures>i){
+                    var x = document.getElementsByClassName("card h"+(i+1)+"m45");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                    
                 }
             }
         }
