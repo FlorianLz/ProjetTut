@@ -795,6 +795,10 @@ footer .socials ul li{
     margin:15px;
 }
 
+#exposant .card{
+    margin:15px;
+}
+
 .titrepage{
     margin-left: auto;
     margin-right: auto;
@@ -1021,13 +1025,52 @@ button{
 
 /* page presse */
 
-#contactPresse h2{
+#imgAffiche{
+    width: 600px;
+    height: 451px;
+}
+
+#documentspresse{
+    margin-top: 40px;
+}
+
+#documentspresse p{
+    font-family: "RobotoTexte";
+    font-size: 20px;
+}
+
+#documentspresse h4{
     font-family: "RobotoDescription";
+    font-size: 30px;
+    color: #c72127;
+}
+
+#titreflyer{
+    margin-top: 40px;
+}
+
+.flyer{
+    width: 600px;
+    height: 451px;
+    margin: 10px;
+}
+
+
+#contactPresse{
+    margin: 20px;
+}
+
+#contactPresse h4{
+    font-family: "RobotoDescription";
+    color: #c72127;
 }
 
 #contactPresse p{
     font-family: "RobotoTexte";
 }
+
+
+
 
 /* fin page presse */
 
@@ -1047,6 +1090,7 @@ button{
 .videos p{
     font-family: "RobotoDescription";
     font-size: 30px;
+    color: #c72127;
 }
 
 .videos div{
@@ -1078,6 +1122,7 @@ button{
 .photos p{
     font-family: "RobotoDescription";
     font-size: 30px;
+    color: #c72127;
 }
 
 .photos div{
