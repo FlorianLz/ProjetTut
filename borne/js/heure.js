@@ -53,43 +53,7 @@ function triauto(){
                     x[j].style.display = "none";
                     }
                 }
-            /*if (minutes<15 && heure>i){
-                for(k=9;k<heures;k++){
-                    var x = document.getElementsByClassName("card h"+k+"m15");
-                    alert("card h"+k+"m15");
-                    for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
-               }
-                }
             }
-            /*if (minutes<30){
-                for(k=9;k<heures;k++){
-                    if(document.getElementsByClassName("card h"+k+"m30")){
-                        alert("card h"+k+"m30");
-                        var x = document.getElementsByClassName("card h"+k+"m30");
-                        x.style.display="none";
-                    }
-                }
-            }
-            
-            if (minutes>15 && heures>=i){
-                var x = document.getElementsByClassName("card h"+(i+1)+"m15");
-                for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
-               }
-            }
-            if (minutes>30 && heures>=i){
-                var x = document.getElementsByClassName("card h"+(i+1)+"m30");
-                for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
-               }
-            }
-            
-            var x = document.getElementsByClassName("card h"+(i+1));
-                for (j = 0; j < x.length; j++) {
-                    x[j].style.display = "none";
-               }*/
-        }
         }
     }
     actualisation();
