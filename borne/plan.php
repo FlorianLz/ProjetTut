@@ -15,7 +15,8 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
       
     <!-- Définition des meta -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes">
 
     <!-- Chargement du CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,7 +25,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
     
   </head>
     
-  <body onLoad="window.open('plan.php','','fullscreen,scrollbars');return(false)">
+  <body>
     <div class="text-center"> <!-- Création du corps de la page -->
         <div class="row menu">
             <div class="col-xl-3 col-md-3 "><img src="image/Convention-BLANC.png" class="logo" alt="logo"></div>
@@ -124,7 +125,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                         <g id="Anim_stand_1-1"><circle class="cls-6" cx="220" cy="621" r="3"/></g>
                         <g id="Anim_stand_1-2" data-name="Rond_31"><circle class="cls-6" cx="212" cy="621" r="3"/> </g>
                         <g id="Anim_stand_1-3" data-name="Rond_31"><circle class="cls-6" cx="204" cy="621" r="3"/></g>
-                        <use id="Anim_stand_1-4" transform="matrix(-0.03, 0, 0, 0.03, 255, 607)" xlink:href="#image-6" transform="translate(50)"/>
+                        <use id="Anim_stand_1-4" transform="matrix(-0.03, 0, 0, 0.03, 255, 607)" xlink:href="#image-6"/>
                         <use id="Anim_stand_1-5" data-name="Anim_stand_1" transform="translate(99 595) scale(0.21)" xlink:href="#image-7"/>
                         
                     </g>
@@ -435,7 +436,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                             $exposants = file_get_contents('exposants.json');
                             $exposants = json_decode($exposants, true); 
                             for($i=0;$i<count($exposants['exposants']);$i++){
-                                echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
+                                echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="animation(this.id);">';
                                 echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
                                 echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria-controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                 echo '</div>';
@@ -458,11 +459,11 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                  $titre=strtolower($exposants['exposants'][$i]['nom']);
                                  $description=strtolower($exposants['exposants'][$i]['description']);
                                  if(strlen(strpos($titre,$motrecherche))>0 || strlen(strpos($description,$motrecherche)) ){
-                                     echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" onclick="animation('.$exposants['exposants'][$i]['id'].');">';
+                                     echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="animation(this.id);">';
                                      echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
-                                     echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="true" aria- controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
+                                     echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria- expanded="true" aria-controls="desc'.$exposants['exposants'][$i]['id'].'">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                      echo '</div>';
-                                     echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'"  data-parent="#accordion">';
+                                     echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria- labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
                                      echo '<div class="card-body">'. $exposants['exposants'][$i]['description'];
                                      echo '</div>';
                                      echo '</div>';

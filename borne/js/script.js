@@ -1,3 +1,67 @@
+/* Fonctions effectuées au chargement de la page */
+window.onload=function() {
+  horloge('div_horloge');
+  triauto();
+  
+};
+
+/* Fonction permettant l'affichage de l'heure actuelle */
+function horloge(el) {
+  if(typeof el=="string") { el = document.getElementById(el); }
+  function actualiser() {
+    var date = new Date();
+    var str = date.getHours();
+    str += ':'+(date.getMinutes()<10?'0':'')+date.getMinutes();
+    el.innerHTML = str;
+  }
+  actualiser();
+  setInterval(actualiser,1000);
+}
+/* Fonction permettant de trier automatiquement les évènements en fonction de l'heure */
+function triauto(){
+    function actualisation(){
+        var madate=new Date();
+        var heures=madate.getHours();
+        var minutes=madate.getMinutes();
+        if(heures>8 && heures<19){
+            for (i=9;i<heures;i++){
+                var x = document.getElementsByClassName("card h"+(i+1));
+                for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+               }
+                if(minutes<=15 && heures>i){
+                    var x = document.getElementsByClassName("card h"+i+"m15");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                }
+                if(minutes>15 && heures>i){
+                    var x = document.getElementsByClassName("card h"+(i+1)+"m15");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                    
+                }
+                if(minutes<=30 && heures>i){
+                    var x = document.getElementsByClassName("card h"+i+"m30");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                }
+                if(minutes>30 && heures>i){
+                    var x = document.getElementsByClassName("card h"+(i+1)+"m30");
+                    for (j = 0; j < x.length; j++) {
+                    x[j].style.display = "none";
+                    }
+                }
+            }
+        }
+    }
+    actualisation();
+    setInterval(actualisation,1000);
+}
+
+/* Fonction permettant le tri des stands par catégorie */
 $(document).ready(function(){
 
     $(".filter-button").click(function(){
@@ -9,8 +73,6 @@ $(document).ready(function(){
         }
         else
         {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
             $(".filter").not('.'+value).hide('3000');
             $('.filter').filter('.'+value).show('3000');
             
@@ -18,9 +80,9 @@ $(document).ready(function(){
     });
     
     if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
+    $(this).removeClass("active");
+    }
+    $(this).addClass("active");
 
 });
 
@@ -32,7 +94,7 @@ function filtrage(id){
 }
 
 function animation(b){
-     var a = b.substring(1);
+    var a = b.substring(1);
     for(var i=1; i <38; i++){
         if(i == a){
             
