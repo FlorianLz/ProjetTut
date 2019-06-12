@@ -1,260 +1,51 @@
+/* Polices */
+
 @font-face {
 	font-family: "RetroGaming";
 	src: url('../fonts/RetroGaming.ttf');
 }
+
 @font-face {
 	font-family: "RobotoDescription";
 	src: url('../fonts/Roboto-Medium.ttf');
 }
+
 @font-face {
 	font-family: "RobotoTexte";
 	src: url('../fonts/Roboto-Light.ttf');
 }
+
 body{
     background-color:white;
 }
 
-/* Footer*/
-.footer {
-    background-color:#3D3838;
-    color:white;
-    min-height:100px;
-    padding:20px;
-    font-family: "RobotoDescription";
-}
-.footer a{
-    color:white;
-}
-.footer li{
-    text-align:center;
-}
- .footer .social {
-     -webkit-transform: scale(0.8);
-     -moz-transform: scale(0.8);
-     -o-transform: scale(0.8);
- }
-.footer .fa-angle-double-right:before {
-    content: "";
-}
-.footer ul{
-    margin-bottom:0px;
-}
-.footer .reseaux{
-    padding-top:15px;
-    padding-bottom:15px;
-}
-.footer .reseaux ul li{
-    padding-top:5px;
-    padding-bottom:5px;
-    font-size:1.2rem;
-}
 
 
-/* Page programme */ 
-.jour{
-    color: white;
+
+
+#invites .card{
+    margin:15px;
 }
 
-.jour .card-title{
-    color: black;
-    font-family: "RobotoDescription";
+#exposant .card{
+    margin:15px;
 }
 
-.jour .card-text{
-    color: black;
-    font-family: "RobotoTexte";
-    font-size: 15px;
-}
-
-.jour .titreDiff{
-    font-family: "RobotoDescription";
-    font-size: 25px;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-.horaires h1{
-    font-family: "RobotoTexte";
-}
-
-.filter-button
-{
-    font-size: 18px;
-    border: 1px solid #224191;
-    background-color: #224191;
-    border-radius: 5px;
-    text-align: center;
-    color: white;
-    margin-bottom: 30px;
-
-}
-.filter-button:hover
-{
-    color: #224191;
-    background-color: white;
-
-}
-.btn-default:active .filter-button:active
-{
-    background-color: white;
-    color: #224191;
-}
-
-#filtres{
-    margin-top: 30px;
-    width:100%;
-}
-
-.entierFiltre{
-    margin-top: 20px;
-}
-
-.buttonJours{
-    padding: 10px;
-    width:auto;
-    margin:10px;
-}
-
-.titreDiff{
-    margin-top: 30px;
-    color: black;
-}
-
-.journee{
-    color: black;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-.jour
-{
-    margin-bottom: 30px;
-}
-
-.dimanche{
-    display:none;
-}
-
-.numero{
-    font-size:5rem;
-}
-
-.horaires{
-    background-color:#224191;
-    padding-top:10px;
-    padding-bottom:10px;
-}
-
-.horaires p{
-    font-size:1.5rem;
-    margin: auto;
-}
-
-.imagescene p{
-    visibility:hidden;
-    max-width:100%;
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-.imagescene{
-    background-repeat:no-repeat;
-    background-size: cover;
-}
-
-/*image page programe*/
-.nintendosalon{
-    background-image: url(../images/consoles-salon-nintendo.jpg);
-}
-
-.dedicaces{
-    background-image: url(../images/dedicace.jpg);
-}
-
-.tournoisSony{
-    background-image: url(../images/console-sony.jpg);
-}
-
-.magazine{
-    background-image: url(../images/journalgeek.jpg);
-}
-
-.tresor1{
-    background-image: url(../images/cocacolagoodies.jpg);
-}
-
-.confsean{
-    background-image: url(../images/seanbean.jpg);
-}
-
-.speedrunm{
-    background-image: url(../images/mario.jpg);
-}
-
-.nintendo{
-    background-image: url(../images/confinintendo.jpg);
-}
-
-.cosplay{
-    background-image: url(../images/cosplay.jpg);
-}
-
-.intPaul{
-    background-image: url(../images/paul.jpg);
-}
-
-.tournoisStreet{
-    background-image: url(../images/street.jpg);
-}
-
-.tournoisM{
-    background-image: url(../images/mario64.jpg);
-}
-
-.nintendo2{
-    background-image: url(../images/smashmelee.jpg);
-}
-
-.confCyp{
-    background-image: url(../images/cyprien.jpg);
-}
-
-.speedrunz{
-    background-image: url(../images/zelda.jpg);
-}
-
-.confSony{
-    background-image: url(../images/sony.jpg);
-}
-
-.intYoutube{
-    background-image: url(../images/retrojeux.jpg);
-}
-
-.pok{
-    background-image: url(../images/pokemon.jpg);
-}
-
-.outrun{
-    background-image: url(../images/outrun.jpg);
-}
-
-.clot{
-    background-image: url(../images/cloture.jpg);
-}
-
-/*fin image page programme*/
-
-.journee{
-    margin-left:auto;
-    margin-right:auto;
+.titrepage{
+    margin-left: auto;
+    margin-right: auto;
+    margin:30px;
     font-family: "RetroGaming";
     font-size: 30px;
 }
+
+
+
+
+
+
+/* Début bannière */
+
 .banniere{
     background-color:#3D3838;
     margin-right:0px!important;
@@ -275,13 +66,22 @@ body{
     margin-right:auto;
     background-size:cover;
 }
+
 #imagebanniere:hover{
     background-image:url('../images/banniere.gif');
 }
 
+.link{
+    margin-left:35px;
+}
+.mario{
+    margin-left:40px;
+}
+
+/* Fin bannière */
 
 
-/* barre de nav*/
+/* Début barre de nav*/
 nav{
     background-color: #585D62; 
 }
@@ -325,10 +125,6 @@ nav{
 .boutoncontact{
     float:right;
 }
-#tab03{
-    margin-bottom:30px;
-    margin-top:30px;
-}
 
 @media screen and (max-width: 576px) {
   #kirby,#mega,#link {
@@ -365,288 +161,10 @@ nav{
     
 }
 
+/* Fin barre de nav */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* page accueil*/
+/* Début page accueil*/
 
 #carouselExampleIndicators{
     padding-top: 30px;
@@ -728,105 +246,6 @@ nav{
     vertical-align: middle;
 }
 
-
-/* fin accueil */
-
-
-
-/* test réseaux sociax*/
-footer .socials{
-    position: fixed;
-    z-index: 110;
-    bottom: 0;
-    right: 0;
-}
-
-footer .socials ul{
-    background-color: #D85557;
-    display: inline-block;
-    border-top-left-radius: 1rem;
-    list-style: none;
-    margin: 0;
-    padding-left: 15px;
-    line-height:45px;
-    height:45px;
-}
-
-footer .socials ul li{
-    display: inline-block;
-    vertical-align: middle;
-    color: white;
-    font-family: "RobotoTexte";
-    padding:0 5px;
-}
-@media (max-width: 767px){
-.hidden-sm-down {
-    display: none!important;
-}}
-
-@media (max-width: 767px){
-    .hidden-sm-down{
-        display: none;
-    }
-}
-.section-social-wall .links li {
-    display: inline-block;
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    margin: 0 .5rem 1rem .5rem;
-}
-
-.section-social-wall .links {
-    list-style: none;
-    padding: 0;
-    padding-left:0px;
-    margin: 0;
-}
-.link{
-    margin-left:35px;
-}
-.mario{
-    margin-left:40px;
-}
-
-#invites .card{
-    margin:15px;
-}
-
-#exposant .card{
-    margin:15px;
-}
-
-.titrepage{
-    margin-left: auto;
-    margin-right: auto;
-    margin:30px;
-    font-family: "RetroGaming";
-    font-size: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .descrip{
     border-radius: 10px;
     margin-top: 20px;
@@ -893,8 +312,392 @@ button{
     border-radius: 10px;
 }
 
-/* page accès*/ 
-/*menu*/
+footer .socials{
+    position: fixed;
+    z-index: 110;
+    bottom: 0;
+    right: 0;
+}
+
+footer .socials ul{
+    background-color: #D85557;
+    display: inline-block;
+    border-top-left-radius: 1rem;
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+    line-height:45px;
+    height:45px;
+}
+
+footer .socials ul li{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-family: "RobotoTexte";
+    padding:0 5px;
+}
+
+@media (max-width: 767px){
+    .hidden-sm-down {
+    display: none!important;
+    }
+}
+
+@media (max-width: 767px){
+    .hidden-sm-down{
+        display: none;
+    }
+}
+
+.section-social-wall .links li {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    margin: 0 .5rem 1rem .5rem;
+}
+
+.section-social-wall .links {
+    list-style: none;
+    padding: 0;
+    padding-left:0px;
+    margin: 0;
+}
+
+/* Fin page accueil */
+
+
+/* Début page programme */ 
+.jour{
+    color: white;
+}
+
+.jour .card-title{
+    color: black;
+    font-family: "RobotoDescription";
+}
+
+.jour .card-text{
+    color: black;
+    font-family: "RobotoTexte";
+    font-size: 15px;
+}
+
+.jour .titreDiff{
+    font-family: "RobotoDescription";
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.horaires h1{
+    font-family: "RobotoTexte";
+}
+
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #224191;
+    background-color: #224191;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    color: #224191;
+    background-color: white;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: white;
+    color: #224191;
+}
+
+#filtres{
+    margin-top: 30px;
+    width:100%;
+}
+
+.entierFiltre{
+    margin-top: 20px;
+}
+
+.buttonJours{
+    padding: 10px;
+    width:auto;
+    margin:10px;
+}
+
+.titreDiff{
+    margin-top: 30px;
+    color: black;
+}
+
+.journee{
+    color: black;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.jour{
+    margin-bottom: 30px;
+}
+
+.dimanche{
+    display:none;
+}
+
+.numero{
+    font-size:5rem;
+}
+
+.horaires{
+    background-color:#224191;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.horaires p{
+    font-size:1.5rem;
+    margin: auto;
+}
+
+.imagescene p{
+    visibility:hidden;
+    max-width:100%;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.imagescene{
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.nintendosalon{
+    background-image: url(../images/consoles-salon-nintendo.jpg);
+}
+
+.dedicaces{
+    background-image: url(../images/dedicace.jpg);
+}
+
+.tournoisSony{
+    background-image: url(../images/console-sony.jpg);
+}
+
+.magazine{
+    background-image: url(../images/journalgeek.jpg);
+}
+
+.tresor1{
+    background-image: url(../images/cocacolagoodies.jpg);
+}
+
+.confsean{
+    background-image: url(../images/seanbean.jpg);
+}
+
+.speedrunm{
+    background-image: url(../images/mario.jpg);
+}
+
+.nintendo{
+    background-image: url(../images/confinintendo.jpg);
+}
+
+.cosplay{
+    background-image: url(../images/cosplay.jpg);
+}
+
+.intPaul{
+    background-image: url(../images/paul.jpg);
+}
+
+.tournoisStreet{
+    background-image: url(../images/street.jpg);
+}
+
+.tournoisM{
+    background-image: url(../images/mario64.jpg);
+}
+
+.nintendo2{
+    background-image: url(../images/smashmelee.jpg);
+}
+
+.confCyp{
+    background-image: url(../images/cyprien.jpg);
+}
+
+.speedrunz{
+    background-image: url(../images/zelda.jpg);
+}
+
+.confSony{
+    background-image: url(../images/sony.jpg);
+}
+
+.intYoutube{
+    background-image: url(../images/retrojeux.jpg);
+}
+
+.pok{
+    background-image: url(../images/pokemon.jpg);
+}
+
+.outrun{
+    background-image: url(../images/outrun.jpg);
+}
+
+.clot{
+    background-image: url(../images/cloture.jpg);
+}
+
+.journee{
+    margin-left:auto;
+    margin-right:auto;
+    font-family: "RetroGaming";
+    font-size: 30px;
+}
+
+/* Fin page programme */
+
+
+/* Début page invités / exposants */
+
+#logoconv{
+    width: 127px;
+    height: 116px;
+}
+.invites {
+    display:none;
+}
+
+.centrage {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.invites .card{
+    padding: 0;
+    margin: 1px;
+    display: flex;
+}
+
+.invites img{
+    object-fit: cover;
+    height: 300px;
+}
+
+.invites a{
+    background-color: #224191;
+    border-color: #224191;
+}
+
+.invites h3{
+    font-family: "RobotoDescription";
+    font-size: 30px;
+}
+
+.exposants img{
+    object-fit: contain;
+    height: 300px;
+}
+
+.exposants h3{
+    font-family: "RobotoDescription";
+    font-size: 30px;
+}
+
+.exposants a{
+    background-color: #224191;
+    border-color: #224191;
+}
+
+.exposants .card{
+    padding: 0;
+    margin: 1px;
+    display: flex;
+}
+
+/* Fin page invités / exposants */
+
+
+/* Début page galerie */
+
+.videos{
+    position: relative;
+    overflow-x: scroll;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.textGalerie{
+    font-family: "RobotoDescription";
+    font-size: 30px;
+    color: #c72127;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.videos div{
+    display: flex;
+}
+
+.videos video{
+    z-index:1;
+    object-fit: fill;
+    width: 680px;
+    height: 420px;
+}
+
+.videos figure{
+    position: relative;
+    margin: 10px;
+}
+
+.photos{
+    position: relative;
+    overflow-x: scroll;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.photos div{
+    display: flex;
+}
+
+.photos img{
+    z-index:1;
+    object-fit: cover;
+    width: 600px;
+    height: 420px;
+}
+
+.photos figure{
+    position: relative;
+    margin: 10px;
+}
+
+/* Fin page galerie */
+
+
+/* Début page accès*/ 
 .tabs {
     margin: 0 auto;
     padding: 0 20px;
@@ -955,9 +758,6 @@ button{
     font-family: "RobotoTexte";
 }
 
-
-/*fin menu*/
-
 #tab01 iframe{
     display: inherit;
     margin: 0 auto;
@@ -982,6 +782,11 @@ button{
     padding-top: 40px;
 }
 
+#tab03{
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
 #tab04 #espace{
     margin-top: 40px;
 }
@@ -995,12 +800,6 @@ button{
     color: #c72127;
     font-family: "RobotoDescription";
 }
-
-
-
-
-
-
 
 @media screen and (min-width: 200px) {
   .tab-button-outer {
@@ -1019,11 +818,10 @@ button{
 }
 
 
-/*fin page accès*/
+/*fin page infos pratiques*/
 
 
-
-/* page presse */
+/* Début page presse */
 
 #imgAffiche{
     width: 600px;
@@ -1049,8 +847,9 @@ button{
     font-family: "RobotoDescription";
     font-size: 30px;
     color: #c72127;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #titreflyer{
@@ -1063,105 +862,50 @@ button{
     margin: 10px;
 }
 
-
-#contactPresse{
-    margin: 20px;
-}
-
-#contactPresse h4{
-    font-family: "RobotoDescription";
-    font-size: 30px;
-    color: #c72127;
-}
-
-#contactPresse p{
-    font-family: "RobotoTexte";
-}
-
-
-
-
-/* fin page presse */
-
-
-
-/* page galerie */
-
-.videos{
-    position: relative;
-    overflow-x: scroll;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
-
-.videos p{
-    font-family: "RobotoDescription";
-    font-size: 30px;
-    color: #c72127;
-}
-
-.videos div{
+#documentspresse iframe{
     display: flex;
-}
-
-.videos video{
-    z-index:1;
-    object-fit: cover;
-    width: 700px;
-    height: 388px;
-}
-
-.videos figure{
-    position: relative;
-    margin: 10px;
-}
-
-.photos{
-    position: relative;
-    overflow-x: scroll;
-    width: 85%;
-    margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-left: auto;
+    width: 600px;
+    height: 800px;
 }
 
-.photos p{
+/* Fin page presse */
+
+
+/* Début footer*/
+.footer {
+    background-color:#3D3838;
+    color:white;
+    min-height:100px;
+    padding:20px;
     font-family: "RobotoDescription";
-    font-size: 30px;
-    color: #c72127;
+}
+.footer a{
+    color:white;
+}
+.footer li{
+    text-align:center;
+}
+ .footer .social {
+     -webkit-transform: scale(0.8);
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+ }
+.footer .fa-angle-double-right:before {
+    content: "";
+}
+.footer ul{
+    margin-bottom:0px;
+}
+.footer .reseaux{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.footer .reseaux ul li{
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:1.2rem;
 }
 
-.photos div{
-    display: flex;
-}
-
-.photos img{
-    z-index:1;
-    object-fit: cover;
-    width: 400px;
-    height: 500px;
-}
-
-.photos figure{
-    position: relative;
-    margin: 10px;
-}
-
-
-/* fin page galerie */
-
-#logoconv{
-    width: 127px;
-    height: 116px;
-}
-.invites {
-    display:none;
-}
-
-.centrage {
-    margin-left:auto;
-    margin-right:auto;
-}
+/* Fin footer */
