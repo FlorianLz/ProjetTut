@@ -1034,6 +1034,12 @@ button{
     margin-top: 40px;
 }
 
+#documentspresse img{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #documentspresse p{
     font-family: "RobotoTexte";
     font-size: 20px;
@@ -1043,6 +1049,8 @@ button{
     font-family: "RobotoDescription";
     font-size: 30px;
     color: #c72127;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #titreflyer{
@@ -1062,6 +1070,7 @@ button{
 
 #contactPresse h4{
     font-family: "RobotoDescription";
+    font-size: 30px;
     color: #c72127;
 }
 
