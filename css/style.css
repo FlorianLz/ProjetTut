@@ -1035,10 +1035,71 @@ button{
 
 /* page galerie */
 
-.imgGalerie{
+.videos{
+    position: relative;
+    overflow-x: scroll;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.videos p{
+    font-family: "RobotoDescription";
+    font-size: 30px;
+}
+
+.videos div{
+    display: flex;
+}
+
+.videos video{
+    z-index:1;
     object-fit: cover;
+    width: 700px;
+    height: 388px;
+}
+
+.videos figure{
+    position: relative;
+    margin: 10px;
+}
+
+.photos{
+    position: relative;
+    overflow-x: scroll;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.photos p{
+    font-family: "RobotoDescription";
+    font-size: 30px;
+}
+
+.photos div{
+    display: flex;
+}
+
+.photos img{
+    z-index:1;
+    object-fit: cover;
+    width: 400px;
+    height: 500px;
+}
+
+.photos figure{
+    position: relative;
+    margin: 10px;
 }
 
 
-
 /* fin page galerie */
+
+#logoconv{
+    width: 127px;
+    height: 116px;
+}
