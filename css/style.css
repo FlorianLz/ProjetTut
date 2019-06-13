@@ -860,26 +860,26 @@ footer .socials ul li{
 /* Début page presse */
 
 #imgAffiche{
-    width: 600px;
-    height: 451px;
+    width: 80%;
+    height: auto;
 }
 
-#documentspresse{
+.documentspresse{
     margin-top: 40px;
 }
 
-#documentspresse img{
+.documentspresse img{
     display: flex;
     margin-right: auto;
     margin-left: auto;
 }
 
-#documentspresse p{
+.documentspresse p{
     font-family: "RobotoTexte";
     font-size: 20px;
 }
 
-#documentspresse h4{
+.documentspresse h4{
     font-family: "RobotoDescription";
     font-size: 30px;
     color: #c72127;
@@ -893,17 +893,16 @@ footer .socials ul li{
 }
 
 .flyer{
-    width: 600px;
-    height: 451px;
-    margin: 10px;
+    width: 100%;
+    padding-top:15px;
 }
 
-#documentspresse iframe{
+.documentspresse embed{
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    width: 600px;
-    height: 800px;
+    width: 80%;
+    height: 600px;
 }
 
 /* Fin page presse */
