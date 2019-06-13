@@ -433,7 +433,6 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     <?php 
                         if(!isset($_POST['texte']) || $_POST['texte']=='' ){
     
-                            echo'<h3 id="msgrecherche" class="msgrecherche card-title">Aucune recherche</h3>';
                             $exposants = file_get_contents('exposants.json');
                             $exposants = json_decode($exposants, true); 
                             for($i=0;$i<count($exposants['exposants']);$i++){

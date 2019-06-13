@@ -98,14 +98,19 @@ function filtrage(id){
 
 function refermer(val){
     var valeur=val.getAttribute('aria-expanded');
-    if (valeur.toString() == 'true'){
-        toutcacher();
-    }if (valeur.toString() == 'false'){
+    if (valeur.toString() == 'false'){
         animation(val.id);
     }
+    if (valeur.toString() == 'true'){
+        desactivation();
+        toutcacher();
+    }
+    
 }
 
 function animation(b){
+    document.getElementById('recherchebtn').disabled=false;
+    document.getElementById('recherchebtn').style.color='white';
     var a = b.substring(2);
     for(var i=1; i <38; i++){
         if(i == a){
@@ -180,16 +185,14 @@ function affichagecarte(id){
     $(".filter").not('.carte'+id).hide('3000');
     $('.filter').filter('.carte'+id).show('3000');
     $('.collapse'+id).collapse('toggle');
-    document.getElementById('recherchebtn').disabled=false;
-    document.getElementById('recherchebtn').style.color='white';
-    document.getElementById('msgrecherche').innerHTML="Le stand sélectionné est :"
+    activation();
 }
 function supprimer(){
-    document.getElementById('recherchebtn').disabled=false;
-    document.getElementById('recherchebtn').style.color='white';
+    activation();
     if(document.form.texte.value =="") {
-        document.getElementById('recherchebtn').disabled=true;
-        document.getElementById('recherchebtn').style.color='grey';
+        activation();
+    }else{
+        activation();
     }
 }
 
@@ -223,5 +226,13 @@ function toutcacher(){
                 }
             }
     }
-    document.getElementById('msgrecherche').innerHTML="Aucune recherche";
+    
+}
+function activation(){
+    document.getElementById('recherchebtn').disabled=false;
+    document.getElementById('recherchebtn').style.color='white';
+}
+function desactivation(){
+    document.getElementById('recherchebtn').disabled=true;
+    document.getElementById('recherchebtn').style.color='red';
 }
