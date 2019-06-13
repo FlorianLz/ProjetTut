@@ -799,6 +799,7 @@ footer .socials ul li{
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    width:90%;
 }
 
 #tab01 .font-weight-bold{
@@ -852,7 +853,17 @@ footer .socials ul li{
       margin-top: 0;
   }
 }
-
+@media screen and (max-width: 576px) {
+  #tab-button li {
+    font-size: 0.8rem;
+      width:auto;
+    }
+    #tab-button{
+        display:flex;
+        flex-direction:column;
+        flex-basis:30%;
+    }
+}
 
 /*fin page infos pratiques*/
 
@@ -907,6 +918,9 @@ footer .socials ul li{
 
 /* Fin page presse */
 
+.pac{
+    overflow:auto;
+}
 
 /* Début footer*/
 .footer {
