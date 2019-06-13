@@ -59,47 +59,47 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                 </g>
                 <polygon id="Contour" class="cls-2" points="587 183.07 510.31 183.07 510.83 114.95 476.96 114.95 476.21 113.42 476.21 12 207.21 12.51 207.21 113.93 157.14 113.93 157.14 140.05 79.91 140.05 79.91 227.12 8 227.63 8 756.22 198.69 756.22 198.69 831 531.07 831 530.54 755.71 587 755.71 587 183.07"/>
                 <g id="Stands">
-                    <rect id="s1" data-name="1" class="cls-3" x="37.5" y="574.5" width="174" height="91" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s2" data-name="2" class="cls-3" x="180.5" y="672.5" width="63" height="64" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s3" data-name="3" class="cls-3" x="285.5" y="574.5" width="57" height="41" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s4" data-name="4" class="cls-3" x="352.5" y="574.5" width="35" height="41" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s5" data-name="5" class="cls-3" x="285.5" y="623.5" width="57" height="57" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s6" data-name="6" class="cls-3" x="352.5" y="623.5" width="35" height="57" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s7" data-name="7" class="cls-3" x="285.5" y="688.5" width="101" height="47" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s8" data-name="8" class="cls-3" x="430.5" y="574.5" width="48" height="25" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s8" data-name="8" class="cls-3" x="487.5" y="574.5" width="71" height="25" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s9" data-name="9" class="cls-3" x="430.5" y="606.5" width="48" height="72" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s10" data-name="10" class="cls-3" x="486.5" y="606.5" width="72" height="71" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s11" data-name="11" class="cls-3" x="430.5" y="688.5" width="48" height="21" rx="10.5" ry="10.5" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s12" data-name="12" class="cls-3" x="487.5" y="683.5" width="32" height="52" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s13" data-name="13" class="cls-3" x="526.5" y="683.5" width="32" height="52" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s14" data-name="14" class="cls-3" x="430.5" y="715.5" width="48" height="21" rx="10.5" ry="10.5" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s15" data-name="15" class="cls-3" x="37.5" y="445.5" width="42" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s16" data-name="16" class="cls-3" x="86.5" y="445.5" width="75" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s17" data-name="17" class="cls-3" x="169.5" y="445.5" width="73" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s18" data-name="18" class="cls-3" x="285.5" y="444.5" width="102" height="16" rx="8" ry="8" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s19" data-name="19" class="cls-3" x="284.5" y="466.5" width="48" height="50" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s20" data-name="20" class="cls-3" x="338.5" y="466.5" width="48" height="50" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s21" data-name="21" class="cls-3" x="285.5" y="521.5" width="102" height="16" rx="8" ry="8" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s22" data-name="22" class="cls-3" x="430.5" y="445.5" width="76" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s23" data-name="23" class="cls-3" x="515.5" y="445.5" width="42" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s24" data-name="24" class="cls-3" x="37.5" y="343.5" width="91" height="65" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s25" data-name="25" class="cls-3" x="136.5" y="343.5" width="36" height="65" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s100" data-name="100" class="cls-3" x="179.5" y="343.5" width="63" height="65" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s27" data-name="27" class="cls-3" x="285.5" y="370.5" width="102" height="37" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s26" data-name="26" class="cls-3" x="285.5" y="343.5" width="102" height="20" rx="10" ry="10" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s101" dataname="101" class="cls-3" x="429.5" y="343.5" width="63" height="64" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s28" data-name="28" class="cls-3" x="502.5" y="343.5" width="55" height="64" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <path id="s29" data-name="29" class="cls-3" d="M230.5,132.5h-39a12,12,0,0,0-12,12v13h-60a12,12,0,0,0-12,12v41a12,12,0,0,0,12,12h70c.34,0,.67,0,1-.05s.66.05,1,.05h39a12,12,0,0,0,12-12v-66A12,12,0,0,0,230.5,132.5Z" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s30" data-name="30" class="cls-3" x="36.5" y="237.5" width="206" height="69" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s31" data-name="31" class="cls-3" x="284.5" y="131.5" width="103" height="97" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s32" data-name="32" class="cls-3" x="284.5" y="237.5" width="63" height="69" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s33" data-name="33" class="cls-3" x="356.5" y="237.5" width="31" height="68" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s34" data-name="34" class="cls-3" x="429.5" y="132.5" width="61" height="54" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s35" data-name="35" class="cls-3" x="456.5" y="197.5" width="102" height="75" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s36" data-name="36" class="cls-3" x="429.5" y="280.5" width="129" height="26" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss1" data-name="1" class="cls-3" x="37.5" y="574.5" width="174" height="91" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss2" data-name="2" class="cls-3" x="180.5" y="672.5" width="63" height="64" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss3" data-name="3" class="cls-3" x="285.5" y="574.5" width="57" height="41" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss4" data-name="4" class="cls-3" x="352.5" y="574.5" width="35" height="41" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss5" data-name="5" class="cls-3" x="285.5" y="623.5" width="57" height="57" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss6" data-name="6" class="cls-3" x="352.5" y="623.5" width="35" height="57" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss7" data-name="7" class="cls-3" x="285.5" y="688.5" width="101" height="47" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="rs8" data-name="8" class="cls-3" x="430.5" y="574.5" width="48" height="25" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss8" data-name="8" class="cls-3" x="487.5" y="574.5" width="71" height="25" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss9" data-name="9" class="cls-3" x="430.5" y="606.5" width="48" height="72" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss10" data-name="10" class="cls-3" x="486.5" y="606.5" width="72" height="71" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss11" data-name="11" class="cls-3" x="430.5" y="688.5" width="48" height="21" rx="10.5" ry="10.5" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss12" data-name="12" class="cls-3" x="487.5" y="683.5" width="32" height="52" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss13" data-name="13" class="cls-3" x="526.5" y="683.5" width="32" height="52" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss14" data-name="14" class="cls-3" x="430.5" y="715.5" width="48" height="21" rx="10.5" ry="10.5" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss15" data-name="15" class="cls-3" x="37.5" y="445.5" width="42" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss16" data-name="16" class="cls-3" x="86.5" y="445.5" width="75" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss17" data-name="17" class="cls-3" x="169.5" y="445.5" width="73" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss18" data-name="18" class="cls-3" x="285.5" y="444.5" width="102" height="16" rx="8" ry="8" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss19" data-name="19" class="cls-3" x="284.5" y="466.5" width="48" height="50" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss20" data-name="20" class="cls-3" x="338.5" y="466.5" width="48" height="50" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss21" data-name="21" class="cls-3" x="285.5" y="521.5" width="102" height="16" rx="8" ry="8" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss22" data-name="22" class="cls-3" x="430.5" y="445.5" width="76" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss23" data-name="23" class="cls-3" x="515.5" y="445.5" width="42" height="92" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss24" data-name="24" class="cls-3" x="37.5" y="343.5" width="91" height="65" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss25" data-name="25" class="cls-3" x="136.5" y="343.5" width="36" height="65" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss100" data-name="100" class="cls-3" x="179.5" y="343.5" width="63" height="65" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss27" data-name="27" class="cls-3" x="285.5" y="370.5" width="102" height="37" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss26" data-name="26" class="cls-3" x="285.5" y="343.5" width="102" height="20" rx="10" ry="10" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss101" dataname="101" class="cls-3" x="429.5" y="343.5" width="63" height="64" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss28" data-name="28" class="cls-3" x="502.5" y="343.5" width="55" height="64" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <path id="ss29" data-name="29" class="cls-3" d="M230.5,132.5h-39a12,12,0,0,0-12,12v13h-60a12,12,0,0,0-12,12v41a12,12,0,0,0,12,12h70c.34,0,.67,0,1-.05s.66.05,1,.05h39a12,12,0,0,0,12-12v-66A12,12,0,0,0,230.5,132.5Z" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss30" data-name="30" class="cls-3" x="36.5" y="237.5" width="206" height="69" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss31" data-name="31" class="cls-3" x="284.5" y="131.5" width="103" height="97" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss32" data-name="32" class="cls-3" x="284.5" y="237.5" width="63" height="69" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss33" data-name="33" class="cls-3" x="356.5" y="237.5" width="31" height="68" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss34" data-name="34" class="cls-3" x="429.5" y="132.5" width="61" height="54" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss35" data-name="35" class="cls-3" x="456.5" y="197.5" width="102" height="75" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss36" data-name="36" class="cls-3" x="429.5" y="280.5" width="129" height="26" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="Escalator" class="cls-3" x="435.5" y="23.5" width="27" height="99" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="s37" data-name="37" class="cls-3" x="258.5" y="23.5" width="155" height="94" rx="12" ry="12" onClick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss37" data-name="37" class="cls-3" x="258.5" y="23.5" width="155" height="94" rx="12" ry="12" onClick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="Escalator2" data-name="Escalator" class="cls-3" x="215.5" y="23.5" width="27" height="99" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <use id="Logo_Escalator" transform="translate(219 61) scale(0.42)" xlink:href="#image"/>
                     <use id="Logo_Escalator2" data-name="Logo_Escalator" transform="translate(439 61) scale(0.42)" xlink:href="#image" onclick="animation(this.id);affichagecarte(this.id);"/>
@@ -437,9 +437,9 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                             $exposants = file_get_contents('exposants.json');
                             $exposants = json_decode($exposants, true); 
                             for($i=0;$i<count($exposants['exposants']);$i++){
-                                echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="supprimer();">';
+                                echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="mm'.$exposants['exposants'][$i]['numero'].'" onclick="supprimer();">';
                                 echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
-                                echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="false" id="m'.$exposants['exposants'][$i]['numero'].'" aria-controls="desc'.$exposants['exposants'][$i]['id'].'" onclick="refermer(this);">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
+                                echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="false" id="oo'.$exposants['exposants'][$i]['numero'].'" aria-controls="desc'.$exposants['exposants'][$i]['id'].'" onclick="refermer(this);">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                 echo '</div>';
                                 echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
                                 echo '<div class="card-body">'. $exposants['exposants'][$i]['description'];
@@ -460,9 +460,9 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                                  $titre=strtolower($exposants['exposants'][$i]['nom']);
                                  $description=strtolower($exposants['exposants'][$i]['description']);
                                  if(strlen(strpos($titre,$motrecherche))>0 || strlen(strpos($description,$motrecherche)) ){
-                                     echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="m'.$exposants['exposants'][$i]['numero'].'" onclick="supprimer();">';
+                                     echo '<div class="card '. $exposants['exposants'][$i]['filtre'] .' filter carte'.$exposants['exposants'][$i]['id'].'" id="mm'.$exposants['exposants'][$i]['numero'].'" onclick="supprimer();">';
                                      echo '<div class="card-header" id="heading'.$exposants['exposants'][$i]['id'].'">';
-                                     echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="false" id="m'.$exposants['exposants'][$i]['numero'].'" aria-controls="desc'.$exposants['exposants'][$i]['id'].'" onclick="refermer(this);">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
+                                     echo '<h5 class="card-title"><button class="btn btnliste" data-toggle="collapse" data-target="#desc'.$exposants['exposants'][$i]['id'].'" aria-expanded="false" id="oo'.$exposants['exposants'][$i]['numero'].'" aria-controls="desc'.$exposants['exposants'][$i]['id'].'" onclick="refermer(this);">'. $exposants['exposants'][$i]['nom'] . '</button></h5>';
                                      echo '</div>';
                                      echo '<div id="desc'.$exposants['exposants'][$i]['id'].'" class="collapse collapse'.$exposants['exposants'][$i]['id'].'" aria-labelledby="heading'.$exposants['exposants'][$i]['id'].'" data-parent="#accordion">';
                                      echo '<div class="card-body">'. $exposants['exposants'][$i]['description'];

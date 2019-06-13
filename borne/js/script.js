@@ -106,7 +106,7 @@ function refermer(val){
 }
 
 function animation(b){
-    var a = b.substring(1);
+    var a = b.substring(2);
     for(var i=1; i <38; i++){
         if(i == a){
             
@@ -176,6 +176,7 @@ function animation(b){
 }
 
 function affichagecarte(id){
+    var id=id.substring(1);
     $(".filter").not('.carte'+id).hide('3000');
     $('.filter').filter('.carte'+id).show('3000');
     $('.collapse'+id).collapse('toggle');
