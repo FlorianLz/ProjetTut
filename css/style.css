@@ -19,18 +19,6 @@ body{
     background-color:white;
 }
 
-
-
-
-
-#invites .card{
-    margin:15px;
-}
-
-#exposant .card{
-    margin:15px;
-}
-
 .titrepage{
     margin-left: auto;
     margin-right: auto;
@@ -38,10 +26,6 @@ body{
     font-family: "RetroGaming";
     font-size: 30px;
 }
-
-
-
-
 
 
 /* Début bannière */
@@ -82,6 +66,7 @@ body{
 
 
 /* Début barre de nav*/
+
 nav{
     background-color: #585D62; 
 }
@@ -130,19 +115,22 @@ nav{
     padding-right:0px!important;
 }
 @media screen and (max-width: 576px) {
-  #kirby,#mega {
-    display: none;
-      visibility:hidden;
-      width:0px!important!;
-  }
+    #kirby,#mega {
+        display: none;
+        visibility:hidden;
+        width:0px!important!;
+    }
+    
     #mario,#donkey,#link{
         width:15vw!important;
         
     }
+    
     .link{
         padding-left:0px;
         margin-left:-18%;
     }
+    
     .titreprincipal h1{
         font-size:1.7rem;
     }
@@ -153,15 +141,19 @@ nav{
         margin-left:0px!important;
         margin-right:05px!important;
     }
+    
     .titreprincipal{
         margin-top:30px;
     }
+    
     .card{
         min-width:100%!important!
     }
+    
     #logoconv{
     margin-left:31%!important;
     }
+    
 }
 
 @media screen and (min-width: 576px) {
@@ -174,16 +166,20 @@ nav{
     .titreprincipal h1{
         font-size:1.8rem;
     }
+    
     .titreprincipal{
         padding-top:15px;
     }
+    
     .row{
         margin-left:0px;
     }
+    
     .banniere{
         padding-left:15px;
         padding-right:15px;
     }
+    
     #logoconv{
     margin-left:40%;
     }
@@ -733,7 +729,7 @@ footer .socials ul li{
 /* Fin page galerie */
 
 
-/* Début page accès*/ 
+/* Début page infos pratiques*/ 
 .tabs {
     margin: 0 auto;
     padding: 0 20px;
@@ -822,6 +818,10 @@ footer .socials ul li{
 #tab03{
     margin-bottom:30px;
     margin-top:30px;
+}
+
+#tab03 .boutoncontact{
+    color: white;
 }
 
 #tab04 #espace{
