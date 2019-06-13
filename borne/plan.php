@@ -88,7 +88,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                     <rect id="ss100" data-name="100" class="cls-3" x="179.5" y="343.5" width="63" height="65" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="ss27" data-name="27" class="cls-3" x="285.5" y="370.5" width="102" height="37" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="ss26" data-name="26" class="cls-3" x="285.5" y="343.5" width="102" height="20" rx="10" ry="10" onclick="animation(this.id);affichagecarte(this.id);"/>
-                    <rect id="ss101" dataname="101" class="cls-3" x="429.5" y="343.5" width="63" height="64" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
+                    <rect id="ss101" data-name="101" class="cls-3" x="429.5" y="343.5" width="63" height="64" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="ss28" data-name="28" class="cls-3" x="502.5" y="343.5" width="55" height="64" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <path id="ss29" data-name="29" class="cls-3" d="M230.5,132.5h-39a12,12,0,0,0-12,12v13h-60a12,12,0,0,0-12,12v41a12,12,0,0,0,12,12h70c.34,0,.67,0,1-.05s.66.05,1,.05h39a12,12,0,0,0,12-12v-66A12,12,0,0,0,230.5,132.5Z" onclick="animation(this.id);affichagecarte(this.id);"/>
                     <rect id="ss30" data-name="30" class="cls-3" x="36.5" y="237.5" width="206" height="69" rx="12" ry="12" onclick="animation(this.id);affichagecarte(this.id);"/>
@@ -172,7 +172,7 @@ if(isset($_POST['texte']) && $_POST['texte']==''){
                         <g id="Anim_stand_7-4" data-name="Rond_7"><circle class="cls-6" cx="379" cy="712" r="3"/></g>
                         <use id="Anim_stand_7-5" transform="matrix(-0.03, 0, 0, 0.03, 433, 697)" xlink:href="#image-6"/>
                     </g>
-                    <g id="Stand_8">
+                    <g id="Stand_8aa">
                         <g id="Anim_stand_8-1"><circle class="cls-6" cx="438" cy="587" r="3"/></g>
                         <g id="Anim_stand_8-2" data-name="Rond_3"><circle class="cls-6" cx="430" cy="587" r="3"/></g>
                         <g id="Anim_stand_8-3" data-name="Rond_3"><circle class="cls-6" cx="422" cy="587" r="3"/></g>
