@@ -662,6 +662,16 @@ footer .socials ul li{
     display: flex;
 }
 
+.invexp{
+    width:32%;
+}
+
+@media screen and (max-width: 576px) {
+    .invexp{
+        width:100%;
+    }
+}
+
 /* Fin page invités / exposants */
 
 
