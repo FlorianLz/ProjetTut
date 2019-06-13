@@ -72,10 +72,10 @@ body{
 }
 
 .link{
-    margin-left:35px;
+    padding-left:15px;
 }
 .mario{
-    margin-left:40px;
+    padding-left:15px;
 }
 
 /* Fin bannière */
@@ -125,17 +125,28 @@ nav{
 .boutoncontact{
     float:right;
 }
-
+.col-xl-12{
+    padding-left:0px!important;
+    padding-right:0px!important;
+}
 @media screen and (max-width: 576px) {
-  #kirby,#mega,#link {
+  #kirby,#mega {
     display: none;
       visibility:hidden;
+      width:0px!important!;
   }
-    #mario,#donkey{
-        width:30vw!important;
-        margin-left:-50%;
+    #mario,#donkey,#link{
+        width:15vw!important;
         
     }
+    .link{
+        padding-left:0px;
+        margin-left:-18%;
+    }
+    .titreprincipal h1{
+        font-size:1.7rem;
+    }
+    
     .row{
         padding-right:0px!important;
         padding-left:0px!important;
@@ -145,12 +156,36 @@ nav{
     .titreprincipal{
         margin-top:30px;
     }
+    .card{
+        min-width:100%!important!
+    }
+    #logoconv{
+    margin-left:31%!important;
+    }
 }
 
 @media screen and (min-width: 576px) {
     #kirby,#mega,#link,#mario,#donkey{
         width:100%!important;
         
+    }
+}
+@media screen and (max-width: 992px) {
+    .titreprincipal h1{
+        font-size:1.8rem;
+    }
+    .titreprincipal{
+        padding-top:15px;
+    }
+    .row{
+        margin-left:0px;
+    }
+    .banniere{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    #logoconv{
+    margin-left:40%;
     }
 }
 
@@ -578,6 +613,7 @@ footer .socials ul li{
 #logoconv{
     width: 127px;
     height: 116px;
+    margin-left:40%;
 }
 .invites {
     display:none;
