@@ -1,9 +1,9 @@
-#RetroWorld - Procédures d'installation du site
+RetroWorld - Procédures d'installation du site
 
 Si vous souhaitez utiliser la fonction contact par mail, un interpréteur php est indispensable.
 
 Pour cela, si vous êtes sur Windows, téléchargez et installez le logiciel Wamp (ou Mamp si vous êtes sur Mac).
-Une fois installé, rendez vous dans le fichier wamp situé sur votre disque dur, puis dans le dossier www.
+Une fois installé, rendez vous dans le fichier wamp situé sur votre disque dur, puis dans le dossier www .
 Créez un nouveau dossier et placez-y l'intégralité de dossier actuel, sauf le dossier nommé 'borne'.
 Lancez Wamp (ou Mamp), lancez votre navigateur web et allez sur l'url localhost/lenomdevotredossiercrée/index.html
 
