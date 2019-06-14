@@ -373,6 +373,9 @@ footer .socials ul li{
     .hidden-sm-down {
     display: none!important;
     }
+    .footer .reseaux{
+        display:flex!important;
+    }
 }
 
 @media (max-width: 767px){
@@ -937,7 +940,7 @@ footer .socials ul li{
     background-color:#3D3838;
     color:white;
     min-height:100px;
-    padding:20px;
+    padding:40px 20px;
     font-family: "RobotoDescription";
 }
 .footer a{
@@ -960,6 +963,7 @@ footer .socials ul li{
 .footer .reseaux{
     padding-top:15px;
     padding-bottom:15px;
+    display:none;
 }
 .footer .reseaux ul li{
     padding-top:5px;
