@@ -85,7 +85,7 @@
             <ul id="tab-button">
               <li><a href="#tab01">Accès</a></li>
               <li><a href="#tab02">Billetterie</a></li>
-              <li><a href="#tab03">Contacts</a></li>
+              <li><a href="#tab03">Contact</a></li>
               <li><a href="#tab04">FAQ</a></li>
             </ul>
         </div>
@@ -93,7 +93,7 @@
             <select id="tab-select">
                 <option value="#tab01">Accès</option>
                 <option value="#tab02">Billetterie</option>
-                <option value="#tab03">Contacts</option>
+                <option value="#tab03">Contact</option>
                 <option value="#tab04">FAQ</option>
             </select>
         </div>
@@ -145,13 +145,249 @@
                 <p class="font-weight-bold"> Pass 1 jour </p>
                 <p> - 10 ans : gratuit <br/>
                 Tarif réduit (- 25 ans, handicapés, chômeurs, séniors) : 10 euros <br/>
-                Tarif plein (25 ans et plus) : 15 euros </p>
+                Plein tarif (25 ans et plus) : 15 euros </p>
                 <p class="font-weight-bold">Pass 2 jours </p>
                 <p> - 10 ans : gratuit <br/>
-                Tarif réduit (- 25 ans, handicapés, chômeurs, séniors= : 17 euros <br/>
-                Tarif plein (25 ans et plus) : 25 euros </p>
+                Tarif réduit (- 25 ans, handicapés, chômeurs, séniors) : 17 euros <br/>
+                Plein tarif (25 ans et plus) : 25 euros </p>
                 <p> Tarif de groupe sur demande.</p>
                 <h4 class="font-weight-bold"> Réservez </h4>
+                
+              <div class="table-responsive tableauBilletterie">
+                  <table class="table table-hover">
+                      <thead>
+                          <tr>
+                            <th scope="col" colspan="3" class="text-center couleurGris"> Pass 1 jour : samedi 22 juin</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th scope="col"> Tarif </th>
+                              <th scope="col"> Prix </th>
+                              <th scope="col"> Quantité </th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td> -10 ans </td>
+                              <td> Gratuit </td>
+                              <td>
+                                  <select class="form-control" id="samgrat" onChange="calculStarif(this.id,this.value);calculS();">
+                                      <option value="0"> 0 </option>
+                                      <option value="1"> 1 </option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3 </option>
+                                      <option value="4"> 4 </option>
+                                      <option value="5"> 5 </option>
+                                      <option value="6"> 6 </option>
+                                      <option value="7"> 7 </option>
+                                      <option value="8"> 8 </option>
+                                      <option value="9"> 9 </option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td> Tarif réduit (- 25 ans, handicapés, chômeurs, séniors) </td>
+                              <td> 10 euros </td>
+                              <td>
+                                  <select class="form-control" id="samred" onChange="calculStarif(this.id,this.value);calculS();">
+                                      <option value="0"> 0 </option>
+                                      <option value="1"> 1 </option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3 </option>
+                                      <option value="4"> 4 </option>
+                                      <option value="5"> 5 </option>
+                                      <option value="6"> 6 </option>
+                                      <option value="7"> 7 </option>
+                                      <option value="8"> 8 </option>
+                                      <option value="9"> 9 </option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td> Plein tarif (25 ans et plus)</td>
+                              <td> 15 euros </td>
+                              <td>
+                                  <select class="form-control" id="samplein" onChange="calculStarif(this.id,this.value);calculS();">
+                                      <option value="0"> 0 </option>
+                                      <option value="1"> 1 </option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3 </option>
+                                      <option value="4"> 4 </option>
+                                      <option value="5"> 5 </option>
+                                      <option value="6"> 6 </option>
+                                      <option value="7"> 7 </option>
+                                      <option value="8"> 8 </option>
+                                      <option value="9"> 9 </option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <th scope="col"> Nombre de billets pour le samedi 22 juin : </th>
+                              <th id="prixBilletsSam"> 0 </th>
+                              <th id="nbBilletsSam"> 0 </th>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              
+              <div class="table-responsive tableauBilletterie">
+                  <table class="table table-hover">
+                      <thead>
+                          <tr>
+                            <th scope="col" colspan="3" class="text-center couleurGris"> Pass 1 jour : dimanche 23 juin</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th scope="col"> Tarif </th>
+                              <th scope="col"> Prix </th>
+                              <th scope="col"> Quantité </th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td> -10 ans </td>
+                              <td> Gratuit </td>
+                              <td>
+                                  <select class="form-control" id="dimgrat" onChange="calculDtarif(this.id,this.value);calculD();">
+                                      <option value="0"> 0 </option>
+                                      <option value="1"> 1 </option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3 </option>
+                                      <option value="4"> 4 </option>
+                                      <option value="5"> 5 </option>
+                                      <option value="6"> 6 </option>
+                                      <option value="7"> 7 </option>
+                                      <option value="8"> 8 </option>
+                                      <option value="9"> 9 </option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td> Tarif réduit (- 25 ans, handicapés, chômeurs, séniors) </td>
+                              <td> 10 euros </td>
+                              <td>
+                                  <select class="form-control" id="dimred" onChange="calculDtarif(this.id,this.value);calculD();">
+                                      <option value="0"> 0 </option>
+                                      <option value="1"> 1 </option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3 </option>
+                                      <option value="4"> 4 </option>
+                                      <option value="5"> 5 </option>
+                                      <option value="6"> 6 </option>
+                                      <option value="7"> 7 </option>
+                                      <option value="8"> 8 </option>
+                                      <option value="9"> 9 </option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td> Plein tarif (25 ans et plus)</td>
+                              <td> 15 euros </td>
+                              <td>
+                                  <select class="form-control" id="dimplein" onChange="calculDtarif(this.id,this.value);calculD();">
+                                      <option value="0" > 0 </option>
+                                      <option value="1"> 1 </option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3 </option>
+                                      <option value="4"> 4 </option>
+                                      <option value="5"> 5 </option>
+                                      <option value="6"> 6 </option>
+                                      <option value="7"> 7 </option>
+                                      <option value="8"> 8 </option>
+                                      <option value="9"> 9 </option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <th scope="col"> Nombre de billets pour le dimanche 23 juin </th>
+                              <th id="prixBilletsDim"> 0 </th>
+                              <th id="nbBilletsDim"> 0 </th>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              
+              <div class="table-responsive tableauBilletterie">
+                  <table class="table table-hover">
+                      <thead>
+                          <tr>
+                            <th scope="col" colspan="3" class="text-center couleurGris"> Pass 2 jours</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th scope="col"> Tarif </th>
+                              <th scope="col"> Prix </th>
+                              <th scope="col"> Quantité </th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td> -10 ans </td>
+                              <td> Gratuit </td>
+                              <td>
+                                  <select class="form-control" id="dsgrat" onChange="calculSDtarif(this.id,this.value);calculDS();">
+                                      <option value="0"> 0 </option>
+                                      <option value="1"> 1 </option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3 </option>
+                                      <option value="4"> 4 </option>
+                                      <option value="5"> 5 </option>
+                                      <option value="6"> 6 </option>
+                                      <option value="7"> 7 </option>
+                                      <option value="8"> 8 </option>
+                                      <option value="9"> 9 </option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td> Tarif réduit (- 25 ans, handicapés, chômeurs, séniors) </td>
+                              <td> 17 euros </td>
+                              <td>
+                                  <select class="form-control" id="dsred" onChange="calculSDtarif(this.id,this.value);calculDS();">
+                                      <option value="0"> 0 </option>
+                                      <option value="1"> 1 </option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3 </option>
+                                      <option value="4"> 4 </option>
+                                      <option value="5"> 5 </option>
+                                      <option value="6"> 6 </option>
+                                      <option value="7"> 7 </option>
+                                      <option value="8"> 8 </option>
+                                      <option value="9"> 9 </option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td> Plein tarif (25 ans et plus)</td>
+                              <td> 25 euros </td>
+                              <td>
+                                  <select class="form-control" id="dsplein" onChange="calculSDtarif(this.id,this.value);calculDS();">
+                                      <option value="0"> 0 </option>
+                                      <option value="1"> 1 </option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3 </option>
+                                      <option value="4"> 4 </option>
+                                      <option value="5"> 5 </option>
+                                      <option value="6"> 6 </option>
+                                      <option value="7"> 7 </option>
+                                      <option value="8"> 8 </option>
+                                      <option value="9"> 9 </option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <th scope="col"> Nombre de billets pour le pass 2 jours </th>
+                              <th id="prixBilletsDimSam"> 0 </th>
+                              <th id="nbBilletsDimSam"> 0 </th>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <p> Nombre de billets total :</p>
+              </div>
+              
           </div>
           
           <div id="tab03" class="tab-contents">

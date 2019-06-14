@@ -339,8 +339,6 @@ button{
     border-radius: 10px;
 }
 
-
-
 .section-social-wall .links li {
     display: inline-block;
     height: 5rem;
@@ -783,6 +781,19 @@ button{
     font-family: "RobotoDescription";
     text-align: center;
     padding-top: 40px;
+}
+
+#tab02 .couleurGris{
+     background-color: #585D62;
+    color: white;
+}
+
+#tab02 .tableauBilletterie{
+    margin-top: 25px;
+}
+
+#tab02 .form-control{
+    width: 50%;
 }
 
 #tab03{
