@@ -117,6 +117,7 @@ function resetimage(id){
 /* fonctions pour la billetterie */
 
 var total =0;
+var totalP = 0
 var totalD = 0;
 var totalPD = 0;
 var totalS = 0;
@@ -209,4 +210,11 @@ function calculDS(){
     document.getElementById('nbBilletsDimSam').innerHTML = totalDS;
     totalPDS = prixdsr + prixdsp;
     document.getElementById('prixBilletsDimSam').innerHTML = totalPDS;
+}
+
+function totalBillets(){
+    total = totalS + totalD + totalDS;
+    document.getElementById('nbBilletsTotal').innerHTML = total;
+    totalP = totalPS + totalPD + totalPDS;
+    document.getElementById('prixBilletsTotal').innerHTML = totalP;
 }

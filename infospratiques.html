@@ -172,7 +172,7 @@
                               <td> -10 ans </td>
                               <td> Gratuit </td>
                               <td>
-                                  <select class="form-control" id="samgrat" onChange="calculStarif(this.id,this.value);calculS();">
+                                  <select class="form-control" id="samgrat" onChange="calculStarif(this.id,this.value);calculS();totalBillets();">
                                       <option value="0"> 0 </option>
                                       <option value="1"> 1 </option>
                                       <option value="2"> 2</option>
@@ -190,7 +190,7 @@
                               <td> Tarif réduit (- 25 ans, handicapés, chômeurs, séniors) </td>
                               <td> 10 euros </td>
                               <td>
-                                  <select class="form-control" id="samred" onChange="calculStarif(this.id,this.value);calculS();">
+                                  <select class="form-control" id="samred" onChange="calculStarif(this.id,this.value);calculS();totalBillets();">
                                       <option value="0"> 0 </option>
                                       <option value="1"> 1 </option>
                                       <option value="2"> 2</option>
@@ -208,7 +208,7 @@
                               <td> Plein tarif (25 ans et plus)</td>
                               <td> 15 euros </td>
                               <td>
-                                  <select class="form-control" id="samplein" onChange="calculStarif(this.id,this.value);calculS();">
+                                  <select class="form-control" id="samplein" onChange="calculStarif(this.id,this.value);calculS();totalBillets();">
                                       <option value="0"> 0 </option>
                                       <option value="1"> 1 </option>
                                       <option value="2"> 2</option>
@@ -250,7 +250,7 @@
                               <td> -10 ans </td>
                               <td> Gratuit </td>
                               <td>
-                                  <select class="form-control" id="dimgrat" onChange="calculDtarif(this.id,this.value);calculD();">
+                                  <select class="form-control" id="dimgrat" onChange="calculDtarif(this.id,this.value);calculD();totalBillets();">
                                       <option value="0"> 0 </option>
                                       <option value="1"> 1 </option>
                                       <option value="2"> 2</option>
@@ -268,7 +268,7 @@
                               <td> Tarif réduit (- 25 ans, handicapés, chômeurs, séniors) </td>
                               <td> 10 euros </td>
                               <td>
-                                  <select class="form-control" id="dimred" onChange="calculDtarif(this.id,this.value);calculD();">
+                                  <select class="form-control" id="dimred" onChange="calculDtarif(this.id,this.value);calculD();totalBillets();">
                                       <option value="0"> 0 </option>
                                       <option value="1"> 1 </option>
                                       <option value="2"> 2</option>
@@ -286,7 +286,7 @@
                               <td> Plein tarif (25 ans et plus)</td>
                               <td> 15 euros </td>
                               <td>
-                                  <select class="form-control" id="dimplein" onChange="calculDtarif(this.id,this.value);calculD();">
+                                  <select class="form-control" id="dimplein" onChange="calculDtarif(this.id,this.value);calculD();totalBillets();">
                                       <option value="0" > 0 </option>
                                       <option value="1"> 1 </option>
                                       <option value="2"> 2</option>
@@ -328,7 +328,7 @@
                               <td> -10 ans </td>
                               <td> Gratuit </td>
                               <td>
-                                  <select class="form-control" id="dsgrat" onChange="calculSDtarif(this.id,this.value);calculDS();">
+                                  <select class="form-control" id="dsgrat" onChange="calculSDtarif(this.id,this.value);calculDS();totalBillets();">
                                       <option value="0"> 0 </option>
                                       <option value="1"> 1 </option>
                                       <option value="2"> 2</option>
@@ -346,7 +346,7 @@
                               <td> Tarif réduit (- 25 ans, handicapés, chômeurs, séniors) </td>
                               <td> 17 euros </td>
                               <td>
-                                  <select class="form-control" id="dsred" onChange="calculSDtarif(this.id,this.value);calculDS();">
+                                  <select class="form-control" id="dsred" onChange="calculSDtarif(this.id,this.value);calculDS();totalBillets();">
                                       <option value="0"> 0 </option>
                                       <option value="1"> 1 </option>
                                       <option value="2"> 2</option>
@@ -364,7 +364,7 @@
                               <td> Plein tarif (25 ans et plus)</td>
                               <td> 25 euros </td>
                               <td>
-                                  <select class="form-control" id="dsplein" onChange="calculSDtarif(this.id,this.value);calculDS();">
+                                  <select class="form-control" id="dsplein" onChange="calculSDtarif(this.id,this.value);calculDS();totalBillets();">
                                       <option value="0"> 0 </option>
                                       <option value="1"> 1 </option>
                                       <option value="2"> 2</option>
@@ -385,8 +385,28 @@
                           </tr>
                       </tbody>
                   </table>
-                  <p> Nombre de billets total :</p>
               </div>
+              <div class="table-responsive tableauTotal">
+                  <table class="table table-hover">
+                          <thead>
+                              <tr>
+                                  <th scope="col" colspan="3" class="text-center couleurTotalBillets"> Total </th>
+                              </tr>
+                          </thead>
+                          <thead>
+                              <tr>
+                                  <th scope="col" colspan="2"> Nombre de billets </th>
+                                  <th scope="col"> Prix total </th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <td colspan="2" id="nbBilletsTotal"> 0 </td>
+                              <td id="prixBilletsTotal"> 0 </td>
+                          </tbody>
+                    </table>
+                  <input type="button" value="Suite" id="reservBillets">
+                </div>
+              
               
           </div>
           
