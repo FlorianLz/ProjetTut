@@ -61,7 +61,11 @@ body{
 .mario{
     padding-left:15px;
 }
-
+@media (min-width:992px){
+    .accueil{
+        display:none;
+    }
+}
 /* Fin bannière */
 
 
