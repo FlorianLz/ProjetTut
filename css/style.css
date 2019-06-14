@@ -206,9 +206,6 @@ nav{
     padding-bottom: 30px;
 }
 
-#carouselFond{
-    background-color: #c72127;
-}
 #Sectionreseauxsociaux{
     margin-top: 20px;
 }
@@ -236,11 +233,6 @@ nav{
 
 .enhaut{
     position: relative;
-    
-}
-
-.enbas{
- 
 }
 
 .partiediff{
@@ -347,46 +339,7 @@ button{
     border-radius: 10px;
 }
 
-footer .socials{
-    position: fixed;
-    z-index: 110;
-    bottom: 0;
-    right: 0;
-}
 
-footer .socials ul{
-    background-color: #D85557;
-    display: inline-block;
-    border-top-left-radius: 1rem;
-    list-style: none;
-    margin: 0;
-    padding-left: 15px;
-    line-height:45px;
-    height:45px;
-}
-
-footer .socials ul li{
-    display: inline-block;
-    vertical-align: middle;
-    color: white;
-    font-family: "RobotoTexte";
-    padding:0 5px;
-}
-
-@media (max-width: 767px){
-    .hidden-sm-down {
-    display: none!important;
-    }
-    .footer .reseaux{
-        display:flex!important;
-    }
-}
-
-@media (max-width: 767px){
-    .hidden-sm-down{
-        display: none;
-    }
-}
 
 .section-social-wall .links li {
     display: inline-block;
@@ -973,6 +926,47 @@ footer .socials ul li{
     padding-top:5px;
     padding-bottom:5px;
     font-size:1.2rem;
+}
+
+footer .socials{
+    position: fixed;
+    z-index: 110;
+    bottom: 0;
+    right: 0;
+}
+
+footer .socials ul{
+    background-color: #D85557;
+    display: inline-block;
+    border-top-left-radius: 1rem;
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+    line-height:45px;
+    height:45px;
+}
+
+footer .socials ul li{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-family: "RobotoTexte";
+    padding:0 5px;
+}
+
+@media (max-width: 767px){
+    .hidden-sm-down {
+    display: none!important;
+    }
+    .footer .reseaux{
+        display:flex!important;
+    }
+}
+
+@media (max-width: 767px){
+    .hidden-sm-down{
+        display: none;
+    }
 }
 
 /* Fin footer */
