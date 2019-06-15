@@ -479,7 +479,7 @@ button{
 
 @media (max-width:768px){
     .imagescene{
-        min-height:220px!important;
+        min-height:220px;
         
     }
 }
