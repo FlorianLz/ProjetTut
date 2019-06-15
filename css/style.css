@@ -66,6 +66,10 @@ body{
     .accueil{
         display:none;
     }
+    
+    .billetterie{
+        display:none;
+    }
 }
 /* Fin bannière */
 
