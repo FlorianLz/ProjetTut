@@ -173,6 +173,7 @@ body{
 }
 .fa-times{
     font-size:2rem!important;
+    margin-top:-7px;
 }
 
 /* css du plan */
