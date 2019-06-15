@@ -15,6 +15,7 @@
 	src: url('../fonts/Roboto-Light.ttf');
 }
 
+/* Utile sur plusieurs pages */
 body{
     background-color:white;
 }
@@ -111,13 +112,16 @@ nav{
 .persos{
     padding-top:15px;
 }
+
 .boutoncontact{
     float:right;
 }
+
 .col-xl-12{
     padding-left:0px!important;
     padding-right:0px!important;
 }
+
 @media screen and (max-width: 576px) {
     #kirby,#mega {
         display: none;
@@ -206,9 +210,6 @@ nav{
     padding-bottom: 30px;
 }
 
-#carouselFond{
-    background-color: #c72127;
-}
 #Sectionreseauxsociaux{
     margin-top: 20px;
 }
@@ -236,11 +237,6 @@ nav{
 
 .enhaut{
     position: relative;
-    
-}
-
-.enbas{
- 
 }
 
 .partiediff{
@@ -345,47 +341,6 @@ button{
 	font-size: 20px;
     color: white;
     border-radius: 10px;
-}
-
-footer .socials{
-    position: fixed;
-    z-index: 110;
-    bottom: 0;
-    right: 0;
-}
-
-footer .socials ul{
-    background-color: #D85557;
-    display: inline-block;
-    border-top-left-radius: 1rem;
-    list-style: none;
-    margin: 0;
-    padding-left: 15px;
-    line-height:45px;
-    height:45px;
-}
-
-footer .socials ul li{
-    display: inline-block;
-    vertical-align: middle;
-    color: white;
-    font-family: "RobotoTexte";
-    padding:0 5px;
-}
-
-@media (max-width: 767px){
-    .hidden-sm-down {
-    display: none!important;
-    }
-    .footer .reseaux{
-        display:flex!important;
-    }
-}
-
-@media (max-width: 767px){
-    .hidden-sm-down{
-        display: none;
-    }
 }
 
 .section-social-wall .links li {
@@ -832,6 +787,53 @@ footer .socials ul li{
     padding-top: 40px;
 }
 
+#tab02 .couleurGris{
+    background-color: #585D62;
+    color: white;
+}
+
+#tab02 .couleurTotalBillets{
+    background-color: #c72127;
+    color: white;
+}
+
+#tab02 .tableauBilletterie{
+    margin-top: 25px;
+}
+
+#tab02 .tableauTotal{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#tab02 .form-control{
+    width: 50%;
+}
+
+#tab02 th{
+    font-family: "RobotoTexte";
+}
+
+#tab02 td{
+    font-family: "RobotoTexte";
+}
+
+#tab02 #reservBillets{
+    background-color: #585D62;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    float: right;
+    font-family: "RobotoTexte";
+}
+
+#tab02 #reservBillets:hover{
+    color: black;
+}
+
 #tab03{
     margin-bottom:30px;
     margin-top:30px;
@@ -839,6 +841,21 @@ footer .socials ul li{
 
 #tab03 .boutoncontact{
     color: white;
+}
+
+#tab03 .boutonEnvoie{
+    background-color: #585D62;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-family: "RobotoTexte";
+}
+
+#tab03 .boutonEnvoie:hover{
+    color: black;
 }
 
 #tab04 #espace{
@@ -973,6 +990,47 @@ footer .socials ul li{
     padding-top:5px;
     padding-bottom:5px;
     font-size:1.2rem;
+}
+
+footer .socials{
+    position: fixed;
+    z-index: 110;
+    bottom: 0;
+    right: 0;
+}
+
+footer .socials ul{
+    background-color: #D85557;
+    display: inline-block;
+    border-top-left-radius: 1rem;
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+    line-height:45px;
+    height:45px;
+}
+
+footer .socials ul li{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-family: "RobotoTexte";
+    padding:0 5px;
+}
+
+@media (max-width: 767px){
+    .hidden-sm-down {
+    display: none!important;
+    }
+    .footer .reseaux{
+        display:flex!important;
+    }
+}
+
+@media (max-width: 767px){
+    .hidden-sm-down{
+        display: none;
+    }
 }
 
 /* Fin footer */
