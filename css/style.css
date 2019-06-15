@@ -161,11 +161,6 @@ nav{
     .card{
         min-width:100%!important!
     }
-    
-    #logoconv{
-    margin-left:31%!important;
-    }
-    
 }
 
 @media screen and (min-width: 576px) {
@@ -191,10 +186,6 @@ nav{
         padding-left:15px;
         padding-right:15px;
     }
-    
-    #logoconv{
-    margin-left:40%;
-    }
 }
 
 @media screen and (max-width:1200px){
@@ -203,16 +194,11 @@ nav{
     }
 }
 
-@media screen and (min-width:992px){
-    #logoconv{
-        margin-left:44%!important;
-    }
-}
-
 .imagereservation{
     background-image: url('../images/reservation.png');
     background-repeat:no-repeat;
     background-size:contain;
+    background-position:center;
     cursor:pointer;
     
 }
@@ -596,7 +582,6 @@ button{
 #logoconv{
     width: 127px;
     height: 116px;
-    margin-left:40%;
 }
 .invites {
     display:none;
