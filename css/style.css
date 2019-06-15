@@ -220,6 +220,19 @@ nav{
     float:left;
 }
 
+.navbar-toggler {
+    border-color: #585D62!important;
+    font-size:2rem;
+    padding:0px;
+}
+
+.navbar button:focus{
+    outline: 0px auto -webkit-focus-ring-color!important;
+}
+
+.navbar-brand{
+    padding:0px;
+}
 /* Fin barre de nav */
 
 
