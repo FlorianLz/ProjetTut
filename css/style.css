@@ -197,6 +197,7 @@ nav{
     background-image: url('../images/reservation.png');
     background-repeat:no-repeat;
     background-size:contain;
+    cursor:pointer;
     
 }
 
@@ -971,6 +972,11 @@ button{
     min-height:100px;
     padding:40px 20px;
     font-family: "RobotoDescription";
+}
+@media (min-width:1320px){
+    .footer{
+        padding-bottom:50px;
+    }
 }
 .footer a{
     color:white;
