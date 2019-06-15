@@ -1,3 +1,4 @@
+/* Fonction permettant de valider ou non le formulaire de contact sans avoir a recharger la page */
 function validateForm() {
     document.getElementById('status').innerHTML = "Envoi en cours...";
     formData = {
@@ -29,10 +30,12 @@ function validateForm() {
 
 }
 
+/* Fonction permettant l'affichage du gif au chargement de la page accueil */
 $(window).on('load',function() {
     $(".loader").fadeOut(2000);
 });
 
+/* Fonction permettant le filtrage par catégories */
 $(document).ready(function(){
 
     $(".filter-button").click(function(){
@@ -60,6 +63,24 @@ $(this).addClass("active");
 
 });
 
+/* Fonction permettant de fixer la navbar au scroll sur mobile et tablette */
+(function($){
+    $(document).ready(function(){
+        var offset = $(".navbar").offset().top;
+        $(document).scroll(function(){
+            var scrollTop = $(document).scrollTop();
+            if(scrollTop > offset){
+                $(".navbar").css("position", "fixed");
+                $(".navbar").css("top", "0");
+                $(".navbar").css("z-index", "100");
+                $(".navbar").css("width", "100%");
+            }
+            else {
+                $(".navbar").css("position", "static");
+            }
+        });
+    });
+})(jQuery);
 
 /*fonction pour menu page infos pratiques*/
 $(function() {
@@ -218,21 +239,3 @@ function totalBillets(){
     totalP = totalPS + totalPD + totalPDS;
     document.getElementById('prixBilletsTotal').innerHTML = totalP;
 }
-
-(function($){
-    $(document).ready(function(){
-        var offset = $(".navbar").offset().top;
-        $(document).scroll(function(){
-            var scrollTop = $(document).scrollTop();
-            if(scrollTop > offset){
-                $(".navbar").css("position", "fixed");
-                $(".navbar").css("top", "0");
-                $(".navbar").css("z-index", "100");
-                $(".navbar").css("width", "100%");
-            }
-            else {
-                $(".navbar").css("position", "static");
-            }
-        });
-    });
-})(jQuery);
