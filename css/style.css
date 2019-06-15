@@ -474,6 +474,14 @@ button{
 .imagescene{
     background-repeat:no-repeat;
     background-size: cover;
+    background-position:center;
+}
+
+@media (max-width:768px){
+    .imagescene{
+        min-height:220px!important;
+        
+    }
 }
 
 .nintendosalon{

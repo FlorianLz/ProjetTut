@@ -218,3 +218,21 @@ function totalBillets(){
     totalP = totalPS + totalPD + totalPDS;
     document.getElementById('prixBilletsTotal').innerHTML = totalP;
 }
+
+(function($){
+    $(document).ready(function(){
+        var offset = $(".navbar").offset().top;
+        $(document).scroll(function(){
+            var scrollTop = $(document).scrollTop();
+            if(scrollTop > offset){
+                $(".navbar").css("position", "fixed");
+                $(".navbar").css("top", "0");
+                $(".navbar").css("z-index", "100");
+                $(".navbar").css("width", "100%");
+            }
+            else {
+                $(".navbar").css("position", "static");
+            }
+        });
+    });
+})(jQuery);
