@@ -197,6 +197,18 @@ nav{
     }
 }
 
+@media screen and (max-width:1200px){
+    .titreprincipal{
+        padding-top:15px;
+    }
+}
+
+@media screen and (min-width:992px){
+    #logoconv{
+        margin-left:44%!important;
+    }
+}
+
 .imagereservation{
     background-image: url('../images/reservation.png');
     background-repeat:no-repeat;
