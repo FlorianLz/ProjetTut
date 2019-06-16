@@ -802,63 +802,50 @@ button{
     font-family: "RobotoTexte";
 }
 
-#tab01 iframe{
-    display: inherit;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width:90%;
-}
-
 #tab01 .font-weight-bold{
     color: #c72127;
     font-family: "RobotoDescription";
 }
 
-#tab02 .font-weight-bold{
-    color: #c72127;
-    font-family: "RobotoDescription";
-}
-
-#tab02 h4{
+#tab01 h4{
     color: #c72127;
     font-family: "RobotoDescription";
     text-align: center;
     padding-top: 40px;
 }
 
-#tab02 .couleurGris{
+#tab01 .couleurGris{
     background-color: #585D62;
     color: white;
 }
 
-#tab02 .couleurTotalBillets{
+#tab01 .couleurTotalBillets{
     background-color: #c72127;
     color: white;
 }
 
-#tab02 .tableauBilletterie{
+#tab01 .tableauBilletterie{
     margin-top: 25px;
 }
 
-#tab02 .tableauTotal{
+#tab01 .tableauTotal{
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-#tab02 .form-control{
+#tab01 .form-control{
     width: 50%;
 }
 
-#tab02 th{
+#tab01 th{
     font-family: "RobotoTexte";
 }
 
-#tab02 td{
+#tab01 td{
     font-family: "RobotoTexte";
 }
 
-#tab02 #reservBillets{
+#tab01 #reservBillets{
     background-color: #585D62;
     color: white;
     border-radius: 4px;
@@ -870,8 +857,21 @@ button{
     font-family: "RobotoTexte";
 }
 
-#tab02 #reservBillets:hover{
+#tab01 #reservBillets:hover{
     color: black;
+}
+
+#tab02 iframe{
+    display: inherit;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:90%;
+}
+
+#tab02 .font-weight-bold{
+    color: #c72127;
+    font-family: "RobotoDescription";
 }
 
 #tab03{
