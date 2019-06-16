@@ -25,7 +25,7 @@ if ($message === ''){
   print json_encode(array('message' => 'Votre message ne peut pas être vide !', 'code' => 0));
   exit();
 }
-$content="Nom de l'expéditeur : $name \nAdresse mail de l'expéditeur: $mail \nMessage: $message";
+$content="Nom de l'expéditeur : $name \nAdresse mail de l'expéditeur: $email \nMessage: $message";
 $recipient = "florianlaignez@gmail.com";
 $retromail="contact@retroworld.com";
 $mailheader = "From: $retromail \r\n";
