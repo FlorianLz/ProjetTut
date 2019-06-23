@@ -28,11 +28,11 @@ function triauto(){
             $(".filterr").not('.samedi').hide('3000');
             $('.filterr').filter('.samedi').show('3000');
         }
-        if(jour == 7){
+        if(jour == 0){
             $(".filterr").not('.dimanche').hide('3000');
             $('.filterr').filter('.dimanche').show('3000');
         }
-        if(jour !=6 && jour !=7){
+        if(jour !=6 && jour !=0){
             $(".filterr").not('.samedi').hide('3000');
             $('.filterr').filter('.samedi').show('3000');
         }
